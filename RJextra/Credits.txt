@@ -1,0 +1,6 @@
+Welcome to Canada mod was created by Ryan James.
+
+THANK YOU: Although I didn't recieve any direct help from anyone I did use the vanilla code as well as the code from many mods as examples to learn from in creating this mod. The only code I copied directly was for the on screen display, copied and credited from tazas grave mod. I also used a custom dll in order for the big backpack to function properly, thank you stallionsden.  Big thanks to Fun Pimps and the creators of ravenhearst, tazas grave, cb mod, and wotw for writing code that acted as great examples. Super big thank you to R0C_7, DamStr8gaming, like_a_boss206 and Mindcrimer for all the help with testing and bug finding! Massive thank you to SphereII for creating such great tools for modding 7d2d.
+
+Testing: R0C_7, Mindcrimer, Qb1junkie, Hk_Kill, DamStr8Gaming, RizzoMf, Reclining Gamer, holm-z, SentientOne 
+
