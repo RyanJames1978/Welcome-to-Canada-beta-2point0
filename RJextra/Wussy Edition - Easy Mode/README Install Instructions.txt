@@ -1,5 +1,5 @@
-To install the easy mode please copy the folder "Data" you see next to this text file.
-Paste it into the main mod folder where you see the original "Data" folder.
+To install the easy mode please unzip and copy the file "spawning.xml" you see next to this text file.
+Paste it into the main mod folder/Data/Config/.
 Makes sure you "overwrite all"
 That's it! Zombies now returned to vanilla spawning. 
 
