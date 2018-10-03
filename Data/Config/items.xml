@@ -10370,7 +10370,7 @@
 	<property name="DescriptionKey" value="2dollarsDesc"/>
 	<property name="HoldType" value="21"/>
 	<property name="Meshfile" value="Items/Misc/casino_coinPrefab"/>
-	<property name="Material" value="Msteel"/>
+	<property name="Material" value="paper"/>
 	<property name="Stacknumber" value="30000"/>
 	<property name="EconomicValue" value="10"/>
 	<property name="Group" value="Resources"/>
@@ -10383,7 +10383,7 @@
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="HoldType" value="45"/>
-	<property name="Material" value="Msteel"/>
+	<property name="Material" value="paper"/>
 	<property name="Stacknumber" value="30000"/>
 	<property name="EconomicValue" value="25"/>
 	<property name="Group" value="Resources"/>
@@ -10396,7 +10396,7 @@
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="HoldType" value="45"/>
-	<property name="Material" value="Msteel"/>
+	<property name="Material" value="paper"/>
 	<property name="Stacknumber" value="30000"/>
 	<property name="EconomicValue" value="50"/>
 	<property name="Group" value="Resources"/>
@@ -10409,7 +10409,7 @@
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="HoldType" value="45"/>
-	<property name="Material" value="Msteel"/>
+	<property name="Material" value="paper"/>
 	<property name="Stacknumber" value="30000"/>
 	<property name="EconomicValue" value="100"/>
 	<property name="Group" value="Resources"/>
@@ -10422,7 +10422,7 @@
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="HoldType" value="45"/>
-	<property name="Material" value="Msteel"/>
+	<property name="Material" value="paper"/>
 	<property name="Stacknumber" value="30000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Resources"/>
@@ -10435,7 +10435,7 @@
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="HoldType" value="45"/>
-	<property name="Material" value="Msteel"/>
+	<property name="Material" value="paper"/>
 	<property name="Stacknumber" value="30000"/>
 	<property name="EconomicValue" value="500"/>
 	<property name="Group" value="Resources"/>
