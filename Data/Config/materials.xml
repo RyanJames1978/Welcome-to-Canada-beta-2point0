@@ -1122,7 +1122,7 @@
 	<property name="Hardness" type="float" value="1" />
 	<property name="stepsound" value="metal" />
 	<property name="stability_glue" value="320" />
-	<property name="Mass" type="int" value="20" />
+	<property name="Mass" type="int" value="5" />
 	<property name="MaxDamage" value="300" />
 	<property name="Experience" value="3.0"/>
 </material>
