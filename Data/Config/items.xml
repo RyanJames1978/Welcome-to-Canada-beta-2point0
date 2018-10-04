@@ -2799,6 +2799,7 @@
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="EconomicValue" value="750"/>
+	<property name="SellableToTrader" value="false"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip"/>
 	<property name="Group" value="Resources"/>
 	<property name="CraftingSkillGroup" value="craftSkillGuns"/>

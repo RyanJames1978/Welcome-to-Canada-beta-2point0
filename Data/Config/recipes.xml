@@ -1669,7 +1669,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="glassCTRSheet" count="1"/>
 	<ingredient name="rjbolts" count="4"/>
 </recipe>
-<!-- Wood doors--->
+<!-- Wood doors -->
 <recipe name="houseFrontDoor1_v1" count="1" craft_area="workbench">
 	<ingredient name="wood" count="10"/>
 	<ingredient name="nail" count="10"/>
