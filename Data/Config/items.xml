@@ -11547,7 +11547,6 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
-	<property name="Attachments" value="flashlight02"/>
 	<property name="CrosshairOnAim" value="false"/> <!-- aimTest -->
 	<property name="CrosshairUpAfterShot" value="true"/> <!-- aimTest -->
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
@@ -11586,16 +11585,10 @@
 		<property name="Zoom_max_out" value="35"/>
 		<property name="Zoom_max_in" value="35"/>
 	</property>
-	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
-	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
-	<property name="AttachmentFlashlight" value="flashlight02"/> <!-- End: Needed for the attachment flashlight -->
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="ActionSkillGroup" value="Rifles"/>
-	<property name="CraftingSkillGroup" value="craftSkillGuns"/>
-	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value="0.45"/>
 </item>
-
 
 <!-- ###############################################################################################################  -->
 <!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->
