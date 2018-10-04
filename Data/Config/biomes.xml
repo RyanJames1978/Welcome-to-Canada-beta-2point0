@@ -295,7 +295,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="treeSnowyGrassDiagonal" prob =".2" />
 			<decoration type="block" blockname="cntTreeStump" prob="0.0005" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyDeadBush" prob ="0.002" rotatemax="7"/>
-			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.001"/>
+			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.005"/>
 			<!-- Vanilla Trees -->
 			<decoration type="block" blockname="treeWinterEverGreen" prob="0.02" rotatemax="7"/>
 			<decoration type="block" blockname="treeWinterPine01" prob="0.02" rotatemax="7"/>
@@ -596,7 +596,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="prefab" name="resource_oilshale_pile" prob=".0009" rotatemax="7"/>
 			<decoration type="prefab" name="resource_nitrate_pile" prob=".0007" rotatemax="7"/>
 			<decoration type="prefab" name="resource_lead_pile" prob=".0007" rotatemax="7"/>
-			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.001"/>
+			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.005"/>
 			<decoration type="block" blockname="rock01" prob =".001" />
 			<decoration type="block" blockname="rock02" prob =".001" />
 			<decoration type="block" blockname="rock04" prob =".001" />
@@ -771,7 +771,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="cntTreeStump" prob=".0003" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyDeadBush" prob =".005" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyGrassDiagonal" prob =".5" />
-			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.001"/>
+			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.005"/>
 			<!-- Vanilla Trees -->
 			<decoration type="block" blockname="treeWinterEverGreen" prob="0.02" rotatemax="7"/>
 			<decoration type="block" blockname="treeWinterPine01" prob="0.02" rotatemax="7"/>
@@ -904,7 +904,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="cntTreeStump" prob=".0001" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyDeadBush" prob =".007" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyGrassDiagonal" prob =".6" />
-			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.001"/>
+			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.005"/>
 			<!-- Vanilla Trees -->
 			<decoration type="block" blockname="treeWinterEverGreen" prob="0.05" rotatemax="7"/>
 			<decoration type="block" blockname="treeWinterPine01" prob="0.05" rotatemax="7"/>
@@ -1164,7 +1164,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="cntTreeStump" prob=".001" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyDeadBush" prob =".007" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyGrassDiagonal" prob =".6" />
-			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.001"/>
+			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.005"/>
 			<!-- RJ vanilla trees -->
 			<decoration type="block" blockname="treeWinterEverGreen" prob=".04" rotatemax="7"/>
 			<decoration type="block" blockname="treeWinterPine01" prob=".03" rotatemax="7"/>
@@ -1341,7 +1341,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="cntTreeStump" prob=".0001" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyDeadBush" prob =".007" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyGrassDiagonal" prob =".6" />
-			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.001"/>
+			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.005"/>
 			<!-- vanilla trees -->
 			<decoration type="block" blockname="treeBurntPine01" prob="0.001" rotatemax="7"/>
 			<decoration type="block" blockname="treeBurntPine02" prob="0.001" rotatemax="7"/>
@@ -1634,7 +1634,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="prefab" name="mp_waste_pile_05" prob=".003" />
 			<decoration type="block" blockname="treeSnowyDeadBush" prob =".007" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyGrassDiagonal" prob =".06" />
-			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.001"/>
+			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.005"/>
 			<!-- RJ vanilla trees -->
 			<decoration type="block" blockname="treeWinterEverGreen" prob=".01" rotatemax="7"/>
 			<decoration type="block" blockname="treeWinterPine01" prob=".01" rotatemax="7"/>
