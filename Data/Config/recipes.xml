@@ -273,7 +273,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="rjbolts" count="10"/>
 </recipe>
 <recipe name="window02" count="1" craft_area="workbench">
-	<ingredient name="brokenGlass" count="10"/>
+	<ingredient name="glassCTRSheet" count="4"/>
 	<ingredient name="forgedIron" count="8"/>
 </recipe>
 <recipe name="shutters1Plate" count="1" craft_area="workbench">
@@ -1651,7 +1651,38 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="shortMetalPipe" count="10"/>
 </recipe>
 
-<!-- END RJ edits -->
+<!-- Comercial and Home Doors -->
+<!-- metal -->
+<recipe name="commercialDoor1_v1" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="10"/>
+	<ingredient name="padlock" count="1"/>
+	<ingredient name="rjbolts" count="4"/>
+</recipe>
+<recipe name="commercialDoor2_v1" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="10"/>
+	<ingredient name="padlock" count="1"/>
+	<ingredient name="rjbolts" count="4"/>
+</recipe>
+<recipe name="commercialDoor4_v1" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="10"/>
+	<ingredient name="padlock" count="1"/>
+	<ingredient name="glassCTRSheet" count="1"/>
+	<ingredient name="rjbolts" count="4"/>
+</recipe>
+<!-- Wood doors--->
+<recipe name="houseFrontDoor1_v1" count="1" craft_area="workbench">
+	<ingredient name="wood" count="10"/>
+	<ingredient name="nail" count="10"/>
+	<ingredient name="padlock" count="1"/>
+	<ingredient name="doorKnob" count="1"/>
+</recipe>
+<recipe name="houseFrontDoor2_v1" count="1" craft_area="workbench">
+	<ingredient name="wood" count="10"/>
+	<ingredient name="nail" count="10"/>
+	<ingredient name="padlock" count="1"/>
+	<ingredient name="doorKnob" count="1"/>
+</recipe>
+<!-- ################################ END RJ edits ####################################### -->
 
 
 <recipe name="44MagBullet" count="1" craft_area="AdvancedWorkbench" craft_tool="bulletPress">
@@ -3001,6 +3032,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <recipe name="ironDoor1_v1" count="1" craft_area="workbench">
 	<ingredient name="forgedIron" count="10"/>
+	<ingredient name="padlock" count="1"/>
+	<ingredient name="rjbolts" count="4"/>
 </recipe>
 
 <recipe name="rustyIronTable" count="1" craft_area="workbench">
@@ -3802,7 +3835,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="window03Wood" count="1" craft_area="workbench">
 	<ingredient name="wood" count="4"/>
 	<ingredient name="nail" count="8"/>
-	<ingredient name="glassCTRSheet" count="8"/>
+	<ingredient name="glassCTRSheet" count="4"/>
 </recipe>
 
 <recipe name="woodFenceFarmSheet" count="1" craft_area="workbench">

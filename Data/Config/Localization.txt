@@ -270,9 +270,9 @@ commercialDoor1_v3,blocks,Block,KgNone,Commercial Door1 v3,Porte de commerce 1 v
 commercialDoor2_v1,blocks,Block,KgNone,Commercial Door 2,Porte de commerce 2,Industrietür 2,,Puerta comercial 2
 commercialDoor2_v2,blocks,Block,KgNone,Commercial Door2 v2,Porte de commerce 2 v2,Industrietür 2 v2,,Puerta comercial 2 v2
 commercialDoor2_v3,blocks,Block,KgNone,Commercial Door2 v3,Porte de commerce 2 v3,Industrietür 2 v3,,Puerta comercial 2 v3
-commercialDoor4_v1,blocks,Block,KgNone,Commercial Door 4,Porte de commerce 4,Industrietür 4,,Puerta comercial 4
-commercialDoor4_v2,blocks,Block,KgNone,Commercial Door4 v2,Porte de commerce 4 v2,Industrietür 4 v2,,Puerta comercial 4 v2
-commercialDoor4_v3,blocks,Block,KgNone,Commercial Door4 v3,Porte de commerce 4 v3,Industrietür 4 v3,,Puerta comercial 4 v3
+commercialDoor4_v1,blocks,Block,KgNone,Commercial Door With Window,Porte de commerce 4,Industrietür 4,,Puerta comercial 4
+commercialDoor4_v2,blocks,Block,KgNone,Commercial Door3 v2,Porte de commerce 4 v2,Industrietür 4 v2,,Puerta comercial 4 v2
+commercialDoor4_v3,blocks,Block,KgNone,Commercial Door3 v3,Porte de commerce 4 v3,Industrietür 4 v3,,Puerta comercial 4 v3
 concreteBlock,blocks,Block,KgNone,Concrete Block,Bloc de béton,Betonblock,,Bloque de hormigón
 concreteCNRFull,blocks,Block,KgNone,Concrete Full Corner,Angle complet en béton,Beton – Komplette Ecke,,Esquina de hormigón
 concreteCNRInside,blocks,Block,KgNone,Concrete Inside Corner,Angle intérieur en béton,Beton – Innenecke,,Esquina interior de hormigón
