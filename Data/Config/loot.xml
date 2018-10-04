@@ -2480,7 +2480,7 @@
     <!-- <item name="nail" count="100"/> -->
     <item name="padlock"/>
     <item name="aloeCream" count="10"/>
-    <item name="macheteSurvival"/>
+    <!-- <item name="macheteSurvival"/> -->
     <item name="gunHuntingRifle"/>
     <item name="762mmBullet" count="5"/>
     <!-- <item name="crossbowSnow" count="1"/> -->

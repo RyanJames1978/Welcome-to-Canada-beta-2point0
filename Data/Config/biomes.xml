@@ -442,7 +442,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="cntCombine" prob="0.00004"/>
 			<!-- RJ Random Decorations -->
 			<decoration type="block" blockname="cntDeathMarker" prob ="0.0001" />
-			<decoration type="block" blockname="cntWaterTank" prob ="0.00004" />
+			<decoration type="block" blockname="cntWaterTank" prob ="0.00003" />
 			<decoration type="block" blockname="cntWreckedChopper" prob ="0.000018" />
 		</decorations>
 		<terrain class="Water" />
@@ -771,6 +771,7 @@ If you do not declare them, the decorations of the main biome are used.
 			<decoration type="block" blockname="cntTreeStump" prob=".0003" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyDeadBush" prob =".005" rotatemax="7"/>
 			<decoration type="block" blockname="treeSnowyGrassDiagonal" prob =".5" />
+			<decoration type="block" blockname="plantedCotton3Harvest" prob="0.001"/>
 			<!-- Vanilla Trees -->
 			<decoration type="block" blockname="treeWinterEverGreen" prob="0.02" rotatemax="7"/>
 			<decoration type="block" blockname="treeWinterPine01" prob="0.02" rotatemax="7"/>

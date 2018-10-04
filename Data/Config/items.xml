@@ -11536,7 +11536,7 @@
 	<property name="Group" value="Food/Cooking"/>
 </item>
 
-<!-- RJ Guns -->
+<!-- RJ Guns
 <item id="1596" name="gunM4A1Silenced">
     <property name="CustomIcon" value="gunM4A1SilencedIcon"/>
 	<property name="DescriptionKey" value="gunM4A1SilencedDesc"/>
@@ -11548,16 +11548,16 @@
 	<property name="Degradation" value="99999" param1="true"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
-	<property name="CrosshairOnAim" value="false"/> <!-- aimTest -->
-	<property name="CrosshairUpAfterShot" value="true"/> <!-- aimTest -->
+	<property name="CrosshairOnAim" value="false"/> 
+	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
-	<property class="Action0"> <!-- AttackAction -->
+	<property class="Action0"> 
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value="0.150"/>
 		<property name="Auto_fire" value="true"/>
-		<property name="Crosshair_min_distance" value="13"/> <!-- 13 -->
-		<property name="Crosshair_max_distance" value="16"/> <!-- 16 -->
+		<property name="Crosshair_min_distance" value="13"/> 
+		<property name="Crosshair_max_distance" value="16"/> 
 		<property name="Magazine_size" value="40"/>
 		<property name="Magazine_items" value="762mmBullet"/>
 		<property name="Magazine_item_ray_counts" value="1"/>
@@ -11581,7 +11581,7 @@
 		<property name="Buff_chance" value="0.1"/>
 		<property name="ActionExp" value="1"/>
 	</property>
-	<property class="Action1"> <!-- UseAction -->
+	<property class="Action1">
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="35"/>
 		<property name="Zoom_max_in" value="35"/>
@@ -11590,6 +11590,7 @@
 	<property name="ActionSkillGroup" value="Rifles"/>
 	<property name="LightValue" value="0.45"/>
 </item>
+-->
 
 <!-- ###############################################################################################################  -->
 <!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->
