@@ -5084,7 +5084,7 @@ SmallStereoDesc,blocks,Electricity,New,"Lavender By Proxy - A song written by Ry
 speakerSummoning,blocks,Electricity,New,"Stomin' Tom Speaker",,,,
 speakerSummoningDesc,blocks,Electricity,New,"A song that drives the Angry Hockey moms wild. Hockey Game by Stompin' Tom Connors.",,,,
 AdvancedWorkbench,blocks,Workstation,KgNone,Advanced Workbench,,,,
-AdvancedWorkbenchDesc,blocks,Workstation,EnChanged,"The Advanced workbench allows you to craft items the normal workbench can't. Using tools for welding, forging and more.".,,,,
+AdvancedWorkbenchDesc,blocks,Workstation,EnChanged,"The Advanced workbench allows you to craft items the normal workbench can't. Using tools for welding, forging and more.",,,,
 workbenchBook,items,Book,KgNone,The Advanced Workbench and you,,,,
 workbenchBookDesc,items,Book,KgNone,"Read the advanced workbench textbook to learn how to craft an Advanced Workbench. ",,,,
 titaniumPanelsBook,items,Book,KgNone,"Titanium: Panels",,,,
