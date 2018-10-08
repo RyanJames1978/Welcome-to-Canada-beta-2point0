@@ -5,7 +5,8 @@
 <entity_class name="playerMale">
 	<property name="EntityType" value="Player"/>
 	<property name="ModelType" value="UMA"/>
-	<property name="Class" value="EntityPlayer"/>
+	<!-- <property name="Class" value="EntityPlayer"/> OLD CLASS -->
+	<property name="Class" value="EntityPlayerSDX, Mods"/>
 	<property name="Prefab" value="Player"/>
 	<property name="Mesh" value="Player/Male/player_maleRagdoll"/>
 	<property name="PhysicsBody" value="Player"/>
@@ -48,7 +49,6 @@
     <property name="SoftHands" value="true" />
     <!-- take a stamina hit for jumping -->
     <property name="JumpingDrain" value="true" />
-      
     <property name="MaxEncumbrance" value="10000" />
     <property name="UseEncumbrance" value="false" />
 </entity_class>
@@ -175,7 +175,7 @@
 	<property name="ArmsExplosionDamageMultiplier" value="1"/>
 	<property name="HeadExplosionDamageMultiplier" value="1"/>
 	<property name="ChestExplosionDamageMultiplier" value="1"/>
-	<!-- <property name="HeadShots" value="false" /> -->
+	<property name="HeadShots" value="false" />
     <property name="RandomSpeeds" value="true" />
     <property name="RandomSize" value="true" />
     <!-- Allows the zombies to go to sleep when idle. -->
@@ -661,6 +661,7 @@
 	<property name="HandItem" value="handZombieStrong"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 	<property name="RandomSpeeds" value="true" />
+	<property name="RandomSize" value="false" />
 </entity_class>
 <entity_class name="zombieSnowFeral" extends="zombieSnow">
 	<property name="HandItem" value="handZombieStrongFeral"/>
@@ -671,7 +672,6 @@
 	<property name="LootListOnDeath" value="66"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
-	<property name="RandomSpeeds" value="true" />
 </entity_class>
 
 
@@ -970,6 +970,7 @@
 	<property name="LootListOnDeath" value="73"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 	<property name="RandomSpeeds" value="true" />
+	<property name="RandomSize" value="false" />
 </entity_class>
 <entity_class name="zombieSoldierFeral" extends="zombieSoldier">
 	<property name="MaxHealth" value="750"/>
@@ -1068,6 +1069,7 @@
 	<property name="LootListOnDeath" value="83"/>
 	<property name="WalkType" value="7"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+	<property name="RandomSize" value="false" />
 </entity_class>
 
 
