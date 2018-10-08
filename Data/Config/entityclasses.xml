@@ -42,6 +42,15 @@
 	<property name="LegsExplosionDamageMultiplier" value="1"/>
 	<property name="ArmsExplosionDamageMultiplier" value="1"/>
 	<property name="HeadExplosionDamageMultiplier" value="1"/>
+	<!-- Turns on one block crouch -->
+    <property name="OneBlockCrouch" value="true" />
+    <!-- Turns on damage when hitting things with your bare hands -->
+    <property name="SoftHands" value="true" />
+    <!-- take a stamina hit for jumping -->
+    <property name="JumpingDrain" value="true" />
+      
+    <property name="MaxEncumbrance" value="10000" />
+    <property name="UseEncumbrance" value="false" />
 </entity_class>
 
 <!-- Player Female -->
@@ -72,7 +81,8 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="HasRagdoll" value="true"/>
 	<property name="Prefab" value="NPC"/>
-	<property name="Class" value="EntityZombie"/>
+	<!-- <property name="Class" value="EntityZombie"/> -->
+	<property name="Class" value="EntityZombieSDX, Mods"/>
 	<property name="Parent" value="Enemies"/>
 	<property name="PhysicsBody" value="zombieStandard"/>
 	<property name="Faction" value="undead"/>
@@ -165,6 +175,12 @@
 	<property name="ArmsExplosionDamageMultiplier" value="1"/>
 	<property name="HeadExplosionDamageMultiplier" value="1"/>
 	<property name="ChestExplosionDamageMultiplier" value="1"/>
+	<property name="HeadShots" value="true" />
+    <property name="RandomSpeeds" value="true" />
+    <property name="RandomSize" value="true" />
+    <!-- Allows the zombies to go to sleep when idle. -->
+    <property name="IdleSleep" value="false" />
+    <property name="SleeperPose" value="1" />
 </entity_class>
 
 <!-- Feral Daryl -->
@@ -577,7 +593,8 @@
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="HandItem" value="handZombie02"/>
 	<property name="MaxHealth" value="120"/>
-	<property name="Class" value="EntityZombieCrawl"/>
+	<!-- <property name="Class" value="EntityZombieCrawl"/> -->
+	<property name="Class" value="EntityZombieCrawlSDX, Mods"/>
 	<property name="WalkType" value="4"/>
 	<property name="CanClimbLadders" value="false"/>
 	<property name="RotateToGround" value="true"/>
@@ -795,7 +812,8 @@
 <!-- Zombie RCMP -->
 <entity_class name="zombieFatCop" extends="zombieTemplateMale">
 	<property name="Mesh" value="Zombies/zombieStandardCopRagdoll"/>
-	<property name="Class" value="EntityZombieCop"/>
+	<!-- <property name="Class" value="EntityZombieCop"/> -->
+	<property name="Class" value="EntityZombieCopSDX, Mods"/>
 	<property name="HandItem" value="handZombieCop"/>
 	<property name="WalkType" value="1"/>
 	<property name="RightHandJointName" value="Jaw"/>
@@ -845,6 +863,8 @@
 	<property name="ChestExplosionDamageMultiplier" value="2"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/Z_eye1"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+	<property name="HeadShots" value="true" />
+    <property name="RandomSpeeds" value="true" />
 </entity_class>
 <entity_class name="zombieFatCopFeral" extends="zombieFatCop">
 	<property name="HandItem" value="handZombieCopFeral"/>

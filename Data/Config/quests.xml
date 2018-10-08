@@ -1,7 +1,7 @@
 
 <quests>
 	<!-- Basic Survival 1 - Place Your Workbench /> -->
-	<quest id="quest_BasicSurvival1" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival1" subtitle_key="quest_BasicSurvival1_subtitle" description_key="quest_BasicSurvival1_description" icon="ui_game_symbol_map_house" category_key="quest" difficulty="veryeasy" offer_key="quest_BasicSurvival_offer">
+	<quest id="quest_BasicSurvival1" group_name_key="quest_BasicSurvival" name_key="quest_BasicSurvival1" subtitle_key="quest_BasicSurvival1_subtitle" description_key="quest_BasicSurvival1_description" icon="ui_game_symbol_workbench" category_key="quest" difficulty="veryeasy" offer_key="quest_BasicSurvival_offer">
 		
 	    <action type="ShowTip" value="tutorialTipQuest02" />
 	    

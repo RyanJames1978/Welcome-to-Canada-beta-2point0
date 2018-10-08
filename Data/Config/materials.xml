@@ -1147,7 +1147,7 @@
 	<property name="stepsound" value="metal" />
 	<property name="stability_glue" value="320" />
 	<property name="Mass" type="int" value="20" />
-	<property name="MaxDamage" value="50000000" />
+	<property name="MaxDamage" value="50000" />
 	<property name="Experience" value="3.0"/>
 </material>
 

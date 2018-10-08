@@ -1039,48 +1039,40 @@
 </item>
 
 
-
-<!-- Start I know Kung fu -->
 <item id="70" name="handPlayer">
 	<property name="Extends" value="handMaster"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="0"/>
 	<property class="Action0">
-	    <property name="Class" value="Melee"/>
 		<property name="Delay" value="0.75"/>
 		<property name="Range" value="2.5"/>
-		<property name="DamageEntity" value="10"/>
+		<property name="DamageEntity" value="5"/>
 		<property name="DamageBlock" value="1"/>
 		<property name="Stamina_usage" value="3"/>
 		<property name="DamageBonus.head" value="2"/>
 		<property name="DamageBonus.organic" value="5"/>
 		<property name="ToolCategory.harvestingTools" value="1.5" param1="1"/>
-		<property name="Buff" value="criticalBlunt"/>
-		<property name="Buff_chance" value="0.2"/>
 	</property>
-	<property class="Action1"> <!-- Secondary Hard Attack -->
-	    <property name="Class" value="Melee"/>
-		<property name="Delay" value="1.05"/>
-		<property name="Range" value="3.0"/>
-		<property name="DamageEntity" value="20"/>
-		<property name="DamageBlock" value="5"/>
-		<property name="Stamina_usage" value="6"/>
-		<property name="DamageBonus.head" value="10"/>
-		<property name="DamageBonus.organic" value="15"/>
-		<property name="ToolCategory.harvestingTools" value="1.5" param1="1"/>
-		<property name="Buff" value="criticalBlunt"/>
-		<property name="Buff_chance" value="0.4"/>
+	<property class="Action1"> <!-- UseAction -->
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1"/>
+		<property name="Use_time" value="..."/>
+		<property name="Gain_health" value="0"/>
+		<property name="Gain_stamina" value="5"/>
+		<property name="Gain_food" value="0"/>
+		<property name="Gain_water" value="15"/>
+		<property name="Gain_sickness" value="15"/>
+		<property name="Condition_raycast_block" value="826,1472"/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Buff" value="dysentery"/>
+		<property name="Buff_chance" value="0.5"/>
 	</property>
 	<property class="Attributes">
-	    <property name="EntityDamage" value="8,14"/>
-		<property name="BlockDamage" value="1,3"/>
 		<property name="DismembermentBaseChance" value="-0.2,-0.2"/>
 		<property name="DismembermentBonus" value="0,0"/>
 	</property>
 	<property name="ActionSkillGroup" value="Martial Arts"/>
 </item>
-<!-- End i know kungfu -->
-
 
 
 
@@ -10832,6 +10824,10 @@
 		<property name="DegradationRate" value="1,1"/>
 		<property name="DismembermentBaseChance" value="0.1,0.5"/>
 	</property>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="ActionSkillGroup" value="Blade Weapons"/>
+	<property name="CraftingSkillGroup" value="craftSkillBladeSmith"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
 <!-- Spear -->
@@ -10950,6 +10946,9 @@
 	</property>
 	<property name="CritChance" value="0.12"/>
 	<property name="Group" value="Ammo/Weapons"/>
+	<property name="ActionSkillGroup" value="Blade Weapons"/>
+	<property name="CraftingSkillGroup" value="craftSkillBladeSmith"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
 <!-- Double Headed War Axe -->
@@ -10989,9 +10988,10 @@
 		<property name="DegradationRate" value="1,1"/>
 		<property name="DismembermentBaseChance" value="0.05,0.5"/>
 	</property>
-	<property name="Group" value="Ammo/Weapons,Tools/Traps"/>
-	<property name="ActionSkillGroup" value="Blunt Weapons"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="ActionSkillGroup" value="Blade Weapons"/>
 	<property name="CraftingSkillGroup" value="craftSkillBladeSmith"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
 <!-- Mace -->
@@ -11025,6 +11025,9 @@
 	</property>
 	<property name="CritChance" value="0.12"/>
 	<property name="Group" value="Ammo/Weapons"/>
+	<property name="ActionSkillGroup" value="Blade Weapons"/>
+	<property name="CraftingSkillGroup" value="craftSkillBladeSmith"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
 <!-- Halbert -->
@@ -11106,6 +11109,10 @@
 		<property name="DegradationRate" value="1,1"/>
 		<property name="DismembermentBaseChance" value="0.1,0.5"/>
 	</property>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="ActionSkillGroup" value="Blade Weapons"/>
+	<property name="CraftingSkillGroup" value="craftSkillBladeSmith"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
 <!-- Evil long sword -->
@@ -11293,6 +11300,10 @@
 		<property name="DegradationRate" value="1,1"/>
 		<property name="DismembermentBaseChance" value="0.5,1"/>
 	</property>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="ActionSkillGroup" value="Blade Weapons"/>
+	<property name="CraftingSkillGroup" value="craftSkillBladeSmith"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
 <!-- ################## Nades ################## -->
@@ -11374,7 +11385,7 @@
 <!-- ################## Tools ################## -->
 
 <!-- Crowbar -->
-<item id="1590" name="crowbar">
+<item id="1590" name="CrowBar">
     <property name="CustomIcon" value="crowbarIcon"/>
     <property name="DescriptionKey" value="crowbarDesc"/>
 	<property name="Meshfile" value="#crowbar?itemCrowbar"/>
@@ -11591,6 +11602,51 @@
 	<property name="LightValue" value="0.45"/>
 </item>
 -->
+<item id="1597" name="handWraps">
+    <property name="CustomIcon" value="handWrapsIcon"/>
+	<property name="DescriptionKey" value="handWrapsDesc"/>
+	<property name="RepairTools" value="ductTape"/>
+	<property name="Material" value="organic"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="HoldType" value="0"/>
+	<property class="Action0">
+	    <property name="Class" value="Melee"/>
+		<property name="Delay" value="0.75"/>
+		<property name="Range" value="2.5"/>
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="5"/>
+		<property name="Stamina_usage" value="3"/>
+		<property name="DamageBonus.head" value="2"/>
+		<property name="DamageBonus.organic" value="5"/>
+		<property name="ToolCategory.harvestingTools" value="1.5" param1="1"/>
+		<property name="Buff" value="criticalBlunt"/>
+		<property name="Buff_chance" value="0.2"/>
+	</property>
+	<property class="Action1"> <!-- Secondary Hard Attack -->
+	    <property name="Class" value="Melee"/>
+		<property name="Delay" value="1.05"/>
+		<property name="Range" value="3.0"/>
+		<property name="DamageEntity" value="35"/>
+		<property name="DamageBlock" value="12"/>
+		<property name="Stamina_usage" value="6"/>
+		<property name="DamageBonus.head" value="10"/>
+		<property name="DamageBonus.organic" value="15"/>
+		<property name="ToolCategory.harvestingTools" value="1.5" param1="1"/>
+		<property name="Buff" value="criticalBlunt"/>
+		<property name="Buff_chance" value="0.4"/>
+	</property>
+	<property class="Attributes">
+	    <property name="EntityDamage" value="8,14"/>
+		<property name="BlockDamage" value="1,3"/>
+		<property name="DismembermentBaseChance" value="0,0.2"/>
+		<property name="DismembermentBonus" value="0,0"/>
+		<property name="DegradationMax" value="200,600"/>
+		<property name="DegradationRate" value="3,1"/>
+	</property>
+	<property name="ActionSkillGroup" value="Martial Arts"/>
+	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
+	<property name="Group" value="Ammo/Weapons"/>
+</item>
 
 <!-- ###############################################################################################################  -->
 <!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->

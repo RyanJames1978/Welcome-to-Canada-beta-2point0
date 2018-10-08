@@ -1620,7 +1620,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <!-- Crowbar -->
 
-<recipe name="crowbar" count="1" craft_area="AdvancedWorkbench" craft_tool="powerHammer">
+<recipe name="CrowBar" count="1" craft_area="AdvancedWorkbench" craft_tool="powerHammer">
 	<ingredient name="forgedSteel" count="14"/>
 </recipe>
 
@@ -1682,6 +1682,13 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="padlock" count="1"/>
 	<ingredient name="doorKnob" count="1"/>
 </recipe>
+
+<!-- hand wraps -->
+<recipe name="handWraps" count="1">
+	<ingredient name="cloth" count="4"/>
+	<ingredient name="ductTape" count="1"/>
+</recipe>
+
 <!-- ################################ END RJ edits ####################################### -->
 
 

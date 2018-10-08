@@ -1079,6 +1079,12 @@
 	<item name="rjcookingoil"/>
 </lootgroup>
 
+<lootgroup name="cannedfoodTruck">
+	<item name="canHam"/>
+	<item name="canPears"/>
+	<item name="foodHoney"/>
+</lootgroup>
+
 <lootgroup name="seeds">
 	<item name="plantedPotato1"/>
 	<item name="plantedCoffee1"/>
@@ -1189,6 +1195,7 @@
 	<item name="rjhotchocolatemix"/>
 	<item name="rjcookingoil"/>
 	<item name="bat"/>
+	<item name="CrowBar"/>
 </lootgroup>
 
 <lootgroup name="rareAutomotive">
@@ -1681,7 +1688,7 @@
 </lootcontainer>
 
 <!-- generic zombie loot-->
-<lootcontainer id="15" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="15" count="0,5" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="10"/>
 	<item group="clothes" prob="1.9"/>
 	<item group="rottenFood" prob="0.62"/>
@@ -1689,6 +1696,8 @@
 	<item group="questChallenge" count="1" prob="0.191"/>
 	<item group="treasureMaps" count="1" prob="0.161"/> <!-- total 2% for a quest thing -->
 	<item name="facialPiercings" prob="0.08"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- metal garbage can-->
@@ -1697,7 +1706,7 @@
 </lootcontainer>
 
 <!-- zombie cop-->
-<lootcontainer id="17" count="1,6" size="4,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
+<lootcontainer id="17" count="1,6" size="4,3" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
 	<item group="junk" prob="3"/>
 	<item name="nightStick" count="1"/>
 	<item group="weaponsPistol+ammo" prob="1.1"/>
@@ -1707,6 +1716,8 @@
 	<item name="flashlight02" prob="0.5"/>
 	<item name="militaryVest" prob="0.2"/>
 	<item name="militaryFiber" count="1,4" prob="0.04"/>
+	<item name="femur" prob="10"/>
+	<item name="rottingFlesh" prob="10"/>
 </lootcontainer>
 
 <!-- washing machine, clothes in good condition -->
@@ -1727,10 +1738,12 @@
 </lootcontainer>
 
 <!-- zombie nurse, medical supplies -->
-<lootcontainer id="21" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="21" count="0,5" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="1.5"/>
 	<item group="medicine"/>
     <item name="20dollars" count="1,10"/>
+    <item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- garage stuff, tools, etc -->
@@ -1811,7 +1824,7 @@
 </lootcontainer>
 
 <!-- fatHawaiianZombie, fat zombie -->
-<lootcontainer id="38" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="38" count="0,5" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="4"/>
 	<item group="rottenFood" prob="4"/>
 	<item name="bottledWater" count="1,2" prob="1.5"/>
@@ -1821,6 +1834,8 @@
 	<item group="ammo" prob="1"/>
 	<item group="weaponsPistol+ammo" prob="0.3"/>
 	<item group="weapons44Pistol+ammo" prob="0.003"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- shotgun messiah UNUSED -->
@@ -2025,7 +2040,7 @@
 </lootcontainer>
 
 <!-- feral zombie loot -->
-<lootcontainer id="61" count="1,5" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="61" count="1,6" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="1"/>
 	<item name="femur" count="1,4" prob="1"/>
 	<item group="weaponsMilitaryGuns+ammo" prob="0.5"/>
@@ -2033,6 +2048,8 @@
 	<item name="gun44Magnum" count="1" prob="0.1"/>
 	<item name="44MagBullet" count="1,10" prob="0.1"/>
 	<item group="militaryArmor" prob="0.2"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- minibike storage -->
@@ -2052,7 +2069,7 @@
 </lootcontainer>
 
 <!-- zombieMaleHazmat -->
-<lootcontainer id="65" count="0,3" size="8,4" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="65" count="0,5" size="8,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="3.7"/>
 	<item group="hazmatGear" count="1"/>
 	<item group="rareMedicine" prob="0.2"/>
@@ -2066,16 +2083,20 @@
 	<item group="treasureMaps" count="1" prob="0.092"/>
 	<item group="weaponsPistol+ammo" prob="0.03"/>
 	<item group="weapons44Pistol+ammo" prob="0.003"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- snowzombie, lumberjack zombie loot-->
-<lootcontainer id="66" count="1,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="66" count="1,3" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="1"/>
 	<item group="lumberjacks" prob="0.42"/>
 	<item group="warmClothes" prob="1"/>
 	<item group="hazmatGear" count="1" prob="0.01"/>
 	<item group="rareOres" prob="0.02"/>
 	<item group="rjwintergearloot"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <lootcontainer id="67" count="0,2" size="5,3" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="baseTemplate">
@@ -2110,20 +2131,20 @@
 </lootcontainer>
 
 <!-- bandit melee -->
-<lootcontainer id="71" count="0,3" size="7,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="71" count="0,3" size="7,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="banditsGeneral"/>
 	<item name="clubSpiked" count="1" prob="0.7"/>
 </lootcontainer>
 
 <!-- bandit ranged -->
-<lootcontainer id="72" count="0,3" size="7,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="72" count="0,3" size="7,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="banditsGeneral"/>
 	<item group="weaponsPistol+ammo" count="1" prob="0.7"/>
 	<item group="weapons44Pistol+ammo" count="1" prob="0.003"/>
 </lootcontainer>
 
 <!-- ZombieSoldier loot -->
-<lootcontainer id="73" count="0,4" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="73" count="0,4" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="2"/>
 	<item group="weaponsMilitaryGuns+ammo" prob="1"/>
 	<item group="weaponsRocketLauncher+ammo" prob="0.06"/>
@@ -2132,12 +2153,16 @@
 	<item name="nightvisionGoggles" prob="0.3"/>
 	<item name="gun44Magnum" count="1" prob="0.1"/>
 	<item name="44MagBullet" count="1,10" prob="0.1"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- zombie utility worker / construction worker loot -->
-<lootcontainer id="74" count="0,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="74" count="0,3" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="1.5"/>
 	<item group="ZombieUtilityWorker" />
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- cntMorticianDrawer -->
@@ -2162,13 +2187,15 @@
 </lootcontainer>
 
 <!-- ZombieFootballPlayer -->
-<lootcontainer id="78" count="0,3" size="4,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="78" count="0,5" size="4,4" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="1.5"/>
 	<item group="ZombieFootballPlayer" />
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- ZombieCheerleader -->
-<lootcontainer id="79" count="0,4" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="79" count="0,5" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="1"/>
 	<item name="tshirtZUWhite" prob="1.5"/>
 	<item name="skirtBlue" prob="1.8"/>
@@ -2176,10 +2203,12 @@
 	<item name="runningShoes" prob="1.5"/>
 	<item group="questChallenge" count="1" prob="0.036"/>
 	<item group="treasureMaps" count="1" prob="0.031"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- ZombieSkateboarder -->
-<lootcontainer id="80" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="80" count="0,5" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="2"/>
 	<item name="hoodedSweatshirtWhite" prob="1"/>
 	<item name="blackDenimPants" prob="1"/>
@@ -2187,10 +2216,12 @@
 	<item name="mechanicalParts" count="1,3" prob="1.5"/>
 	<item group="questChallenge" count="1" prob="0.036"/>
 	<item group="treasureMaps" count="1" prob="0.031"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- zombieOldTimer / zombieCowboy -->
-<lootcontainer id="81" count="0,4" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="81" count="0,5" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="10"/>
 	<item group="weaponsHuntingRifle+ammo" prob="3"/>
 	<item name="dynamite" count="1,3" prob="1"/>
@@ -2207,10 +2238,12 @@
 	<item name="bottledWater" count="1,3" prob="1"/>
     <item name="100dollars" count="1,2" prob="0.05"/>
 	<item group="treasureMaps" count="1" prob="1"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- ZombieBiker -->
-<lootcontainer id="83" count="1,4" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="83" count="1,6" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="2"/>
 	<item name="swatHelmet"/>
 	<item name="gothicPants"/>
@@ -2237,10 +2270,12 @@
 	<item name="minibikeSeat" prob="0.4"/>
 	<item name="minibikeHandlebars" prob="0.4"/>
 	<item name="smallEngine" prob="0.3"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- ZombieStripper -->
-<lootcontainer id="84" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="84" count="0,5" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="2"/>
 	<item name="2dollars" count="10,20"/>
     <item name="5dollars" count="2,3"/>
@@ -2255,10 +2290,12 @@
 	<item name="vitamins"/>
 	<item name="herbalAntibiotics" prob="0.5"/>
 	<item name="feather" count="5,25"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- ZombieFarmer -->
-<lootcontainer id="85" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="85" count="0,5" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="2"/>
 	<item group="tools" prob="1"/>
 	<item group="farmCrops" prob="1"/>
@@ -2267,6 +2304,8 @@
 	<item name="shovelIron" prob="1"/>
 	<item name="shovelSteel" prob="0.5"/>
 	<item name="compoundBow" prob="0.04"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- bookstore shipping crate -->
@@ -2333,7 +2372,7 @@
 </lootcontainer>
 
 <!-- zombieBusinessMan -->
-<lootcontainer id="89" count="0,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+<lootcontainer id="89" count="0,5" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 	<item group="junk" prob="4"/>
 	<item group="suitAll" prob="2"/>
 	<item name="gunPistolSilenced" count="1" prob="0.02"/>
@@ -2347,6 +2386,8 @@
 	<item name="paper" count="10,25" prob="0.66"/>
 	<item group="questChallenge" count="1" prob="0.036"/>
 	<item group="treasureMaps" count="1" prob="0.031"/>
+	<item name="femur" count="1,2" prob="10"/>
+	<item name="rottingFlesh" count="1,3" prob="10"/>
 </lootcontainer>
 
 <!-- cntGreenDrawerSecure, player crafted -->
@@ -2477,13 +2518,11 @@
 <!-- RJ Starter loot -->
 
 <lootgroup name="rjstarterloot" count="all">
-    <!-- <item name="nail" count="100"/> -->
     <item name="padlock"/>
     <item name="aloeCream" count="10"/>
-    <!-- <item name="macheteSurvival"/> -->
     <item name="gunHuntingRifle"/>
     <item name="762mmBullet" count="5"/>
-    <!-- <item name="crossbowSnow" count="1"/> -->
+    <item name="handWraps" count="1"/>
     <item name="beer" count="6"/>
     <item name="emptyJar" count="10"/>
     <item name="rjpoutine" count="3"/>
@@ -2564,6 +2603,7 @@
 	<item name="wrench"/>
 	<item group="weaponsMP5+ammo" prob="0.02"/>
 	<item group="weaponsHuntingRifle+ammo" prob="0.5"/>
+	<item name="CrowBar"/>
 </lootcontainer>
 
 
@@ -2579,6 +2619,7 @@
 <!-- Taxi -->
 <lootcontainer id="110" count="0,2" size="4,3" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="baseTemplate">
 	<item group="junk" prob="2"/>
+	<item name="CrowBar"/>
 </lootcontainer>
 
 <!-- trailer -->
@@ -2624,6 +2665,7 @@
 	<item group="electricalDevices" prob="1"/>
 	<item group="tools" prob="1"/>
 	<item name="paint" count="20,150"/>
+	<item name="CrowBar"/>
 </lootcontainer>
 
 <!-- Buses -->
@@ -2654,7 +2696,7 @@
 
 <!-- Trailer Spam -->
 <lootcontainer id="122" count="12" size="4,3" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="baseTemplate">
-   <item group="cannedfood"/>
+   <item group="cannedfoodTruck"/>
 </lootcontainer>
 
 <!-- Trailer leet -->
