@@ -416,7 +416,7 @@
 		<sprite depth="0" name="gridBackground" color="255,255,255,1" type="sliced" pos="0, 0" globalopacity="true" on_press="true" />
 		<rect name="content" pos="3,-49" >
 			<grid depth="12" name="queue" rows="10" cols="9" cell_width="75" cell_height="75" repeat_content="true" controller="LootContainer">
-				<item_stack name="0"/>
+				<SMX_60_item_stack name="0"/>
 			</grid>
 		</rect>
 	</window>
@@ -1484,7 +1484,7 @@
 		</panel>
 
 		<grid depth="2" name="inventory" rows="7" cols="3" pos="3,-46" cell_width="75" cell_height="75" repeat_content="true" controller="VehicleContainer">
-			<item_stack name="0"/>
+			<SMX_60_item_stack name="0"/>
 		</grid>
 
 		<panel name="emptyPanel" height="450" depth="4" pos="0,-49" backgroundcolor="[darkGrey]" bordercolor="[black]" visible="false">
