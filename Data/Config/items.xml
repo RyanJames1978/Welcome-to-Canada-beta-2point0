@@ -11605,6 +11605,8 @@
 <item id="1597" name="handWraps">
     <property name="CustomIcon" value="handWrapsIcon"/>
 	<property name="DescriptionKey" value="handWrapsDesc"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="RepairTools" value="ductTape"/>
 	<property name="Material" value="organic"/>
 	<property name="CreativeMode" value="None"/>
