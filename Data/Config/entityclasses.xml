@@ -46,7 +46,7 @@
 	<!-- Turns on one block crouch -->
     <property name="OneBlockCrouch" value="true" />
     <!-- Turns on damage when hitting things with your bare hands -->
-    <property name="SoftHands" value="true" />
+    <property name="SoftHands" value="false" />
     <!-- take a stamina hit for jumping -->
     <property name="JumpingDrain" value="true" />
     <property name="MaxEncumbrance" value="10000" />
