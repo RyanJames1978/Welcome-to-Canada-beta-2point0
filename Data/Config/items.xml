@@ -11388,7 +11388,7 @@
 <item id="1590" name="CrowBar">
     <property name="CustomIcon" value="crowbarIcon"/>
     <property name="DescriptionKey" value="crowbarDesc"/>
-	<property name="Meshfile" value="#crowbar?itemCrowbar"/>
+	<property name="Meshfile" value="#crowbar?itemCrowbarPrefab"/>
 	<property name="Material" value="metal"/>
 	<property name="RepairTools" value="forgedSteel"/>
 	<property name="HoldType" value="29"/>
