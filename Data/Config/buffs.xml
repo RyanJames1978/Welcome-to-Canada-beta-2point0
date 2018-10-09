@@ -498,7 +498,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 </buff>
 
 <!-- Encumbrance buffs -->
-<buff id="Encumbered" mutex="Encumbered,HeavyEncumbered,MaxEncumbered" actions="debuff(Unencumbered);debuff(HeavyEncumbered);debuff(MaxEncumbered)" icon="ui_game_symbol_drunk" name_key="encumbered" description_key="encumberedDesc" tooltip_key="encumbreredTooltip">
+<!-- <buff id="Encumbered" mutex="Encumbered,HeavyEncumbered,MaxEncumbered" actions="debuff(Unencumbered);debuff(HeavyEncumbered);debuff(MaxEncumbered)" icon="ui_game_symbol_drunk" name_key="encumbered" description_key="encumberedDesc" tooltip_key="encumbreredTooltip">
         <modify id="0" stat="stamina" amount="-2" rate="1" />
         <modify id="0" stat="speedmodifier" setValue="0.90" />
       </buff>
@@ -512,7 +512,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
       </buff>
       <buff id="Unencumbered" actions="debuff(Encumbered);debuff(HeavyEncumbered);debuff(MaxEncumbered)" icon="" name_key="Unencumbered" description_key="UnencumberedDesc" tooltip_key="UnencumberedTooltip" >
         <modify id="0" stat="speedmodifier" setValue="1.0" />
-</buff>
+</buff> -->
 
 
 
