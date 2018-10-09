@@ -8946,13 +8946,13 @@
 	<property name="Stacknumber" value="5000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="88"/>
 	<property name="SellableToTrader" value="false"/>
-	<property class="Action1">
+	<!-- <property class="Action1">
 		<property name="Class" value="PlaceAsBlock"/>
 		<property name="Delay" value="0.5"/>
 		<property name="Blockname" value="waterMovingBucket"/>
 		<property name="Change_item_to" value="bucket"/>
 		<property name="Sound_start" value="bucketplace_water"/>
-	</property>
+	</property> -->
 	<property name="Group" value="Tools/Traps"/>
 </item>
 
