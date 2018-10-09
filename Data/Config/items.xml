@@ -11646,7 +11646,7 @@
 	</property>
 	<property name="ActionSkillGroup" value="Martial Arts"/>
 	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
-	<property name="Group" value="Ammo/Weapons"/>
+	<property name="Group" value="Basics,Ammo/Weapons"/>
 </item>
 
 <!-- ###############################################################################################################  -->
