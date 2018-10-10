@@ -8104,6 +8104,7 @@
 	<property name="DropMeshfile" value="Items/Misc/crushedSandDroppedPrefab"/>
 	<property name="HoldType" value="45"/>
 	<property name="Material" value="glass"/>
+	<property name="RepairAmount" value="50"/>
 	<property name="Weight" value="5"/>
 	<property name="Stacknumber" value="30000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="5"/>
@@ -8192,6 +8193,7 @@
 	<property name="Group" value="Resources"/>
 	<property name="CraftingIngredientExp" value="15"/>
 	<property name="CraftingIngredientTime" value="2"/>
+	<property name="RepairAmount" value="50"/>
 	<!-- <property name="RepairTime" value="2"/>
 	<property name="RepairAmount" value="400"/> -->
 </item>
@@ -8337,6 +8339,7 @@
 	<property name="RandomTintColor1" value="ffffff"/>
 	<property name="HoldType" value="40"/>
 	<property name="Material" value="snow"/>
+	<property name="RepairAmount" value="50"/>
 	<property name="Weight" value="5"/>
 	<property name="Stacknumber" value="30000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="5"/>
@@ -8432,6 +8435,7 @@
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="HoldType" value="45"/>
 	<property name="Material" value="paper"/>
+	<property name="RepairAmount" value="50"/>
 	<property name="Stacknumber" value="10000"/> <!-- STK resource -->
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="1"/>
@@ -8523,6 +8527,7 @@
 	<property name="Group" value="Resources"/>
 	<property name="DescriptionKey" value="plantedCotton3HarvestDesc"/>
 	<property name="Group" value="Resources,Clothing"/>
+	<property name="RepairAmount" value="50"/>
 	<property name="CraftingSkillGroup" value="craftSkillMiscellaneous"/>
 </item>
 
@@ -9240,6 +9245,7 @@
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="cloth"/>
+	<property name="RepairAmount" value="50"/>
 	<property name="HoldType" value="45"/>
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="49"/>
@@ -11459,6 +11465,7 @@
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="HoldType" value="45"/>
 	<property name="Material" value="dSteel"/>
+	<property name="RepairAmount" value="50"/>
 	<property name="Stacknumber" value="30000"/>
 	<property name="EconomicValue" value="5000"/>
 	<property name="Group" value="Resources"/>
