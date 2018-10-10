@@ -1081,8 +1081,6 @@
 
 <lootgroup name="cannedfoodTruck">
 	<item name="canHam"/>
-	<item name="canPears"/>
-	<item name="foodHoney"/>
 </lootgroup>
 
 <lootgroup name="seeds">
