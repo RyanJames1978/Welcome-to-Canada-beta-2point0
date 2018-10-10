@@ -3684,7 +3684,7 @@ cntShippingCrateCarParts,blocks,Container,New,Car Parts Shipping Crate,,Autoteil
 cntShippingCrateCarPartsDesc,blocks,Container,New,CREATIVE: Minibike parts and parts likely shipped to a car garage.,,,,
 cntShippingCrateConstructionSupplies,blocks,Container,New,Random Construction Shipping Crate,,Baustellen-Frachtkiste,,
 cntShippingCrateGroupDesc,blocks,Container,New,CREATIVE: A shipping crate containing... something.,,,,
-cntStorageGeneric,blocks,Container,New,Storage Box,,Lagerkiste,,
+cntStorageGeneric,blocks,Container,New,Large Storage Box,,Lagerkiste,,
 cntStorageGenericInsecure,blocks,Container,New,Storage Box Insecure,,Lagerkiste ungesichert,,
 cntTrashCompactor,blocks,Container,New,Trash Compactor,,Müllpresse,,
 cntVendingMachine,blocks,Container,New,Player Vending Machine,,,,
