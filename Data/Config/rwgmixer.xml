@@ -190,6 +190,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="residentialOldGroup">
+		    <prefab name="settlement_trader_01" prob="10" max_count="1"/>
 			<prefab name="abandoned_house_01"/>
 			<prefab name="abandoned_house_02"/>
 			<prefab name="abandoned_house_03"/>
@@ -247,6 +248,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="residentialNewGroup">
+		    <prefab name="settlement_trader_02" prob="10" max_count="1"/>
 			<prefab name="house_new_mansion_01"/>
 			<prefab name="house_new_mansion_02"/>
 			<prefab name="house_new_mansion_03"/>
@@ -272,7 +274,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="commercialGroup">
-		    <prefab name="settlement_trader_01" max_count="1"/>
+		    <prefab name="settlement_trader_03" prob="10" max_count="1"/>
 			<prefab name="store_gun_sm_01" prob="0.6"/>
 			<prefab name="store_gun_lg_01" prob="0.4"/>
 			<prefab name="store_pharmacy_sm_01" />
@@ -302,6 +304,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="downtownGroup">
+		    <prefab name="settlement_trader_04" prob="10" max_count="1"/>
 			<prefab name="business_red_brick_01"/>
 			<prefab name="business_red_brick_02"/>
 			<prefab name="business_red_brick_03"/>
@@ -349,6 +352,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="industrialGroup">
+		    <prefab name="settlement_trader_05" prob="10" max_count="1"/>
 			<prefab name="utility_waterworks_01" max_count="1"/>
 			<prefab name="utility_electric_co_01" />
 			<prefab name="utility_refinery_01" max_count="1"/>
@@ -393,21 +397,15 @@
 		</prefab_rule>
 
 		<prefab_rule name="ruralGroup">
-		    <!-- Remove Crops -->
-			<!-- 
-			<prefab name="blueberryfield_sm"/>
-			<prefab name="cornfield_sm"/>
-			<prefab name="cornfield_med"/>
-			<prefab name="potatofield_sm"/>
-			<prefab name="barn_01" />
-			<prefab name="barn_02" />
-			<prefab name="barn_03" />
-			<prefab name="farm_shed1" />
-			<prefab name="farm_shed2" />
-			<prefab name="farm_shed3" />
-			<prefab name="farm_shed4" />
-			-->
-			<prefab name="settlement_trader_01" max_count="1"/>
+			<prefab name="settlement_trader_01" prob="10" max_count="1"/>
+			<prefab name="abandoned_house_01"/>
+			<prefab name="abandoned_house_02"/>
+			<prefab name="abandoned_house_03"/>
+			<prefab name="abandoned_house_04"/>
+			<prefab name="abandoned_house_05"/>
+			<prefab name="abandoned_house_06"/>
+			<prefab name="abandoned_house_07"/>
+			<prefab name="abandoned_house_08"/>
 			<prefab name="oldwest_stables" />
 			<prefab name="pond02"/>
 			<prefab name="pond01"/>
@@ -431,7 +429,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="wildernessGroup">
-			<prefab rule="traderGroup" min_count="1" max_count="2"/>
+			<prefab rule="traderGroup" min_count="0" max_count="1"/>
 			<prefab name="cabin_01" />
 			<prefab name="cabin_02_sm" />
 			<prefab name="cabin_03_lg" />
@@ -441,17 +439,6 @@
 			<prefab name="cabin_snow_hidden_01"/>
 			<prefab name="ranger_station1" />
 			<prefab name="snowy_ski_lodge" />
-			<!-- NO more campsites --> 
-			<!--
-			<prefab name="campsite_01" />
-			<prefab name="campsite_02" />
-			<prefab name="campsite_03" />
-			<prefab name="campsite_04" />
-			<prefab name="campsite_06" />
-			<prefab name="campsite_06a" />
-			<prefab name="campsite_07" />
-			<prefab name="campsite_07a" />
-			-->
 			<prefab name="indian_burial_grounds_01" prob="0.05"/>
 			<prefab name="oldwest_graveyard"/>
 			<prefab name="cave_01" />
@@ -493,7 +480,7 @@
 		</prefab_rule>
 
 		<prefab_rule name="traderGroup">
-			
+			<prefab name="settlement_trader_01" />
 			<prefab name="settlement_trader_02" />
 			<prefab name="settlement_trader_03" />
 			<prefab name="settlement_trader_04" />
@@ -733,12 +720,3 @@
 <!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->
 <!-- ###############################################################################################################  -->
 </rwgmixer>
-
-<!-- HaidrGna todo -->
-<!--
-<module name="final" type="ClampOutput">
-<property name="sourceModule" value=scaleBiasOutput"/>
-<property name="bounds" value="0,255"/>
-</module>
-<output module="final"/>
--->

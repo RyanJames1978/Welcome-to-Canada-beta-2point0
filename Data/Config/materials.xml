@@ -18,6 +18,7 @@
 	<property name="movement_factor" value="0.03" />
 	<property name="Experience" value="15.0"/>
 </material>
+<!-- .1 and a zombie takes 2 damage hits.  .035 takes around 7 seconds to pass through -->
 
 <material id="MbarbedWire">
 	<property name="damage_category" value="metal" />
@@ -94,6 +95,7 @@
 	<property name="fertile_level" value="3" />
 	<property name="stability_glue" value="20" />
 	<property name="Mass" type="int" value="10" />
+	<property name="movement_factor" value="0.88" />
 	<property name="MaxDamage" value="200" />
 	<property name="Experience" value="2"/>
 </material>
@@ -103,7 +105,7 @@
 	<property name="surface_category" value="earth" />
 	<property name="Hardness" type="float" value="1" />
 	<property name="stepsound" value="dirt" />
-	<property name="fertile_level" value="5" />
+	<property name="fertile_level" value="3" />
 	<property name="stability_glue" value="40" />
 	<property name="Mass" type="int" value="10" />
 	<property name="MaxDamage" value="300" />
@@ -341,6 +343,7 @@
 	<property name="stability_glue" value="120" />
 	<property name="Mass" type="int" value="10" />
 	<property name="explosionresistance" value="1.1" />
+	<property name="movement_factor" value="1.1" />
 	<property name="MaxDamage" value="3000" />
 	<property name="Experience" value="6"/>
 </material>
@@ -889,6 +892,7 @@
 	<property name="fertile_level" value="1" />
 	<property name="stability_glue" value="15" />
 	<property name="Mass" type="int" value="5" />
+	<property name="movement_factor" value="0.95" />
 	<property name="MaxDamage" value="50" />
 	<property name="Experience" value="3.0"/>
 </material>
@@ -1057,6 +1061,7 @@
 	<property name="Experience" value="3.0"/>
 </material>
 
+<!-- RJ Snow MAT -->
 <material id="mSnow">
 	<property name="damage_category" value="earth" />
 	<property name="surface_category" value="earth" />
@@ -1182,6 +1187,18 @@
 	<property name="Experience" value="5"/>
 </material>
 
+<!-- RJ Aluminum -->
+<material id="mAluminum">
+	<property name="damage_category" value="metal" />
+	<property name="surface_category" value="metal" />
+	<property name="forge_category" value="scrapAluminum" />
+	<property name="Hardness" type="float" value="1" />
+	<property name="stepsound" value="metal" />
+	<property name="stability_glue" value="320" />
+	<property name="Mass" type="int" value="20" />
+	<property name="MaxDamage" value="300" />
+	<property name="Experience" value="3.0"/>
+</material>
 
 <!-- ###############################################################################################################  -->
 <!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->

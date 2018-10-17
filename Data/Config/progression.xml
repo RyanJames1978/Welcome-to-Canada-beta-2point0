@@ -1,3 +1,42 @@
+<!-- List of effects -->
+<!-- by Killermoench
+CraftingTime,
+CraftingQuality,
+CraftingOutputCount,
+RepairTime,
+RepairAmount,
+RepairQualityLoss,
+EntityDamage,
+BlockDamage,
+RangedFalloff,
+ReloadSpeed,
+ArmorDefense,
+MaxHealth,
+MaxStamina,
+MaxHunger,
+MaxThirst,
+MinWellness,
+MaxWellness,
+WellnessGain,
+WellnessReduction,
+HealthGain,
+StaminaGain,
+HungerDegradation,
+ThirstDegradation,
+HealthDegradation,
+StaminaDegradation,
+MaxSpeed,
+WalkSpeed,
+RunSpeed,
+LootTime,
+LootQuality,
+HarvestCount,
+CrouchSpeed,
+Noise,
+Smell
+-->
+
+
 <progression>
 <player
 	max_level="500"
@@ -70,10 +109,43 @@
 		<effect name="StaminaGain">
 			<add perk_level="0" value="0"/>
 			<add perk_level="1" value="0.1"/>
+			<add perk_level="2" value="0.3"/>
+			<add perk_level="3" value="0.5"/>
+			<add perk_level="4" value="1.0"/>
+			<add perk_level="5" value="1.2"/>
+		</effect>
+	</perk>
+	
+	
+<!-- #################### RJ Quick Feet ########## -->	
+	
+	<perk name="Quick Feet" icon="run" description_key="quickFeetDesc" title_key="quickFeet" max_level="3" skill_point_cost_multiplier="2" skill_point_cost_per_level="5" always_fire="true" group="health">
+		<requirement perk_level="1" required_skill_name="Athletics" required_skill_level="25"/>
+		<requirement perk_level="2" required_skill_name="Athletics" required_skill_level="50"/>
+		<requirement perk_level="3" required_skill_name="Athletics" required_skill_level="75"/>
+		<effect name="MaxSpeed">
+			<add perk_level="0" value="0"/>
+			<add perk_level="1" value="0.5"/>
+			<add perk_level="2" value="0.7"/>
+			<add perk_level="3" value="1.5"/>
+		</effect>
+		<effect name="RunSpeed">
+            <add perk_level="0" value="0"/>
+			<add perk_level="1" value="0.5"/>
+			<add perk_level="2" value="0.7"/>
+			<add perk_level="3" value="1.5"/>
+        </effect>
+		<effect name="WalkSpeed">
+			<add perk_level="0" value="0"/>
+			<add perk_level="1" value="0.1"/>
+			<add perk_level="2" value="0.3"/>
+			<add perk_level="3" value="0.5"/>
+		</effect>
+		<effect name="CrouchSpeed">
+			<add perk_level="0" value="0"/>
+			<add perk_level="1" value="0.1"/>
 			<add perk_level="2" value="0.2"/>
-			<add perk_level="3" value="0.4"/>
-			<add perk_level="4" value="0.6"/>
-			<add perk_level="5" value="1.0"/>
+			<add perk_level="3" value="0.3"/>
 		</effect>
 	</perk>
 
@@ -699,6 +771,10 @@
 			<multiply skill_level="8,9" value="0.0108,0.0086"/>
 			<multiply skill_level="9,10" value="0.0086,0.0068"/>
 		</effect>
+		<!-- MANUX Miner -->
+		<recipe name="minerGeneric" unlock_level="6"/>
+		<recipe name="minerRegularOres" unlock_level="4"/>
+		<recipe name="minerRareOres" unlock_level="7"/>
 	</perk>
 	<perk name="craftSkillGuns" max_level="10" skill_point_cost_multiplier="1.26" skill_point_cost_per_level="3" exp_to_level="5000000"
 	icon="gunsmithing" description_key="craftSkillGunsDesc" title_key="craftSkillGuns" group="firearms" exp_gain_multiplier="0">
@@ -913,6 +989,10 @@
 			<multiply skill_level="8,9" value="0.0084,0.0067"/>
 			<multiply skill_level="9,10" value="0.0067,0.0053"/>
 		</effect>
+		<!-- MANUX Miner -->
+		<recipe name="minerGeneric" unlock_level="6"/>
+		<recipe name="minerRegularOres" unlock_level="3"/>
+		<recipe name="minerRareOres" unlock_level="7"/>
 	</perk>
 
 	<perk name="electricBasicsPerk" icon="electric_power" description_key="electricBasicsDesc" title_key="electricBasicsName" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="3" group="science">

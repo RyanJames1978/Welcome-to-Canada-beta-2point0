@@ -179,7 +179,8 @@
 			<item name="leatherDuster" prob="0.2"/>
 			<item name="leatherDusterBlack" prob="0.1"/>
 			<item group="hazmatGear" prob="0.1"/>
-			<item name="facialPiercings" prob="0.1"/>
+			<item name="facialPiercings" prob="10"/>
+			<item name="cigar" prob="10"/>
 		</trader_item_group>
 
 		<trader_item_group name="warmClothes">
@@ -500,6 +501,10 @@
 			<item name="snowberryJuice"/>
 			<!-- RJ items -->
 			<item name="rjhotchocolate"/>
+			<item name="monsterEnergy" count="1,6"/>
+			<item name="megaCrush" count="1,6"/>
+			<item name="canCoke" count="1,6"/>
+	        <item name="canMtnDew" count="1,6"/>
 		</trader_item_group>
 
 		<trader_item_group name="landMines" count="1">
@@ -594,6 +599,14 @@
 			<item name="minibikeHandlebars"/>
 			<item name="smallEngine" prob="0.3"/>
 			<item name="shoppingBasketItem" prob="0.3"/>
+			<!-- MANUX's HellGoat Bike --> 
+			<item name="hellGoatBikeChassis" prob="0.04"/>
+			<!-- MANUX Custom Vehicles -->
+			<item name="proBikeWheels" prob="0.2"/>
+			<item name="robustBikeChassis" prob="0.05"/>
+			<item name="proBikeSeat" prob="0.2"/>
+			<item name="proBikeHandlebars" prob="0.1"/>
+			<item name="bigEngine" prob="0.05"/>
 		</trader_item_group>
 
 		<trader_item_group name="workstations" count="1">
@@ -718,6 +731,8 @@
 			<item name="motionsensor" count="1,2" prob="1.0"/>
 			<item name="speaker" count="1,2" prob="1.0"/>
 			<item name="switch" count="3,9" prob="1.0"/>
+			<!-- MANUX Miner -->
+			<item name="minerGeneric" count="1" prob="0.1"/>
 		</trader_item_group>
 
 		<trader_item_group name="stashOnlyItemsLow" count="2">
@@ -735,6 +750,16 @@
 			<item name="batterybankSchematic" count="1" prob="0.5"/>
 			<item name="autoTurret" count="1,2" prob="0.5"/>
 			<item name="shotgunTurret" count="1,3" prob="0.7"/>
+			<!-- MANUX Custom Vehicles -->
+			<item name="proBikeWheels" prob="1"/>
+			<item name="robustBikeChassis" prob="0.5"/>
+			<item name="proBikeSeat" prob="1"/>
+			<item name="proBikeHandlebars" prob="0.7"/>
+			<item name="bigEngine" prob="0.5"/>
+			<!-- MANUX's HellGoat Bike --> 
+			<item name="hellGoatBikeChassis" prob="0.4"/>
+			<!-- MANUX Miner -->
+			<item name="minerGeneric" count="1"/>
 		</trader_item_group>
 
 	</trader_item_groups>
@@ -840,16 +865,16 @@
 	<!-- Vending Machines found in the world. -->
 	<trader_info id="4" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="6" max_inventory="13" min_items_swapped="6" max_items_swapped="13">
 		<trader_items count="10">
-			<item name="bottledWater" count="10,100"/>
-			<item name="goldenRodTea" count="1,2"/>
-			<item name="redTea" count="1,2"/>
-			<item name="coffee" count="30,40"/>
-			<item name="rjhotchocolate" count="30,40"/>
-			<item name="beer" count="12,24"/>
-			<item name="canMiso" count="1,2"/>
-			<item name="canPasta" count="1,2"/>
-			<item name="canSoup" count="1,2"/>
-			<item name="rjcheese" count="1,2"/>
+			<item name="bottledWater" count="1,25"/>
+			<item name="goldenRodTea" count="1,12"/>
+			<item name="redTea" count="1,12"/>
+			<item name="coffee" count="3,4"/>
+			<item name="rjhotchocolate" count="3,4"/>
+			<item name="beer" count="2,12"/>
+			<item name="monsterEnergy" count="1,6"/>
+			<item name="megaCrush" count="1,6"/>
+			<item name="canCoke" count="1,6"/>
+	        <item name="canMtnDew" count="1,6"/>
 		</trader_items>
 	</trader_info>
 

@@ -130,17 +130,28 @@
 
 
 <!-- base stamina regen = 0.4 /s -->
-<buff id="CoffeeStaminaBoost" duration="180" stack="extend" type="staminaup" icon="ui_game_symbol_coffee"
+<buff id="CoffeeStaminaBoost" duration="350" stack="extend" type="staminaup" icon="ui_game_symbol_coffee"
 	name_key="caffeineBuzz" description_key="caffeineBuzzDesc" tooltip_key="caffeineBuzzTooltip" causes="coffee">
 	<modify id="0" stat="stamina" amount="2" rate="1"/>
 	<modify id="1" stat="coretemp" modifyValue="10"/>
 	<modify id="2" stat="speedmodifier" mulValue="1.05"/>
 </buff>
 
-<buff id="megaCrushBuff" duration="60" stack="extend" type="staminaup" icon="ui_game_symbol_run"
-	name_key="megaCrushBuffName" description_key="megaCrushBuffDesc" tooltip_key="megaCrushBuffTooltip" causes="megaCrush">
+<buff id="megaCrushBuff" duration="400" stack="extend" type="staminaup" icon="ui_game_symbol_run"
+	name_key="monsterEnergyBuffName" description_key="monsterEnergyBuffDesc" tooltip_key="monsterEnergyBuffTooltip" causes="megaCrush">
 	<modify id="0" stat="stamina" amount="10" rate="1"/>
 	<modify id="1" stat="speedmodifier" mulValue="1.3"/>
+</buff>
+<!-- RJ monster buff -->
+<buff id="monsterEnergyBuff" duration="600" stack="extend" type="staminaup" icon="ui_game_symbol_run"
+	name_key="megaCrushBuffName" description_key="megaCrushBuffDesc" tooltip_key="megaCrushBuffTooltip" causes="monsterEnergy">
+	<modify id="0" stat="stamina" amount="10" rate="1"/>
+	<modify id="1" stat="speedmodifier" mulValue="1.3"/>
+</buff>
+<!-- RJ softdrinks -->
+<buff id="softDrinkBuff" duration="60" stack="extend" type="staminaup" icon="ui_game_symbol_run"
+	name_key="softDrinkBuffName" description_key="softDrinkBuffDesc" tooltip_key="softDrinkBuffTooltip" causes="monsterEnergy">
+	<modify id="0" stat="stamina" amount="1" rate="1"/>
 </buff>
 
 <buff id="yuccaJuiceCooling" duration="180" stack="extend" type="staminaup" icon="ui_game_symbol_tea"
@@ -492,7 +503,7 @@ actions="debuff(burningSmall);attach(ParticleEffects/p_onFire, @impact);damage(0
 </buff>
 
 <!-- RJ Evil Weapons Buff -->
-<buff id="evilBuff" duration="10" stack="reset" actions="damage(0,1,0,1);damage(0,3,0,0)" type="bleeding" icon="ui_game_symbol_zombie" name_key="evilBuff" description_key="evilBuffDesc" tooltip_key="evilBuffTooltip">
+<buff id="evilBuff" duration="10" stack="reset" actions="damage(0,1,0,1);damage(0,3,0,0)" type="bleeding" icon="ui_game_symbol_death" name_key="evilBuff" description_key="evilBuffDesc" tooltip_key="evilBuffTooltip">
 	<modify id="0" stat="stamina" amount="-15" rate="1"/>
 	<modify id="1" stat="health" amount="-15" rate="1"/>
 </buff>

@@ -1,10 +1,11 @@
 <xui>
-	<ruleset name="default" scale="1.255" stackpanel_scale="1.05">
+	<!-- Vanilla <ruleset name="default" scale="1.255" stackpanel_scale="1.05"> -->
+	<ruleset name="default" scale="1.05" stackpanel_scale="0.90">
 	
 		<window_group name="crafting" controller="XUiC_CraftingWindowGroup">
 			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
+			<window name="craftingInfoPanel"/><!-- <window name="windowCraftingQueue"/> -->
+			<window name="S420windowCraftingQueue"/>
 		</window_group>
 		
 		<window_group name="character" controller="XUiC_CharacterSheetWindowGroup">
@@ -16,29 +17,29 @@
 		
 		<window_group name="workstation_campfire" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
+			<window name="craftingInfoPanel"/><!-- <window name="windowCraftingQueue"/> -->
+			<window name="S420windowCraftingQueue"/>
 			<window name="windowToolsCampfire" />
-			<window name="windowFuel" />
-			<window name="windowOutput" />
+			<window name="windowFuel" /><!-- <window name="windowOutput" /> -->
+			<window name="S420windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
 		<window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
+			<window name="craftingInfoPanel"/><!-- <window name="windowCraftingQueue"/> -->
+			<window name="S420windowCraftingQueue"/>
 			<window name="windowToolsForge" />
-			<window name="windowFuel" />
-			<window name="windowForgeInput" />
-			<window name="windowOutput" />
+			<window name="windowFuel" /><!-- <window name="windowForgeInput" /> --> 
+			<window name="S420windowForgeInput" /><!-- <window name="windowOutput" /> -->
+			<window name="S420windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
 		<window_group name="workstation_cementMixer" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
+			<window name="craftingInfoPanel"/><!-- <window name="windowCraftingQueue"/> -->
+			<window name="S420windowCraftingQueue"/>
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>		
@@ -46,32 +47,33 @@
 		<window_group name="workstation_workbench" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
-			<window name="windowOutput" />
+			<window name="windowCraftingQueue"/><!-- <window name="windowOutput" /> -->
+			<window name="S420windowOutput" />
 			<window name="windowNonPagingHeader" />
 			<window name="windowCombine" />
 		</window_group>		
 		<!-- RJ Advanced Workbench -->
 		<window_group name="workstation_AdvancedWorkbench" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
-			<window name="windowToolsAdvancedWorkbench" />
-			<window name="windowOutput" />
+			<window name="craftingInfoPanel"/><!-- <window name="windowCraftingQueue"/> -->
+			<window name="S420windowCraftingQueue"/>
+			<window name="windowToolsAdvancedWorkbench" /><!-- <window name="windowOutput" /> -->
+			<window name="S420windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>		
 
 		<window_group name="workstation_chemistryStation" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
-			<window name="craftingInfoPanel"/>
-			<window name="windowCraftingQueue"/>
-			<window name="windowFuel" />
-			<window name="windowOutput" />
+			<window name="craftingInfoPanel"/><!-- <window name="windowCraftingQueue"/> -->
+			<window name="S420windowCraftingQueue"/>
+			<window name="windowFuel" /><!-- <window name="windowOutput" /> -->
+			<window name="S420windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
 		<window_group name="looting" left_panel_valign_top="false" controller="XUiC_LootWindowGroup">
-			<window name="windowLooting"/>
+			<!-- <window name="windowLooting"/> -->
+			<window name="S420windowLooting"/>
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
@@ -130,10 +132,14 @@
 		</window_group>
 		
 		<window_group name="vehicle" controller="XUiC_VehicleWindowGroup">
-			<window name="windowVehicle"/>
+			<!-- <window name="windowVehicle"/>
 			<window name="windowNonPagingHeader" />
 			<window name="windowVehicleStats" />
-			<window name="windowVehicleStorage" />
+			<window name="windowVehicleStorage" /> -->
+			<window name="S420windowVehicle"/>
+			<window name="S420windowNonPagingHeader" />
+			<window name="S420windowVehicleStats" />
+			<window name="S420windowVehicleStorage" />
 		</window_group>
 		
 		<window_group name="windowpaging" actionSet="false">
