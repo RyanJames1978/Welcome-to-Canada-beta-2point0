@@ -12737,7 +12737,7 @@
 			  <property name="DismembermentBaseChance" value=".4,.4"/>
 			  <property name="DismembermentBonus" value="0.00048,0.00048"/>
 			</property>			
-			
+	</item>				
 <item id="1639" name="deerAntlers">
 	<property name="CustomIcon" value="deerAntlersIcon"/>
 	<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
