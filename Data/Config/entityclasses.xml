@@ -1774,22 +1774,7 @@
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="4"/>
 </entity_class>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- #################### END ANIMALS ############### -->
-
 
 <!-- VEHICLES -->
 <entity_class name="supplyPlane">
