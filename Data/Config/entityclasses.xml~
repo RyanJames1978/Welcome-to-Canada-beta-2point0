@@ -1774,7 +1774,22 @@
 	<drop event="Harvest" name="femur" tool_category="Butcher" count="4"/>
 </entity_class>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- #################### END ANIMALS ############### -->
+
 
 <!-- VEHICLES -->
 <entity_class name="supplyPlane">
@@ -1857,8 +1872,8 @@
 <!-- RJ Drop New Backpack -->
 
 <entity_class name="Backpack">
-	<property name="Mesh" value="LootContainers/backpack_droppedPrefab"/>
-	<!-- <property name="Model" value="#backpacks?backpackLyingDownPrefab"/> -->
+	<!-- <property name="Mesh" value="LootContainers/backpack_droppedPrefab"/> -->
+	<property name="Model" value="#backpacks?backpackLyingDownPrefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityBackpack"/>
@@ -2136,7 +2151,6 @@
 	<property name="IsEnemyEntity" value="true"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="Class" value="AnimationSDX, Mods"/>
-	<property name="Prefab" value="NPC"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="HasRagdoll" value="false"/>
 	<property name="MaxHealth" value="1000"/>
