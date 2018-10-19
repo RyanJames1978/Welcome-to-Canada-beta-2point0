@@ -599,14 +599,15 @@
 			<item name="minibikeHandlebars"/>
 			<item name="smallEngine" prob="0.3"/>
 			<item name="shoppingBasketItem" prob="0.3"/>
-			<!-- MANUX's HellGoat Bike --> 
-			<item name="hellGoatBikeChassis" prob="0.04"/>
-			<!-- MANUX Custom Vehicles -->
-			<item name="proBikeWheels" prob="0.2"/>
-			<item name="robustBikeChassis" prob="0.05"/>
-			<item name="proBikeSeat" prob="0.2"/>
-			<item name="proBikeHandlebars" prob="0.1"/>
-			<item name="bigEngine" prob="0.05"/>
+	<!-- MANUX Custom Vehicles -->
+	        <!-- <item name="proBikeWheels" prob="0.05"/>
+	        <item name="robustBikeChassis" prob="0.05"/>
+	        <item name="proBikeSeat" prob="0.075"/>
+	        <item name="proBikeHandlebars" prob="0.05"/>
+	        <item name="bigEngine" prob="0.05"/>
+	        <item name="hellGoatBikeChassis" prob="0.04"/> -->
+	         <item name="quadChassis"/>
+	<!-- END MANUX Vehicles -->
 		</trader_item_group>
 
 		<trader_item_group name="workstations" count="1">
@@ -750,14 +751,15 @@
 			<item name="batterybankSchematic" count="1" prob="0.5"/>
 			<item name="autoTurret" count="1,2" prob="0.5"/>
 			<item name="shotgunTurret" count="1,3" prob="0.7"/>
-			<!-- MANUX Custom Vehicles -->
-			<item name="proBikeWheels" prob="1"/>
-			<item name="robustBikeChassis" prob="0.5"/>
-			<item name="proBikeSeat" prob="1"/>
-			<item name="proBikeHandlebars" prob="0.7"/>
-			<item name="bigEngine" prob="0.5"/>
-			<!-- MANUX's HellGoat Bike --> 
-			<item name="hellGoatBikeChassis" prob="0.4"/>
+	<!-- MANUX Custom Vehicles -->
+	        <!-- <item name="proBikeWheels" prob="0.05"/>
+	        <item name="robustBikeChassis" prob="0.05"/>
+	        <item name="proBikeSeat" prob="0.075"/>
+	        <item name="proBikeHandlebars" prob="0.05"/>
+	        <item name="bigEngine" prob="0.05"/>
+	        <item name="hellGoatBikeChassis" prob="0.04"/> -->
+	         <item name="quadChassis"/>
+	<!-- END MANUX Vehicles -->
 			<!-- MANUX Miner -->
 			<item name="minerGeneric" count="1"/>
 		</trader_item_group>

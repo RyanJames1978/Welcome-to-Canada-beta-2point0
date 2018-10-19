@@ -1242,16 +1242,52 @@
 	</property>
 </item>
 
+<!-- The Herp -->
 <item id="88" name="handZombieStripper">
 	<property name="Extends" value="handMaster"/>
 	<property name="CreativeMode" value="None"/>
 	<property class="Action0">
-		<property name="DamageEntity" value="8"/>
-		<property name="Buff" value="bleeding,infection,stunned"/>
-		<property name="Buff_chance" value="0.02,0.2,0.1"/>
+		<property name="DamageEntity" value="4"/>
+		<property name="Delay" value="0.4"/>
+		<property name="Buff" value="theHerp"/>
+		<property name="Buff_chance" value="1"/>
+	</property>
+	<property class="Action1"> <!-- Puke -->
+		<property name="Class" value="Vomit"/>
+		<property name="Delay" value="0.35"/>
+		<property name="Range" value="200"/>
+		<property name="Auto_fire" value="true"/>
+		<property name="Infinite_ammo" value="true"/>
+		<property name="Magazine_items" value="puckBunnyVomit"/>
+		<property name="Rays_spread" value="0.5"/>
+		<property name="Reload_time" value="2"/>
+		<property name="Bullet_icon" value="uzi"/>
+		<property name="Sound_warning" value="hulkvomitwarning"/>
+		<property name="Sound_start" value="hulkvomitattack"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_reload" value=""/>
+		<property name="Buff" value="theHerp"/>
+		<property name="Buff_chance" value="1"/>
 	</property>
 </item>
-
+<item id="158" name="puckBunnyVomit">
+	<property name="Meshfile" value="Items/Weapons/Ranged/Vomit/vomitBulbPrefab"/>
+	<property name="Material" value="organic"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="DamageEntity" value="0.1"/>
+		<property name="DamageBlock" value="0.001"/>
+		<property name="Explosion.ParticleIndex" value="7"/>
+		<property name="Velocity" value="20"/>
+		<property name="FlyTime" value="0.50"/>
+		<property name="LifeTime" value="1"/>
+		<property name="CollisionRadius" value="0.5"/>
+		<property name="DamageBonus.earth" value="0"/>
+	</property>
+</item>
 <item id="89" name="handZombieBurningCrawler">
 	<property name="Extends" value="handMaster"/>
 	<property name="CreativeMode" value="None"/>
@@ -11847,6 +11883,7 @@
 <!-- MANUX's Quad --> 
 			<item id="1615" name="quadChassis">
 				<property name="Extends" value="minibikeChassis"/>
+				<property name="DescriptionKey" value="quadDesc"/>
 				<property name="Meshfile" value="#Quad?QuadChassisPrefab" />
 				<property class="Action1">
 					<property name="Class" value="SpawnCustomVehicle, Mods" />
@@ -12760,62 +12797,62 @@
 				</property>
 </item>
 <item id="1641" name="helicopterBullet">
-				<property name="Meshfile" value="Items/Weapons/Ranged/HuntingRifle/762mm_bulletPrefab" />
-				<property name="Material" value="metal" />
-				<property name="HoldType" value="21" />
-				<property name="Stacknumber" value="1000" />
-				<property class="Attributes">
-					<property name="GetQualityFromWeapon" value="true" />
-					<property name="EntityDamage" value="40,80" />
-					<property name="BlockDamage" value="50,100" />
-				</property>
-				<property class="Action1">
-					<property name="Class" value="Projectile" />
-					<property name="Explosion.ParticleIndex" value="0" />
-					<property name="Velocity" value="250" />
-					<property name="FlyTime" value="5" />
-					<property name="LifeTime" value="5" />
-					<property name="Particles_muzzle_fire" value="nozzleflash_ak" />
-					<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
-				</property>
-				<property name="CraftingSkillGroup" value="craftSkillGuns" />
-				<property name="EconomicValue" value="30" />
-				<property name="Group" value="Ammo/Weapons" />
+		<property name="Meshfile" value="Items/Weapons/Ranged/HuntingRifle/762mm_bulletPrefab" />
+		<property name="Material" value="metal" />
+		<property name="HoldType" value="21" />
+		<property name="Stacknumber" value="1000" />
+		<property class="Attributes">
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="EntityDamage" value="40,80" />
+			<property name="BlockDamage" value="50,100" />
+		</property>
+		<property class="Action1">
+			<property name="Class" value="Projectile" />
+			<property name="Explosion.ParticleIndex" value="0" />
+			<property name="Velocity" value="250" />
+			<property name="FlyTime" value="5" />
+			<property name="LifeTime" value="5" />
+			<property name="Particles_muzzle_fire" value="nozzleflash_ak" />
+			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
+		</property>
+		<property name="CraftingSkillGroup" value="craftSkillGuns" />
+		<property name="EconomicValue" value="30" />
+		<property name="Group" value="Ammo/Weapons" />
 </item>
 <item id="1642" name="helicopterRocket">
-				<property name="Meshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketPrefab" />
-				<property name="HandMeshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketHandPrefab" />
-				<property name="Material" value="metal" />
-				<property name="HoldType" value="3" />
-				<property name="Stacknumber" value="20" />
-				<!-- STK explosives -->
-				<property name="EconomicValue" value="1000" />
-				<property class="Attributes">
-					<property name="FalloffRange" value="250,400" />
-					<property name="GetQualityFromWeapon" value="true" />
-					<property name="EntityDamage" value="250,500" />
-					<property name="BlockDamage" value="50,200" />
-					<!-- this is not working yet, it uses damage from Action1 -->
-				</property>
-				<property class="Action1">
-					<property name="Class" value="Projectile" />
-					<property name="Explosion.ParticleIndex" value="4" />
-					<!-- which Prefab/particle is used -->
-					<property name="Explosion.RadiusBlocks" value="20" />
-					<!-- damage radius for blocks -->
-					<property name="Explosion.BlockDamage" value="1000" />
-					<!-- damage for blocks in the center of the explosion -->
-					<property name="Explosion.RadiusEntities" value="10" />
-					<!-- damage radius for entities -->
-					<property name="Explosion.EntityDamage" value="1000" />
-					<!-- damage for entities in the center of the explosion. Zombies take 2x this damage. -->
-					<property name="Explosion.BlastPower" value="200" />
-					<property name="Velocity" value="50" />
-					<property name="FlyTime" value="12" />
-					<property name="LifeTime" value="12" />
-				</property>
-				<property name="CraftingSkillGroup" value="craftSkillScience" />
-				<property name="Group" value="Ammo/Weapons" />
+		<property name="Meshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketPrefab" />
+		<property name="HandMeshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketHandPrefab" />
+		<property name="Material" value="metal" />
+		<property name="HoldType" value="3" />
+		<property name="Stacknumber" value="20" />
+		<!-- STK explosives -->
+		<property name="EconomicValue" value="1000" />
+		<property class="Attributes">
+			<property name="FalloffRange" value="250,400" />
+			<property name="GetQualityFromWeapon" value="true" />
+			<property name="EntityDamage" value="250,500" />
+			<property name="BlockDamage" value="50,200" />
+			<!-- this is not working yet, it uses damage from Action1 -->
+		</property>
+		<property class="Action1">
+			<property name="Class" value="Projectile" />
+			<property name="Explosion.ParticleIndex" value="4" />
+			<!-- which Prefab/particle is used -->
+			<property name="Explosion.RadiusBlocks" value="20" />
+			<!-- damage radius for blocks -->
+			<property name="Explosion.BlockDamage" value="1000" />
+			<!-- damage for blocks in the center of the explosion -->
+			<property name="Explosion.RadiusEntities" value="10" />
+			<!-- damage radius for entities -->
+			<property name="Explosion.EntityDamage" value="1000" />
+			<!-- damage for entities in the center of the explosion. Zombies take 2x this damage. -->
+			<property name="Explosion.BlastPower" value="200" />
+			<property name="Velocity" value="50" />
+			<property name="FlyTime" value="12" />
+			<property name="LifeTime" value="12" />
+		</property>
+		<property name="CraftingSkillGroup" value="craftSkillScience" />
+		<property name="Group" value="Ammo/Weapons" />
 </item>
 
 <!-- RJ Chips - old dutch ketchup, dill pickle, all dressed - Zesty Mordant -->

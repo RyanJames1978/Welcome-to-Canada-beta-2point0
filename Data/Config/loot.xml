@@ -1200,13 +1200,14 @@
 
 <lootgroup name="rareAutomotive">
     <!-- MANUX Custom Vehicles -->
-	<item name="proBikeWheels" prob="0.05"/>
+	<!-- <item name="proBikeWheels" prob="0.05"/>
 	<item name="robustBikeChassis" prob="0.05"/>
 	<item name="proBikeSeat" prob="0.075"/>
 	<item name="proBikeHandlebars" prob="0.05"/>
 	<item name="bigEngine" prob="0.05"/>
-	<!-- MANUX's HellGoat Bike --> 
-	<item name="hellGoatBikeChassis" prob="0.04"/>
+	<item name="hellGoatBikeChassis" prob="0.04"/> -->
+	<item name="quadChassis"/>
+	<!-- END MANUX Vehicles -->
 	<item name="smallEngine"/>
 	<item group="motorToolParts" count="1" prob="5"/>
 	<item name="minibikeWheels"/>
@@ -1540,13 +1541,14 @@
 
 <lootgroup name="ZombieUtilityWorker">
 <!-- MANUX Custom Vehicles -->
-	<item name="proBikeWheels" prob="0.05"/>
+	<!-- <item name="proBikeWheels" prob="0.05"/>
 	<item name="robustBikeChassis" prob="0.05"/>
 	<item name="proBikeSeat" prob="0.075"/>
 	<item name="proBikeHandlebars" prob="0.05"/>
 	<item name="bigEngine" prob="0.05"/>
-<!-- MANUX's HellGoat Bike --> 
-	<item name="hellGoatBikeChassis" prob="0.04"/>
+	<item name="hellGoatBikeChassis" prob="0.04"/> -->
+	<item name="quadChassis"/>
+	<!-- END MANUX Vehicles -->
 	<item group="shirtLongAll"/>
 	<item group="pantsAll"/>
 	<item group="denimShortsPantsAll"/>
@@ -1584,13 +1586,14 @@
 
 <lootgroup name="minibikeParts">
 <!-- MANUX Custom Vehicles -->
-	<item name="proBikeWheels" prob="0.05"/>
+	<!-- <item name="proBikeWheels" prob="0.05"/>
 	<item name="robustBikeChassis" prob="0.05"/>
 	<item name="proBikeSeat" prob="0.075"/>
 	<item name="proBikeHandlebars" prob="0.05"/>
 	<item name="bigEngine" prob="0.05"/>
-<!-- MANUX's HellGoat Bike --> 
-	<item name="hellGoatBikeChassis" prob="0.04"/>
+	<item name="hellGoatBikeChassis" prob="0.04"/> -->
+	<item name="quadChassis"/>
+	<!-- END MANUX Vehicles -->
 	<item name="minibikeChassis"/>
 	<item name="minibikeSeat"/>
 	<item name="minibikeHandlebars"/>
@@ -1821,13 +1824,14 @@
 	<item name="nail" count="1,40" prob="3"/>
 	<item name="rjbolts" count="1,40" prob="1"/>
 	<!-- MANUX Custom Vehicles -->
-	<item name="proBikeWheels" prob="0.1"/>
-	<item name="robustBikeChassis" prob="0.1"/>
-	<item name="proBikeSeat" prob="0.1"/>
-	<item name="proBikeHandlebars" prob="0.1"/>
-	<item name="bigEngine" prob="0.1"/>
-	<!-- MANUX's HellGoat Bike --> 
-	<item name="hellGoatBikeChassis" prob="0.1"/>
+	<!-- <item name="proBikeWheels" prob="0.05"/>
+	<item name="robustBikeChassis" prob="0.05"/>
+	<item name="proBikeSeat" prob="0.075"/>
+	<item name="proBikeHandlebars" prob="0.05"/>
+	<item name="bigEngine" prob="0.05"/>
+	<item name="hellGoatBikeChassis" prob="0.04"/> -->
+	<item name="quadChassis"/>
+	<!-- END MANUX Vehicles -->
 </lootcontainer>
 
 <!-- tree hollowed stump, place where people stash things, -->
@@ -2161,13 +2165,14 @@
     <item name="50dollars" count="1,2" prob="0.1"/>
     <item name="100dollars" count="10,50" prob="0.05"/>
     <!-- MANUX Custom Vehicles -->
-	<item name="proBikeWheels" prob="0.1"/>
-	<item name="robustBikeChassis" prob="0.1"/>
-	<item name="proBikeSeat" prob="0.15"/>
-	<item name="proBikeHandlebars" prob="0.1"/>
-	<item name="bigEngine" prob="0.1"/>
-	<!-- MANUX's HellGoat Bike --> 
-	<item name="hellGoatBikeChassis" prob="0.09"/>
+	<!-- <item name="proBikeWheels" prob="0.05"/>
+	<item name="robustBikeChassis" prob="0.05"/>
+	<item name="proBikeSeat" prob="0.075"/>
+	<item name="proBikeHandlebars" prob="0.05"/>
+	<item name="bigEngine" prob="0.05"/>
+	<item name="hellGoatBikeChassis" prob="0.04"/> -->
+	<item name="quadChassis"/>
+	<!-- END MANUX Vehicles -->
 	<!-- MANUX Miner -->
 	<item name="minerGeneric" prob="0.25"/>
 </lootcontainer>
@@ -2301,13 +2306,14 @@
 	<item name="minibikeHandlebars" prob="0.4"/>
 	<item name="smallEngine" prob="0.3"/>
 	<!-- MANUX Custom Vehicles -->
-	<item name="proBikeWheels" prob="0.05"/>
+	<!-- <item name="proBikeWheels" prob="0.05"/>
 	<item name="robustBikeChassis" prob="0.05"/>
 	<item name="proBikeSeat" prob="0.075"/>
 	<item name="proBikeHandlebars" prob="0.05"/>
 	<item name="bigEngine" prob="0.05"/>
-	<!-- MANUX's HellGoat Bike --> 
-	<item name="hellGoatBikeChassis" prob="0.04"/>
+	<item name="hellGoatBikeChassis" prob="0.04"/> -->
+	<item name="quadChassis"/>
+	<!-- END MANUX Vehicles -->
 </lootcontainer>
 
 <!-- ZombieStripper -->
@@ -3298,6 +3304,11 @@
 	<item name="cntTrailerBoxJeans" prob="1"/>
 	<item name="cntTrailerBoxSpam" prob="1"/>
 	<item name="cntTrailerBox1337" prob="0.0003"/>
+</lootcontainer>
+
+<!-- RJ downed chopper -->
+<lootcontainer id="174" count="1" size="3,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="300" loot_quality_template="treasureTemplate">
+	<item name="helicopterChassis" count="1" prob="1"/>
 </lootcontainer>
 
 

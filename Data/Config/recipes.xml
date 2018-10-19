@@ -1736,6 +1736,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="shortMetalPipe" count="15"/>
 	<ingredient name="smallEngine" count="3"/>
 </recipe>
+<recipe name="quadChassis" count="1" craft_area="AdvancedWorkbench" craft_tool="powerHammer" craft_time="1200">
+	<ingredient name="forgedSteel" count="40"/>
+	<ingredient name="scrapLead" count="50"/>
+	<ingredient name="mechanicalParts" count="30"/>
+	<ingredient name="spring" count="20"/>
+	<ingredient name="oil" count="10"/>
+</recipe>
+<!-- DISABLED FOR NOW
 <recipe name="robustBikeChassis" count="1" craft_area="AdvancedWorkbench" craft_tool="powerHammer" craft_time="1200">
 	<ingredient name="forgedSteel" count="40"/>
 	<ingredient name="scrapLead" count="50"/>
@@ -1760,6 +1768,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="proBikeWheels" count="1" craft_area="AdvancedWorkbench">
 	<ingredient name="rubberMulch" count="20"/>
 </recipe>
+-->
 
 <!-- MANUX Miner -->
 <recipe name="minerGeneric" count="1" craft_area="AdvancedWorkbench" craft_time="3200">

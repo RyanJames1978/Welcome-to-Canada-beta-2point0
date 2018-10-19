@@ -75,6 +75,8 @@
 
 <!-- #### ZOMBIES #### -->
 <entity_class name="zombieTemplateMale">
+    <property name="ParticleOnSpawn" value="ParticleEffects/p_breath" param1="SetShapeToMesh0"/>
+    <!-- <property name="ParticleOffset" value="0.5,0,0.5"/> -->
 	<property name="EntityType" value="Zombie"/>
 	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
@@ -2305,6 +2307,7 @@
 	</entity_class>
 	<!-- MANUX's Quad -->
 	<entity_class name="quad">
+	    <property name="DescriptionKey" value="quadDesc"/>
 		<property name="Class" value="EntityCustomCar, Mods" />
 		<property name="Parent" value="Cars" />
 		<!--<property name="CameraOffset" value="0.5, 0.1, -5" />-->
