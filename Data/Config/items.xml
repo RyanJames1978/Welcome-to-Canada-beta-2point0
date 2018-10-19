@@ -11682,15 +11682,7 @@
 				</property>
 			</item>
 			
-<!-- MANUX's HellGoat Bike --> 
-			<item id="1606" name="hellGoatBikeChassis">
-				<property name="Extends" value="robustBikeChassis"/>
-				<property name="Meshfile" value="#HellGoatBike?HellGoatBikeChassisPrefab" />
-				<property class="Action1">
-					<property name="Class" value="SpawnCustomVehicle, Mods" />
-					<property name="VehicleToSpawn" value="hellGoatBike"/>
-				</property>
-			</item>
+
 <!-- MANUX's Loader --> 
 			<item id="1607" name="loaderChassis">
 				<property name="Extends" value="minibikeChassis"/>
@@ -11784,10 +11776,10 @@
 					<property name="VehicleTankSize" value="2000, 4000"/>
 				</property>
 			</item>
-			<item id="1611" name="robustBikeChassis">
+			<item id="1606" name="robustBikeChassis">
 				<property name="Extends" value="minibikeChassis"/>
 				<property name="DescriptionKey" value="robustBikeChassisDesc"/>
-				<property name="VehicleSlotType" value="proBikeChassis"/>
+				<property name="VehicleSlotType" value="chassis"/>
 				<!-- spawning HellGoat bike for now -->
 				<property name="Meshfile" value="#HellGoatBike?HellGoatBikeChassisPrefab" />
 				<!--<property name="EconomicValue" value="220"/>-->
@@ -11861,7 +11853,15 @@
 					<property name="VehicleToSpawn" value="quad"/>
 				</property>
 			</item>			
-			
+<!-- MANUX's HellGoat Bike --> 
+			<item id="1611" name="hellGoatBikeChassis">
+				<property name="Extends" value="robustBikeChassis"/>
+				<property name="Meshfile" value="#HellGoatBike?HellGoatBikeChassisPrefab" />
+				<property class="Action1">
+					<property name="Class" value="SpawnCustomVehicle, Mods" />
+					<property name="VehicleToSpawn" value="hellGoatBike"/>
+				</property>
+</item>			
 			
 			
 <!-- MANUX Survivors And Bandits -->
