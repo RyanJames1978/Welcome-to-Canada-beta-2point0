@@ -11682,9 +11682,41 @@
 				</property>
 			</item>
 			
-
+<!-- MANUX Custom Vehicles -->
+			<item id="1607" name="bigEngine">
+				<property name="Extends" value="smallEngine"/>
+				<property name="DescriptionKey" value="bigEngineDesc"/>
+				<property name="Weight" value="200"/>
+				<property name="VehicleSlotType" value="bigEngine"/>
+				<!--<property name="EconomicValue" value="1000"/>-->
+				<property name="EconomicValue" value="5000"/>
+				<property class="Attributes">
+				<!--<property name="DegradationMax" value="1000,6000"/>
+					<property name="VehicleNoise" value="1,0.1"/>
+					<property name="VehicleMaxSpeed" value="5,18"/>
+					<property name="VehicleAcceleration" value="7,14"/>
+					<property name="VehicleMetersPerLiter" value="8,12"/>
+					<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
+					<property name="VehicleStartDelayInSeconds" value="1,0.1"/>
+					<property name="VehicleStartChance" value="0.5,0.99"/>
+					<property name="VehicleTankSize" value="1000, 2000"/>-->
+					<property name="DegradationMax" value="2000,12000"/>
+					<property name="VehicleNoise" value="2,0.2"/>
+					<!--<property name="VehicleMaxSpeed" value="15,54"/>-->
+					<property name="VehicleMaxSpeed" value="60,100"/>				
+					<!--<property name="VehicleAcceleration" value="21,42"/>-->
+					<!--<property name="VehicleAcceleration" value="14,28"/>-->
+					<!--<property name="VehicleAcceleration" value="7,14"/>-->
+					<property name="VehicleAcceleration" value="10.5,21"/>
+					<property name="VehicleMetersPerLiter" value="6,9"/>
+					<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
+					<property name="VehicleStartDelayInSeconds" value="1,0.1"/>
+					<property name="VehicleStartChance" value="0.5,0.99"/>
+					<property name="VehicleTankSize" value="2000, 4000"/>
+				</property>
+			</item>
 <!-- MANUX's Loader --> 
-			<item id="1607" name="loaderChassis">
+			<item id="1608" name="loaderChassis">
 				<property name="Extends" value="minibikeChassis"/>
 				<property name="Meshfile" value="#Loader?LoaderChassisPrefab" />
 				<property class="Action1">
@@ -11692,7 +11724,7 @@
 					<property name="VehicleToSpawn" value="loader"/>
 				</property>
 			</item>
-			<item id="1608" name="loaderHandlebars">
+			<item id="1609" name="loaderHandlebars">
 				<property name="Extends" value="minibikeHandlebars"/>
 				<property name="DescriptionKey" value="loaderHandlebarsDesc"/>
 				<property name="VehicleSlotType" value="loaderHandlebars"/>
@@ -11710,7 +11742,7 @@
 					<property name="DegradationMax" value="2400,12000"/>
 				</property>
 			</item>
-			<item id="1609" name="loaderEngine">
+			<item id="1610" name="loaderEngine">
 				<property name="Extends" value="bigEngine"/>
 				<property name="DescriptionKey" value="loaderEngineDesc"/>
 				<property name="Weight" value="400"/>
@@ -11743,39 +11775,7 @@
 				</property>
 			</item>
 
-<!-- MANUX Custom Vehicles -->
-			<item id="1610" name="bigEngine">
-				<property name="Extends" value="smallEngine"/>
-				<property name="DescriptionKey" value="bigEngineDesc"/>
-				<property name="Weight" value="200"/>
-				<property name="VehicleSlotType" value="bigEngine"/>
-				<!--<property name="EconomicValue" value="1000"/>-->
-				<property name="EconomicValue" value="5000"/>
-				<property class="Attributes">
-				<!--<property name="DegradationMax" value="1000,6000"/>
-					<property name="VehicleNoise" value="1,0.1"/>
-					<property name="VehicleMaxSpeed" value="5,18"/>
-					<property name="VehicleAcceleration" value="7,14"/>
-					<property name="VehicleMetersPerLiter" value="8,12"/>
-					<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
-					<property name="VehicleStartDelayInSeconds" value="1,0.1"/>
-					<property name="VehicleStartChance" value="0.5,0.99"/>
-					<property name="VehicleTankSize" value="1000, 2000"/>-->
-					<property name="DegradationMax" value="2000,12000"/>
-					<property name="VehicleNoise" value="2,0.2"/>
-					<!--<property name="VehicleMaxSpeed" value="15,54"/>-->
-					<property name="VehicleMaxSpeed" value="60,100"/>				
-					<!--<property name="VehicleAcceleration" value="21,42"/>-->
-					<!--<property name="VehicleAcceleration" value="14,28"/>-->
-					<!--<property name="VehicleAcceleration" value="7,14"/>-->
-					<property name="VehicleAcceleration" value="10.5,21"/>
-					<property name="VehicleMetersPerLiter" value="6,9"/>
-					<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
-					<property name="VehicleStartDelayInSeconds" value="1,0.1"/>
-					<property name="VehicleStartChance" value="0.5,0.99"/>
-					<property name="VehicleTankSize" value="2000, 4000"/>
-				</property>
-			</item>
+
 			<item id="1606" name="robustBikeChassis">
 				<property name="Extends" value="minibikeChassis"/>
 				<property name="DescriptionKey" value="robustBikeChassisDesc"/>
