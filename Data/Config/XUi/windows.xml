@@ -806,8 +806,7 @@
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
 	<window name="windowInput" width="228" height="152" anchor="CenterTop" panel="Right" cursor_area="true">
 	<!--#$-IGS END.-$#-->
-		<insertBefore xpath="/windows/window[@name='windowInput']/rect[@on_press='true']">
-			<panel style="header.panel" pos="0,80">
+		<panel style="header.panel" pos="0,80">
 				<sprite style="header.icon" sprite="ui_game_symbol_campfire" />
 				<label style="header.name" text="INPUT" text_key="xuiInput" />
 			</panel>
