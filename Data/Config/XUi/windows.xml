@@ -765,7 +765,6 @@
 			<label style="header.timer"/>
 		</panel> -->
 		
-		<insertBefore xpath="/windows/window[@name='windowFuel']/rect[@name='content']">
 			<panel style="header.panel" pos="0,80">
 				<sprite style="header.icon" sprite="ui_game_symbol_fire" />
 				<label style="header.name" text="FUEL" text_key="xuiFuel" />
