@@ -55,8 +55,7 @@
 				name_key="npc_traderRekt"
 				faction="survivor"
 				greeting_type="nearby" />
-		</append>
-		<append xpath="/npc/factions">
+
 			<!-- MANUX Survivors And Bandits -->
 			<faction name="bandits">
 				<relationship name="bandits" value="neutral"/>
