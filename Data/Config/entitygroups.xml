@@ -349,8 +349,10 @@
 	</entitygroup>
 	
 	<!-- RJ RAD Zombies -->
+    <!--
     <entitygroup name="RADZombiesGroup">
-	</entitygroup>	
+	</entitygroup>
+	-->
 	
 	<!-- RJ RAD Animals -->
     <entitygroup name="RADAnimalGroup">
