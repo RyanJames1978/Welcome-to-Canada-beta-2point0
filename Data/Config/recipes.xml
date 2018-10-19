@@ -1772,7 +1772,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="minerGeneric" count="1" craft_area="AdvancedWorkbench" craft_time="60">
 	<ingredient name="minerRareOres" count="1"/>
 </recipe>
-<recipe name="minerGeneric" count="1" craft_area="AdvancedWorkbench"craft_time="60">
+<recipe name="minerGeneric" count="1" craft_area="AdvancedWorkbench" craft_time="60">
 	<ingredient name="minerRegularOres" count="1"/>
 </recipe>
 <recipe name="minerRareOres" count="1" craft_area="AdvancedWorkbench" craft_time="60">
