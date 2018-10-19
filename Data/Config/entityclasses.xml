@@ -1934,7 +1934,7 @@
 </entity_class>
 <!-- RJ Zombie drop loot sack -->
 <entity_class name="DroppedLootSack">
-	<property name="Mesh" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Mesh" value="LootContainers/backpack_droppedPrefab"/>
 	<property name="ModelType" value="Custom"/>
 	<property name="Prefab" value="Backpack"/>
 	<property name="Class" value="EntityLootContainer"/>
