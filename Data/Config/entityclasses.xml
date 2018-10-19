@@ -2151,6 +2151,7 @@
 	<property name="IsEnemyEntity" value="true"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="Class" value="AnimationSDX, Mods"/>
+	<property name="Prefab" value="NPC"/>
 	<property name="ModelType" value="Standard"/>
 	<property name="HasRagdoll" value="false"/>
 	<property name="MaxHealth" value="1000"/>
