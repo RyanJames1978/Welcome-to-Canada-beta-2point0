@@ -391,7 +391,7 @@
 			<label style="header.name" text="TOOLS" text_key="xuiTools" />
 		</panel>
 		<rect name="content" depth="0" pos="0,34" height="75" disablefallthrough="true" on_press="true">
-			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="cookingPot,cookingGrill,beaker" required_tools_only="true">
+			<grid name="inventory" rows="1" cols="2" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="cookingPot,cookingGrill" required_tools_only="true">
 				<required_item_stack name="0" />
 			</grid>
 			<!-- <grid name="slot_preview" depth="1" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="SlotPreview">
@@ -2611,4 +2611,17 @@
 		</rect>
 	</window>
 	<!-- S420 End -->
+	<!-- RJ Advanced Workstation -->
+	<window name="windowToolsAdvancedWorkbench" width="228" height="234" panel="Right" cursor_area="true" >
+		 <panel style="header.panel" pos="0,80">
+				<sprite style="header.icon" sprite="ui_game_symbol_cookware" />
+				<label style="header.name" text="TOOLS" text_key="xuiTools" />
+			</panel>
+		<rect name="content" depth="0" pos="0,34" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="2" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
+			required_tools="powerHammer,weldingGear,armorForm,grinder,electronicsToolKit,bulletPress" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>
+		</rect>
+	</window>
 </windows>

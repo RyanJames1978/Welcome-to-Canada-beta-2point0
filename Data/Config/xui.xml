@@ -45,6 +45,15 @@
 			<window name="windowNonPagingHeader" />
 			<window name="windowCombine" />
 		</window_group>
+		<!-- RJ Advanced Workbench -->
+		<window_group name="workstation_AdvancedWorkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="S420windowCraftingQueue" />
+			<window name="windowToolsAdvancedWorkbench" />
+			<window name="S420windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>	
 		<window_group name="workstation_chemistryStation" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList" />
 			<window name="craftingInfoPanel" />
