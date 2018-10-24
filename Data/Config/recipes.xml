@@ -1620,77 +1620,65 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="scrapPlastics" count="10" />
 		<ingredient name="forgedIron" count="4" />
 	</recipe>
-	<!-- MANUX's HellGoat Bike -->
-	<recipe name="hellGoatBikeChassis" count="1" craft_area="AdvancedWorkbench" craft_tool="powerHammer" craft_time="1200">
-		<ingredient name="robustBikeChassis" count="1" />
-		<ingredient name="femur" count="20" />
-		<ingredient name="leather" count="10" />
-		<ingredient name="glue" count="10" />
-		<ingredient name="paint" count="500" />
-	</recipe>
-	<!-- MANUX Custom Vehicles -->
-	<recipe name="bigEngine" count="1" craft_area="AdvancedWorkbench" craft_tool="powerHammer" craft_time="1200">
+		<!-- MANUX Custom Vehicles -->
+	<recipe name="bigEngine" count="1" craft_area="workbench" craft_time="1200">
 		<ingredient name="forgedSteel" count="40" />
 		<ingredient name="mechanicalParts" count="30" />
 		<ingredient name="spring" count="20" />
 		<ingredient name="shortMetalPipe" count="15" />
 		<ingredient name="smallEngine" count="3" />
 	</recipe>
-	<recipe name="quadChassis" count="1" craft_area="AdvancedWorkbench" craft_tool="powerHammer" craft_time="1200">
+	<recipe name="robustBikeChassis" count="1" craft_area="workbench" craft_time="1200">
 		<ingredient name="forgedSteel" count="40" />
 		<ingredient name="scrapLead" count="50" />
 		<ingredient name="mechanicalParts" count="30" />
 		<ingredient name="spring" count="20" />
 		<ingredient name="oil" count="10" />
 	</recipe>
-	<!-- DISABLED FOR NOW
-<recipe name="robustBikeChassis" count="1" craft_area="AdvancedWorkbench" craft_tool="powerHammer" craft_time="1200">
-	<ingredient name="forgedSteel" count="40"/>
-	<ingredient name="scrapLead" count="50"/>
-	<ingredient name="mechanicalParts" count="30"/>
-	<ingredient name="spring" count="20"/>
-	<ingredient name="oil" count="10"/>
-</recipe>
-<recipe name="proBikeHandlebars" count="1" craft_area="AdvancedWorkbench" craft_tool="powerHammer" craft_time="600">
-	<ingredient name="partsHandlebars" count="2"/>
-	<ingredient name="ductTape" count="4"/>
-	<ingredient name="headlight" count="2"/>
-	<ingredient name="electricParts" count="10"/>
-	<ingredient name="shortMetalPipe" count="6"/>
-</recipe>
-<recipe name="proBikeSeat" count="1" craft_area="AdvancedWorkbench">
-    <ingredient name="ductTape" count="6"/>
-	<ingredient name="leather" count="12"/>
-	<ingredient name="cottonPlant" count="20"/>
-	<ingredient name="shortMetalPipe" count="6"/>
-    <ingredient name="spring" count="6"/>
-</recipe>
-<recipe name="proBikeWheels" count="1" craft_area="AdvancedWorkbench">
-	<ingredient name="rubberMulch" count="20"/>
-</recipe>
--->
+	<recipe name="proBikeHandlebars" count="1" craft_area="workbench" craft_time="600">
+		<ingredient name="partsHandlebars" count="2" />
+		<ingredient name="ductTape" count="4" />
+		<ingredient name="headlight" count="2" />
+		<ingredient name="electricParts" count="10" />
+		<ingredient name="shortMetalPipe" count="6" />
+	</recipe>
+	<recipe name="proBikeSeat" count="1" craft_area="workbench">
+		<ingredient name="ductTape" count="6" />
+		<ingredient name="leather" count="12" />
+		<ingredient name="cottonPlant" count="20" />
+		<ingredient name="shortMetalPipe" count="6" />
+		<ingredient name="spring" count="6" />
+	</recipe>
+	<!-- MANUX's HellGoat Bike -->
+	<recipe name="hellGoatBikeChassis" count="1" craft_area="workbench" craft_time="1200">
+		<ingredient name="robustBikeChassis" count="1" />
+		<ingredient name="femur" count="20" />
+		<ingredient name="leather" count="10" />
+		<ingredient name="glue" count="10" />
+		<ingredient name="paint" count="500" />
+	</recipe>
 	<!-- MANUX Miner -->
-	<recipe name="minerGeneric" count="1" craft_area="AdvancedWorkbench" craft_time="3200">
+	<recipe name="minerGeneric" count="1" craft_area="workbench" craft_time="3200">
 		<ingredient name="auger" count="1" />
 		<ingredient name="forgedSteel" count="30" />
 		<ingredient name="minibikeWheels" count="1" />
 		<ingredient name="spotlightPlayer" count="1" />
 		<ingredient name="electronicParts" count="15" />
 	</recipe>
-	<recipe name="minerGeneric" count="1" craft_area="AdvancedWorkbench" craft_time="60">
+	<recipe name="minerGeneric" count="1" craft_area="workbench" craft_time="60">
 		<ingredient name="minerRareOres" count="1" />
 	</recipe>
-	<recipe name="minerGeneric" count="1" craft_area="AdvancedWorkbench" craft_time="60">
+	<recipe name="minerGeneric" count="1" craft_area="workbench" craft_time="60">
 		<ingredient name="minerRegularOres" count="1" />
 	</recipe>
-	<recipe name="minerRareOres" count="1" craft_area="AdvancedWorkbench" craft_time="60">
+	<recipe name="minerRareOres" count="1" craft_area="workbench" craft_time="60">
 		<ingredient name="minerGeneric" count="1" />
 		<ingredient name="coal" count="1" />
 		<ingredient name="scrapLead" count="1" />
 		<ingredient name="oilShale" count="1" />
 		<ingredient name="potassiumNitratePowder" count="1" />
 	</recipe>
-	<recipe name="minerRegularOres" count="1" craft_area="AdvancedWorkbench" craft_time="60">
+	<recipe name="minerRegularOres" count="1" craft_area="workbench" craft_time="60">
 		<ingredient name="minerGeneric" count="1" />
 		<ingredient name="rockSmall" count="1" />
 		<ingredient name="dirtFragment" count="1" />
@@ -3989,69 +3977,5 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<!-- ###############################################################################################################  -->
 	<!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->
 	<!-- ###############################################################################################################  -->
-	<!-- MANUX Custom Vehicles -->
-	<recipe name="bigEngine" count="1" craft_area="workbench" craft_time="1200">
-		<ingredient name="forgedSteel" count="40" />
-		<ingredient name="mechanicalParts" count="30" />
-		<ingredient name="spring" count="20" />
-		<ingredient name="shortMetalPipe" count="15" />
-		<ingredient name="smallEngine" count="3" />
-	</recipe>
-	<recipe name="robustBikeChassis" count="1" craft_area="workbench" craft_time="1200">
-		<ingredient name="forgedSteel" count="40" />
-		<ingredient name="scrapLead" count="50" />
-		<ingredient name="mechanicalParts" count="30" />
-		<ingredient name="spring" count="20" />
-		<ingredient name="oil" count="10" />
-	</recipe>
-	<recipe name="proBikeHandlebars" count="1" craft_area="workbench" craft_time="600">
-		<ingredient name="partsHandlebars" count="2" />
-		<ingredient name="ductTape" count="4" />
-		<ingredient name="headlight" count="2" />
-		<ingredient name="electricParts" count="10" />
-		<ingredient name="shortMetalPipe" count="6" />
-	</recipe>
-	<recipe name="proBikeSeat" count="1" craft_area="workbench">
-		<ingredient name="ductTape" count="6" />
-		<ingredient name="leather" count="12" />
-		<ingredient name="cottonPlant" count="20" />
-		<ingredient name="shortMetalPipe" count="6" />
-		<ingredient name="spring" count="6" />
-	</recipe>
-	<!-- MANUX's HellGoat Bike -->
-	<recipe name="hellGoatBikeChassis" count="1" craft_area="workbench" craft_time="1200">
-		<ingredient name="robustBikeChassis" count="1" />
-		<ingredient name="femur" count="20" />
-		<ingredient name="leather" count="10" />
-		<ingredient name="glue" count="10" />
-		<ingredient name="paint" count="500" />
-	</recipe>
-	<!-- MANUX Miner -->
-	<recipe name="minerGeneric" count="1" craft_area="workbench" craft_time="3200">
-		<ingredient name="auger" count="1" />
-		<ingredient name="forgedSteel" count="30" />
-		<ingredient name="minibikeWheels" count="1" />
-		<ingredient name="spotlightPlayer" count="1" />
-		<ingredient name="electronicParts" count="15" />
-	</recipe>
-	<recipe name="minerGeneric" count="1" craft_area="workbench" craft_time="60">
-		<ingredient name="minerRareOres" count="1" />
-	</recipe>
-	<recipe name="minerGeneric" count="1" craft_area="workbench" craft_time="60">
-		<ingredient name="minerRegularOres" count="1" />
-	</recipe>
-	<recipe name="minerRareOres" count="1" craft_area="workbench" craft_time="60">
-		<ingredient name="minerGeneric" count="1" />
-		<ingredient name="coal" count="1" />
-		<ingredient name="scrapLead" count="1" />
-		<ingredient name="oilShale" count="1" />
-		<ingredient name="potassiumNitratePowder" count="1" />
-	</recipe>
-	<recipe name="minerRegularOres" count="1" craft_area="workbench" craft_time="60">
-		<ingredient name="minerGeneric" count="1" />
-		<ingredient name="rockSmall" count="1" />
-		<ingredient name="dirtFragment" count="1" />
-		<ingredient name="crushedSand" count="1" />
-		<ingredient name="clayLump" count="1" />
-	</recipe>
+
 </recipes>
