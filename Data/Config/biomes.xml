@@ -376,6 +376,7 @@ If you do not declare them, the decorations of the main biome are used.
 				<decoration type="block" blockname="cntDeathMarker" prob="0.0001" />
 				<decoration type="block" blockname="cntWreckedChopper" prob="0.00003" />
 				<decoration type="block" blockname="lawnGnome" prob="0.00005" />
+				<!-- Sphereii trees -->
 				<decoration type="block" blockname="WinterBirch2" prob="0.001" rotatemax="7" />
 				<decoration type="block" blockname="WinterBirch3" prob="0.001" rotatemax="7" />
 				<decoration type="block" blockname="WinterBirch" prob="0.001" rotatemax="7" />

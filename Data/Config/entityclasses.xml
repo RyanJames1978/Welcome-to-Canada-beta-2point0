@@ -48,14 +48,6 @@
 		<property name="SoftHands" value="false" />
 		<!-- take a stamina hit for jumping -->
 		<property name="JumpingDrain" value="true" />
-		<!-- <property name="MaxEncumbrance" value="10000" /> -->
-		<property name="UseEncumbrance" value="false" />
-		<!-- Turns on one block crouch -->
-		<property name="OneBlockCrouch" value="true" />
-		<!-- Turns on damage when hitting things with your bare hands -->
-		<property name="SoftHands" value="true" />
-		<!-- take a stamina hit for jumping -->
-		<property name="JumpingDrain" value="true" />
 		<property name="MaxEncumbrance" value="10000" />
 		<property name="UseEncumbrance" value="false" />
 	</entity_class>
@@ -189,18 +181,12 @@
 		<property name="RandomSpeeds" value="true" />
 		<property name="RandomSize" value="true" />
 		<!-- Allows the zombies to go to sleep when idle. -->
-		<property name="IdleSleep" value="false" />
+		<property name="IdleSleep" value="true" />
 		<property name="SleeperPose" value="1" />
 		<!-- Harvest flesh and bone -->
 		<!-- <drop event="Harvest" name="rottingFlesh" count="1,3" prob="1" tool_category="Butcher"/>
 	<drop event="Harvest" name="femur" count="1,2" prob="1" tool_category="Butcher"/> -->
 		<drop event="Harvest" name="cloth" count="1,2" prob="1" tool_category="Butcher" />
-		<property name="HeadShots" value="true" />
-		<property name="RandomSpeeds" value="true" />
-		<property name="RandomSize" value="true" />
-		<!-- Allows the zombies to go to sleep when idle. -->
-		<property name="IdleSleep" value="false" />
-		<property name="SleeperPose" value="1" />
 	</entity_class>
 	<!-- Feral Daryl -->
 	<entity_class name="zombieWightFeral" extends="zombieTemplateMale">
@@ -836,8 +822,6 @@
 		<property name="ReplaceMaterial1" value="entities/zombies/materials/Z_eye1" />
 		<property name="HeadShots" value="false" />
 		<property name="RandomSpeeds" value="false" />
-		<property name="HeadShots" value="true" />
-		<property name="RandomSpeeds" value="true" />
 	</entity_class>
 	<entity_class name="zombieFatCopFeral" extends="zombieFatCop">
 		<property name="HandItem" value="handZombieCopFeral" />
