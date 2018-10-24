@@ -72,6 +72,34 @@ What's changed from Vanilla:
 - Concrete requires buckets of water to mix. You can now use a bucket to pick up snow to use in concrete (since water is ice)
 - New ammo types for crossbow, Rebar bolts. They are heavy and drop fast but if you make it hit, they pack a punch. 
 - Added some goodies for pvp/multiplayer fun and fright. Snowball launcher for all your snowball fight needs. Make rockets filled with beer that will get almost anyone sick drunk. Some of the weapons have devastating buffs to other players and more!
+- Drivable Cars, Appocalyptice Death Cycle, Pro Motor Bike, Jeep, a quad, and a CAT loader that can clear the landscape.
+- Mining robot. Don't want to mine all by yourself, Buy a mining bot. Available now at stuff n things. 
+- New revamped UI. More backpack slots, more minibike storage, more regular storage.. It's a regular storagepalooza up in here. 
+- Bandits and survivors (will be serperate game mode on release)
+- Usable stoves
+- The saw horse workstation ( used for crafting wood frames, ladders, arrows and other wood items on the go! 
+- Unique zombie and animal spawns for biomes
+- More new types of zombies.
+- Wandering traders
+- New food and drinks! Energy drinks, chips, soda, 
+- New trees, flowers, crops, other vegetation
+- Craftable reusable coffee machine and Water cooler. Grab and cup and fill up, when it runs out, fill it back up with water and you are ready to go. 
+- Many new home decorations. 
+- Many exterior decorations
+- Aluminum cans are a thing now
+- Propane and Propane accessories, dangit bobby
+- Usable BBQ. Kiss the cook?
+- New generator workstation
+- Regular grenades added. Question to see if you are paying attention. Should one of the grenades be a smoke grenade or incindiary grenade? I made a canister grenade model, it could be either, or i guess both.. What do you think?
+- Proper bathroom tub and sink
+- Space heater
+- Giant 10000 stone, 5000 clay fountain! It's freaking huge and beautiful. Heads up! 
+- Marijuana and other drugs added
+- I am so buff! But enough about my weight lifting habbits, I created new buffs. lots of them.
+- More alchohol added. Cause you are all a bunch of disgusting drunks. Crown Royal anyone?
+- Gramophone! 
+- Sharks with freaking "lazers" on their heads. Okay not really. 
+- More tributes to great streamers and supporters. Booyah.
 - Sooooooo much more. Get out there and explore! 
 
 Note: Due to the density of the forests, the amount of Zeds spawned, and the fact the zed bodies stay until you get rid of them, This mod can lean towards the resource heavy side of things. I find it runs smoother than some of the big mods out there but regardless, if you find you are experiencing lag then try turning your draw distance settings down in the options in game.
