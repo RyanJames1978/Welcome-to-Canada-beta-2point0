@@ -7,11 +7,11 @@ about: Welcome to Canada is an original 7 days to die mod. You are spawned into 
 
 Download and Install: It is recommend that you use the 7d2d mod launcher to play this mod, you can find the mod in the mod list under "Welcome to Canada". If you are unable to use the mod launcher here is a direct download of the full mod. 
 
-Welcome to Canada 2.0 Full (mirror 1)
+Welcome to Canada 3.0 Full (mirror 1): Not Available Yet
 
 If you are a server admin you will need these files for your server. Players do not need these files.
 
-Welcome to Canada 2.0 Server Files (mirror 1)
+Welcome to Canada 3.0 Server Files (mirror 1): Not Available Yet
 
 
 Game Modes: 
@@ -21,7 +21,7 @@ Romero Edition: A mode based on the zombies from George A. Romero's movies. Must
 
 Game mode install info: 
 mod launcher: simply select and install the version you'd like.
-Full version and Server Version: Follow instructions inside your downloads "RJextra" folder.
+Full version and Server Version: Follow instructions inside the corresponding folder.
 
 
 
@@ -61,9 +61,6 @@ What's changed from Vanilla:
 - Added nuts and bolts to the world. Metal based crafting requires nuts and bolts.
 - Maple syrup, poutine, Canadian bacon, pancakes and more added.
 - Tributes to Twitch streamers
-
-Changes in 2.0: There are too many changes to name them all but here are some of the highlights and the rest can be surprises. 
-
 - SDX added to the mod. This mean new items, weapons, vehicles, and other new models.
 - New opening menu and loading screens
 - Water is now frozen. This opens up some cool options for underground ice palaces. 
@@ -75,7 +72,6 @@ Changes in 2.0: There are too many changes to name them all but here are some of
 - Concrete requires buckets of water to mix. You can now use a bucket to pick up snow to use in concrete (since water is ice)
 - New ammo types for crossbow, Rebar bolts. They are heavy and drop fast but if you make it hit, they pack a punch. 
 - Added some goodies for pvp/multiplayer fun and fright. Snowball launcher for all your snowball fight needs. Make rockets filled with beer that will get almost anyone sick drunk. Some of the weapons have devastating buffs to other players and more!
-- Added SDX mods by Sphereii: ZombieTransmogrifier, CustomCategories, EntityPlayer, TakeAndReplace
 - Sooooooo much more. Get out there and explore! 
 
 Note: Due to the density of the forests, the amount of Zeds spawned, and the fact the zed bodies stay until you get rid of them, This mod can lean towards the resource heavy side of things. I find it runs smoother than some of the big mods out there but regardless, if you find you are experiencing lag then try turning your draw distance settings down in the options in game.
@@ -87,20 +83,21 @@ The Minibike and other Vehicles: Vehicles in Canada need to be warmed up before 
 - Now your bike is warm, go man go! 
 
 
-Want to join the Welcome to Canada beta testers? You can apply here.
+Want to join the Welcome to Canada beta testers? You can apply here: https://discord.gg/r5PgaUk
 
 
-Do you have a question, problem or idea?: I love to help! Join my discord and i'll be happy to talk with you. WTC Discord
+Do you have a question, problem or idea?: I love to help! Join my discord and i'll be happy to talk with you. WTC Discord: https://discord.gg/NyFkM4X
 
 
 
 Updates: I update Welcome to Canada quite often. It's very difficult for me to offer support for outdated version of the mod so Please try to stay up to date! The best way to do this is by checking the box titled "Refresh Mods Automatically" below the "play mod" button on the 7d2d Mod Launcher. 
 
 
-THANK YOU: This mod uses the simple ui by stedman420, thank you stedman420. Big thanks to Fun Pimps and the creators of ravenhearst, tazas grave, cb mod, and wotw for writing code that acted as great examples. Super big thank you to R0C_7, DamStr8gaming, Hk_Kill, Qb1junkie, like_a_boss2016, RizzoMF, MaxFox_Gaming, James_Woods, sunbunnie888, Reclining Gamer, holm-z, SentientOne, Lady_FireHeart, DoctorDirtyDave, Dr Nestle and Mindcrimer for all the help with testing and bug finding! Massive thank you to SphereII for creating such great tools for modding 7d2d. Thanks to HaidrGna and Max Fox! More thanks: Dust2Death
+THANK YOU: This mod uses the simple ui by stedman420, thank you stedman420. Big thanks to Fun Pimps and the creators of ravenhearst, tazas grave, cb mod, and wotw for writing code that acted as great examples. Super big thank you to R0C_7, DamStr8gaming, Hk_Kill, Qb1junkie, like_a_boss2016, RizzoMF, MaxFox_Gaming, James_Woods, sunbunnie888, Reclining Gamer, holm-z, SentientOne, Lady_FireHeart, DoctorDirtyDave, Dr Nestle and Mindcrimer for all the help with testing and bug finding! Massive thank you to SphereII for creating such great tools for modding 7d2d. Thanks to HaidrGna, MANUX, Guppycur, DUST2DEATH, Khaine, Max Fox and More!
 
 SDX MOD LIST:
 - Hundreds of weapons, items, decorations by Ryan James
+- The Holy Hand Grenade of Antioch by Ryan James
 - Animation SDX by Sphereii
 - Guppycur's Blood moon Trickle fix by Guppycur
 - Custom Workstation Categories by Sphereii
