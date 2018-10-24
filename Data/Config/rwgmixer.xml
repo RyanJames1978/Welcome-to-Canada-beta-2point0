@@ -400,6 +400,7 @@
 			<prefab name="cave_03" />
 			<prefab name="cave_04" />
 			<!-- Lets have random Army Camps -->
+			<prefab name="army_barracks_01" />
 			<prefab name="army_camp_01" />
 			<prefab name="army_camp_02" />
 			<prefab name="army_camp_03" />
@@ -429,7 +430,7 @@
 			<prefab name="tree_burntpine_01" />
 			<prefab name="tree_burntpine_02" />
 			<prefab name="tree_burntpine_03" />
-			<prefab name="water_tower_03" />
+			<prefab name="water_tower_03" max_count="1" />
 		</prefab_rule>
 		<prefab_rule name="traderGroup">
 			<prefab name="settlement_trader_01" />
