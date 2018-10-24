@@ -90,7 +90,7 @@ What's changed from Vanilla:
 - Propane and Propane accessories, dangit bobby
 - Usable BBQ. Kiss the cook?
 - New generator workstation
-- Regular grenades added. Question to see if you are paying attention. Should one of the grenades be a smoke grenade or incindiary grenade? I made a canister grenade model, it could be either, or i guess both.. What do you think?
+- Regular grenades added.
 - Proper bathroom tub and sink
 - Space heater
 - Giant 10000 stone, 5000 clay fountain! It's freaking huge and beautiful. Heads up! 
