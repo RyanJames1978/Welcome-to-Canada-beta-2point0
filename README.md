@@ -131,13 +131,13 @@ SDX MOD LIST:
 - Custom Workstation Categories by Sphereii
 - Entity Player by Sphereii
 - Hal's DLL Fixes by HAL9000
-- bad Company Zombies by Bad Company and MANUX
+- Bad Company Zombies by Bad Company and MANUX
 - Bigger Backpack, storage by MANUX
 - Custom Vehicles by MANUX
 - Miner Robot by MANUX
-- Simple UI by Steadman420
+- Simple UI by Stedman420
 - Survivors and Bandits by MANUX inspired by Bad Company
 - Nanite Terrain by StompyNZ
 - Take and Replace by Sphereii
 - Winter Decorations by Sphereii
-- Zombie Transmogrifier
+- Zombie Transmogrifier by Sphereii
