@@ -1,5 +1,12 @@
 <styles>
 	<global>
+		<!-- 	
+			GLOBAL STYLE ENTRIES
+				Any entry in global is accessible by [name] example: value="[white]" 
+				These values are also accessible from window and control xml files 
+				as long as this style file is included in a window file.
+		-->
+		<!--NAMED COLORS-->
 		<style_entry name="limeGreen" value="222,255,163,255" />
 		<style_entry name="tan" value="182,166,123,255" />
 		<style_entry name="beige" value="222,206,163" />
@@ -22,7 +29,9 @@
 		<style_entry name="selectedColor" value="222,206,163" />
 		<style_entry name="hoverColor" value="250,255,163" />
 		<style_entry name="disabledLabelColor" value="160,160,160" />
+		<!--NAMED SPRITES-->
 		<style_entry name="default_sprite" value="menu_empty" />
+		<!--NAMED SOUNDS-->
 		<style_entry name="default_click" value="/UI/ui_menu_click" />
 		<style_entry name="start" value="/UI/ui_menu_start" />
 		<style_entry name="back" value="/UI/ui_menu_back" />
@@ -33,6 +42,7 @@
 		<style_entry name="place_click" value="/Crafting/craft_place_item" />
 		<style_entry name="remove_waypoint" value="/UI/ui_waypoint_delete" />
 	</global>
+	<!--LABELS-->
 	<style type="label">
 		<style_entry name="color" value="[labelColor]" />
 		<style_entry name="font_face" value="AgencyB_32p" />
@@ -52,6 +62,7 @@
 		<style_entry name="width" value="30" />
 		<style_entry name="height" value="30" />
 	</style>
+	<!--SPRITES-->
 	<style type="sprite">
 		<style_entry name="atlas" value="UIAtlas" />
 		<style_entry name="sprite" value="[default_sprite]" />
@@ -87,6 +98,7 @@
 		<style_entry name="height" value="22" />
 		<style_entry name="foregroundlayer" value="true" />
 	</style>
+	<!--BUTTONS-->
 	<style type="button">
 		<style_entry name="atlas" value="UIAtlas" />
 		<style_entry name="sprite" value="[default_sprite]" />
@@ -110,6 +122,7 @@
 		<style_entry name="height" value="22" />
 		<style_entry name="foregroundlayer" value="true" />
 	</style>
+	<!--ITEM STACKS-->
 	<style name="itemStack">
 		<style_entry name="select_color" value="[beige]" />
 		<style_entry name="press_color" value="[limeGreen]" />
@@ -147,6 +160,7 @@
 		<style_entry name="pickup_sound" value="[pickup_click]" />
 		<style_entry name="place_sound" value="[place_click]" />
 	</style>
+	<!--USER INTERACTION-->
 	<style name="press">
 		<style_entry name="on_press" value="true" />
 		<style_entry name="sound" value="[default_click]" />
@@ -194,6 +208,7 @@
 		<style_entry name="anchor_run_once" value="false" />
 		<style_entry name="anchor_offset" value="-68,0" />
 	</style>
+	<!--PAGING WINDOW-->
 	<style name="paging.window" type="window">
 		<style_entry name="pos" value="-310,-9" />
 		<style_entry name="size" value="600,43" />
@@ -202,6 +217,7 @@
 		<style_entry name="select_color" value="[selectedColor]" />
 		<style_entry name="hover_color" value="[lightGrey]" />
 	</style>
+	<!--PAGING WINDOW TITLE-->
 	<style name="paging.window.name" type="label">
 		<style_entry name="depth" value="4" />
 		<style_entry name="font_size" value="36" />
@@ -210,6 +226,7 @@
 		<style_entry name="pos" value="300,-20" />
 		<style_entry name="name" value="lblWindowName" />
 	</style>
+	<!--PAGING WINDOW BACKGROUND-->
 	<style name="paging.window.background.border" type="sprite">
 		<style_entry name="depth" value="0" />
 		<style_entry name="sprite" value="ui_game_header_fill" />
@@ -242,6 +259,7 @@
 		<style_entry name="pos" value="300,-21" />
 		<style_entry name="color" value="[white_half_alpha]" />
 	</style>
+	<!--PAGING WINDOW ICONS-->
 	<style name="paging.window.icon.crafting" type="button">
 		<style_entry name="sound" value="[paging_click]" />
 		<style_entry name="pos" value="31,-21" />

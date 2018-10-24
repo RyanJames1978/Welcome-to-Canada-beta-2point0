@@ -1,12 +1,10 @@
-﻿Key,Source,Context,Changes,English,French,German,Klingon,Spanish
-keystoneBlockDesc,blocks,Block,EnChanged,A Canada Claim block can be placed to protect an area from other players in PVP. The green box shows the size of the area.,Bloc de revendication de terrain à placer pour fournir à la zone autour une protection supplémentaire contre les autres joueurs en JcJ.,Ein Gebietsschutzblock kann platziert werden um einen Bereich vor anderen Spielern im PvP zu schützen. Die grüne Box zeigt die Grösse des Bereichs an.,,Se puede colocar un bloque para reclamar un territorio y darle al área circundante una protección extra frente a otros jugadores en JcJ.
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish
+keystoneBlockDesc,blocks,Block,EnChanged,A land claim block can be placed to protect an area from other players in PVP. The green box shows the size of the area.,Bloc de revendication de terrain à placer pour fournir à la zone autour une protection supplémentaire contre les autres joueurs en JcJ.,Ein Gebietsschutzblock kann platziert werden um einen Bereich vor anderen Spielern im PvP zu schützen. Die grüne Box zeigt die Grösse des Bereichs an.,,Se puede colocar un bloque para reclamar un territorio y darle al área circundante una protección extra frente a otros jugadores en JcJ.
 scrapFrameGroupDesc,blocks,Block,EnChanged,Used for bases. Upgrade & repair with a construction tool & iron. Upgrade more with concrete mix & others.,,Wird für Basen verwendet. Kann mit Eisen und Bauwerkzeugen aufgewertet und repariert werden. Kann mit Betonmischung und geschmiedetem Stahl weiter aufgewertet werden.,,
 scrapHatch_v1Desc,blocks,Block,EnChanged,Press & hold [activate] to lock it or set a combination. Upgrade & repair with iron and a construction tool using the secondary action.,,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit Eisen und Bauwerkzeugen unter Verwendung der sekundären Aktion aufgewertet und repariert werden.,,
 spotlightNailedDownPOI,blocks,Block,EnChanged,Spotlight (POI),Projecteur fixe,Scheinwerfer (POI),,Foco clavado
 woodFrameGroupDesc,blocks,Block,EnChanged,"Used for bases. Upgrade & repair with wood & a construction tool. Upgrade more with iron, concrete mix & others.",,Wird für Basen verwendet. Kann mit Holz und Bauwerkzeugen aufgewertet und repariert werden. Kann unter anderem mit Eisen und Betonmischung weiter aufgewertet werden.,,
 cntCar03SedanDamage0,blocks,Container,EnChanged,Sedan,Berline bleue,Coupé,,Sedán azul
-cntTigerTank,blocks,Container,EnChanged,Tiger Tank,,,,
-cntMotorcycle,blocks,Container,EnChanged,Post Apocalyptic Death Cycle,,,,
 cntCar03SedanDamage1,blocks,Container,EnChanged,Damaged Sedan,Berline bleue endommagée,Beschädigtes Coupé,,Sedán azul estropeado
 cntLootCrateShamway,blocks,Container,EnChanged,Shamway Box,Caisse Shamway,Shamway-Schachtel,,Caja de Shamway
 cntLootCrateShotgunMessiah,blocks,Container,EnChanged,Gunstore Box,Caisse d'armurerie,Waffenladen-Schachtel,,Caja de almacenaje de armas
@@ -86,13 +84,14 @@ plantedBlueberry3Harvest,blocks,Farming,EnChanged KgNone,Blueberry Plant (Harves
 signShopColdBeer,blocks,Sign,EnChanged KgNone,Sign (C)old Beer,Panneau bière fraîche,Bierladenschild,,Letrero de tienda Cerveza fría
 woodLogSpike1Desc,blocks,Trap,EnChanged KgNone,"Log spike traps can damage, cripple, even kill enemies and last longer than spike traps. Place them using the secondary action. (Upgradable)","Les pièges avec des piques en rondin de bois peuvent infliger des dégâts aux ennemis, voire les handicaper ou les tuer. Ils durent plus longtemps que les pièges avec des piques. Placez-les à l'aide de l'action secondaire. (Améliorable)","Fallen mit spitzen Stämmen können Gegnern schaden, sie lähmen und sogar töten. Sie halten länger als Stachelfallen. Platziere sie mit der sekundären Aktion. (Aufwertbar)",,"Las trampas de pinchos de troncos de madera pueden dañar, lisiar e incluso matar a enemigos, y duran más que las trampas de pinchos. Usa la acción secundaria para colocarlas. (Se pueden mejorar)."
 alcoholPoisoningDesc,buffs,Buff,EnChanged KgNone,You have alcohol poisoning. There may be a duration but you're too sick to figure it out.,"Vous êtes en état d'ébriété. Les effets ont une durée limitée, mais vous ne la connaissez pas.","Du hast eine Alkoholvergiftung. Dies hält vielleicht eine gewisse Zeit an, aber du kannst nicht rauskriegen, wie lange.",,"Tienes una congestión alcohólica. Puede que solo sea durante un rato, pero no sabes cuánto durará."
+beerBuzz,buffs,Buff,EnChanged KgNone,Buzzed,Boost à la bière,Bierrausch,,Cerveza Buzz
 ballCap,items,Clothes,EnChanged KgNone,White Baseball Cap,Casquette de baseball,Baseballmütze,,Gorra de béisbol
 blueberrySeed,items,Farming,EnChanged KgNone,Blueberry Seed,Graines de myrtille,Heidelbeersamen,,Semillas de mora
 potatoSeed,items,Farming,EnChanged KgNone,Potato Seed,Graines de pomme de terre,Saatkartoffel,,Semillas de papa
 treePlantedMaple1mDesc,items,Farming,EnChanged KgNone,Plant these seeds in dirt to grow a tree. They may grow in the desert but do prefer more fertile ground.,Plantez ces graines dans la terre pour faire pousser un arbre.,"Pflanze diese Samen in Erde, um einen Baum zu züchten.",,Planta estas semillas en la tierra para que crezca un árbol.
 treePlantedMountainPine1mDesc,items,Farming,EnChanged KgNone,Plant these seeds in dirt to grow a tree. They may grow in the desert but do prefer more fertile ground.,Plantez ces graines dans la terre pour faire pousser un arbre.,"Pflanze diese Samen in Erde, um einen Baum zu züchten.",,Planta estas semillas en la tierra para que crezca un árbol.
 treePlantedWinterPine1mDesc,items,Farming,EnChanged KgNone,Plant these seeds in dirt to grow a tree. They may grow in the desert but do prefer more fertile ground.,Plantez ces graines dans la terre pour faire pousser un arbre.,"Pflanze diese Samen in Erde, um einen Baum zu züchten.",,Planta estas semillas en la tierra para que crezca un árbol.
-beerDesc,items,Food,EnChanged KgNone,"Pass me another Molson there eh? Take off ya hoser.","Boire une bouteille de cette délicieuse bière artisanale vous offre de l'endurance, une dose de bravoure et une haute opinion de vous-même. Exactement comme celle que faisait papy.","Erhalte Ausdauer, Wagemut und ein großes Ego. All das in nur einer Flasche dieses leckeren selbst gebrauten Biers. Das gleiche Bier, das Opa früher immer braute.",,"Aumenta tu resistencia, valentía y tu gran ego con una simple botella de esta deliciosa cerveza casera. Tal y como el abuelo solía hacerla."
+beerDesc,items,Food,EnChanged KgNone,"Gain stamina, bravado and stun immunity all in one bottle of this tasty home brewed beer. Just like grandpa used to make.","Boire une bouteille de cette délicieuse bière artisanale vous offre de l'endurance, une dose de bravoure et une haute opinion de vous-même. Exactement comme celle que faisait papy.","Erhalte Ausdauer, Wagemut und ein großes Ego. All das in nur einer Flasche dieses leckeren selbst gebrauten Biers. Das gleiche Bier, das Opa früher immer braute.",,"Aumenta tu resistencia, valentía y tu gran ego con una simple botella de esta deliciosa cerveza casera. Tal y como el abuelo solía hacerla."
 ironFragment,items,Item,EnChanged KgNone,Raw Iron,Éclats de fer,Eisenbruchstücke,,Trozos de hierro
 ironFragmentDesc,items,Item,EnChanged KgNone,Raw iron should be smelted in a forge but can also be scrapped at a loss.,Objet essentiel pour forger. Il peut aussi servir à fabriquer des munitions de tromblon.,"Einer der wichtigsten Schmiedegegenstände, mit dem auch Munition für die Donnerbüchse gefertigt werden kann.",,Un objeto de forja básico que se puede usar también para fabricar munición para trabucos.
 leatherDesc,items,Item,EnChanged KgNone,"Leather can be used to make a variety of things including clothing, crossbows and bellows for a forge.","Après avoir lu « Le livre du cuir », le cuir peut servir à fabriquer un tas de choses, comme des vêtements et des arbalètes.","Mit Leder kann eine Reihe von Sachen hergestellt werden, darunter Kleidung, Armbrüste und Blasebälge für die Schmiede.",,"El cuero se puede usar para fabricar varios objetos, como ropa o ballestas, una vez que has leído el libro del Cuero."
@@ -188,6 +187,8 @@ corrugatedMetalStairs25,blocks,Block,KeyChanged,Corrugated Metal Stairs25,Escali
 craftSkillGuns,progression,Skill,KeyChanged,Gun Smithing,Forgeron d'armes à feu,Feuerwaffenschmied,,Forjar pistolas
 craftSkillMiscellaneous,progression,Skill,KeyChanged,Misc Crafting,Fabrication diverse,Sonstiger Handwerksmeister,,Fabricación varia
 craftSkillScience,progression,Skill,KeyChanged,Science,Science,Wissenschaft,,Por la ciencia
+craftSkillTools,progression,Skill,KeyChanged,Tool Smithing,Forgeron d'outils,Werkzeugschmied,,Forja de herramientas
+craftSkillWeapons,progression,Skill,KeyChanged,Weapon Smithing,Forgeron d'armes,Waffenschmied,,Forja de armas
 awningBlock,blocks,Block,KeyChanged EnChanged,Awning Block,Bloc en toile marron,Stoffplane – Block,,Bloque canela de toldo
 awningCNRFull,blocks,Block,KeyChanged EnChanged,Awning Corner Full,Angle complet en toile marron,Stoffplane – Komplette Ecke,,Esquina canela de toldo
 awningCNRInside,blocks,Block,KeyChanged EnChanged,Awning Corner Inside,Angle intérieur en toile marron,Stoffplane – Innenecke,,Esquina interior canela de toldo
@@ -202,9 +203,7 @@ cntShippingCrateWorkingStiffs,blocks,Container,KeyChanged EnChanged,Working Stif
 craftSkillGunsDesc,progression,Skill,KeyChanged EnChanged,"Decrease repair penalties and get more from repair kits. Reduce ammunition crafting time. Buy levels of this perk to increase your skill from Crude to Novice, Apprentice, Journeyman, Professional and Master level.",Diminuez les pénalités de réparation et obtenez davantage de kits de réparation. Diminuez le temps de fabrication des munitions. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.,"Senke die Reparaturabzüge und hole mehr aus deinen Reparaturkits heraus. Senke die benötigte Zeit, um Munition zu fertigen. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,Disminuye los castigos de reparación y otorga más kits de reparación. Reduce el tiempo de fabricación de munición. Mejora tu habilidad fabricando y reparando objetos de este grupo.
 craftSkillMiscellaneousDesc,progression,Skill,KeyChanged EnChanged,"Craft anything from the Misc Crafting group faster. Buy levels of this perk to increase your skill from Crude to Novice, Apprentice, Journeyman, Professional and Master level.",Fabriquez plus rapidement n'importe quel élément du groupe Fabrication diverse. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.,"Fertige alles in der Kategorie „Sonstiges“ schneller.t und reparierst. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,Fabrica cualquier objeto del grupo Fabricación varia más rápido. Mejora tu habilidad fabricando y reparando objetos de este grupo.
 craftSkillScienceDesc,progression,Skill,KeyChanged EnChanged,"Craft medical, chemical, mechanical and trap items faster and at better quality if applicable. Buy levels of this perk to increase your skill from Crude to Novice, Apprentice, Journeyman, Professional and Master level.","Fabriquez des objets médicaux, chimiques, mécaniques et des pièges plus rapidement et de meilleure qualité, le cas échéant. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.","Fertige medizinische, chemische und mechanische Gegenstände sowie Fallen schneller und von besserer Qualität, falls zutreffend. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,"Cuando aplique, fabrica objetos médicos, químicos, mecánicos y trampas más rápido y con mejor calidad. Mejora tu habilidad fabricando y reparando objetos de este grupo."
-craftSkillTools,progression,Skill,KeyChanged,Tool Smithing,Forgeron d'outils,Werkzeugschmied,,Forja de herramientas
 craftSkillToolsDesc,progression,Skill,KeyChanged EnChanged,"Craft handheld and motorized tools faster and at better quality. Decrease repair penalties and get more from repair kits. Buy levels of this perk to increase your skill from Crude to Novice, Apprentice, Journeyman, Professional and Master level.",Fabriquez les outils manuels et motorisés plus rapidement et de meilleure qualité. Diminuez les pénalités de réparation et obtenez davantage de kits de réparation. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.,"Fertige Handwerkzeuge und motorisierte Werkzeuge schneller und von besserer Qualität. Senke die Reparaturabzüge und hole mehr aus deinen Reparaturkits heraus. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,Fabrica herramientas de mano y motorizadas más rápido y de mejor calidad. Disminuye los castigos de reparación y otorga más kits de reparación. Mejora tu habilidad fabricando y reparando objetos de este grupo.
-craftSkillWeapons,progression,Skill,KeyChanged,Weapon Smithing,Forgeron d'armes,Waffenschmied,,Forja de armas
 craftSkillWeaponsDesc,progression,Skill,KeyChanged EnChanged,"Craft bows, crossbows, their ammo and handheld melee weapons faster and with higher quality. Lower repair penalties and get more from repair kits. Buy levels of this perk to increase your skill from Crude to Novice, Apprentice, Journeyman, Professional and Master level.","Fabriquez des arcs, des arbalètes, des flèches et des carreaux, et des armes de mêlée plus rapidement et de meilleure qualité. Réduisez les pénalités de réparation et obtenez davantage des kits de réparation. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.","Fertige Bogen, Armbrüste, die jeweilige Munition und Nahkampfwaffen schneller und von besserer Qualität. Senke die Reparaturabzüge und hole mehr aus deinen Reparaturkits heraus. Kaufe die Fertigkeit um die Qualität von Krud auf Einfach, Lehrling, Geselle, Professionell und Meister zu verbessern.",,"Fabrica arcos, ballestas, su munición y armas cuerpo a cuerpo de mano más rápido y de mejor calidad. Reduce los castigos de reparación y otorga más kits de reparación. Mejora tu habilidad al fabricar y reparar objetos de este grupo."
 burntWoodBlock1,blocks,Block,KeyChanged EnChanged GrChanged,Burnt Wood Block 1,Bardage en bois blanc brûlé 1,Verkohltes Holz – Block 1,,Panel de madera blanco para revestimiento quemado 1
 burntWoodBlock2,blocks,Block,KeyChanged EnChanged GrChanged,Burnt Wood Block 2,Bardage en bois blanc brûlé 2,Verkohltes Holz – Block 2,,Panel de madera blanco para revestimiento quemado 2
@@ -224,7 +223,7 @@ bed01,blocks,Block,KgNone,An Old Bed,Un vieux lit,Altes Bett,,Una cama vieja
 bed01Frame,blocks,Block,KgNone,Iron Bed Frame,Cadre de lit en fer,Eisenbettgestell,,Bastidor de cama de hierro
 bed02,blocks,Block,KgNone,King Size Bed,Grand lit,Doppelbett,,Cama king size
 bedGroupDesc,blocks,Block,KgNone,Placing it on the ground will let you spawn there when you die and then show the spot on your map.,"En le plaçant à terre, vous pourrez réapparaître à cet endroit lorsque vous mourrez et il sera indiqué sur votre carte.","Wenn du dies platzierst, kannst du dort wiedererscheinen, falls du stirbst. Außerdem wird der Standort auf deiner Karte angezeigt.",,"Si la colocas en el suelo, revives allí cada vez que mueras. Además, se mostrará el lugar en el mapa."
-bedroll,blocks,Block,KgNone,Blue Sleeping Bag,,,,
+bedroll,blocks,Block,KgNone,Bedroll,Sac de couchage,Schlafsack,,Saco de dormir
 boardedWindowsSheet4,blocks,Block,KgNone,Window Boards,Rebords de fenêtre,Fensterbretter,,Tapias
 brickBlock,blocks,Block,KgNone,Bricks,Briques,Ziegel,,Ladrillos
 brickCNRFull,blocks,Block,KgNone,Brick Full Corner,Angle complet en brique,Ziegel – Komplette Ecke,,Esquina de ladrillo
@@ -270,9 +269,9 @@ commercialDoor1_v3,blocks,Block,KgNone,Commercial Door1 v3,Porte de commerce 1 v
 commercialDoor2_v1,blocks,Block,KgNone,Commercial Door 2,Porte de commerce 2,Industrietür 2,,Puerta comercial 2
 commercialDoor2_v2,blocks,Block,KgNone,Commercial Door2 v2,Porte de commerce 2 v2,Industrietür 2 v2,,Puerta comercial 2 v2
 commercialDoor2_v3,blocks,Block,KgNone,Commercial Door2 v3,Porte de commerce 2 v3,Industrietür 2 v3,,Puerta comercial 2 v3
-commercialDoor4_v1,blocks,Block,KgNone,Commercial Door With Window,Porte de commerce 4,Industrietür 4,,Puerta comercial 4
-commercialDoor4_v2,blocks,Block,KgNone,Commercial Door3 v2,Porte de commerce 4 v2,Industrietür 4 v2,,Puerta comercial 4 v2
-commercialDoor4_v3,blocks,Block,KgNone,Commercial Door3 v3,Porte de commerce 4 v3,Industrietür 4 v3,,Puerta comercial 4 v3
+commercialDoor4_v1,blocks,Block,KgNone,Commercial Door 4,Porte de commerce 4,Industrietür 4,,Puerta comercial 4
+commercialDoor4_v2,blocks,Block,KgNone,Commercial Door4 v2,Porte de commerce 4 v2,Industrietür 4 v2,,Puerta comercial 4 v2
+commercialDoor4_v3,blocks,Block,KgNone,Commercial Door4 v3,Porte de commerce 4 v3,Industrietür 4 v3,,Puerta comercial 4 v3
 concreteBlock,blocks,Block,KgNone,Concrete Block,Bloc de béton,Betonblock,,Bloque de hormigón
 concreteCNRFull,blocks,Block,KgNone,Concrete Full Corner,Angle complet en béton,Beton – Komplette Ecke,,Esquina de hormigón
 concreteCNRInside,blocks,Block,KgNone,Concrete Inside Corner,Angle intérieur en béton,Beton – Innenecke,,Esquina interior de hormigón
@@ -401,7 +400,7 @@ ironDoor1_v1,blocks,Block,KgNone,Hard Metal Door,Porte robuste en métal,Hartmet
 ironDoor1_v1Desc,blocks,Block,KgNone,Press & hold [activate] to lock it or set a combination. Upgrade & repair with forged iron and a construction tool using the secondary action.,Maintenez [activate] pour la verrouiller ou définir un code. Elle peut être améliorée et réparée à l'aide de fer forgé et d'un outil de construction grâce à l'action secondaire.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit geschmiedetem Eisen und Bauwerkzeugen unter Verwendung der sekundären Aktion aufgewertet und repariert werden.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación. Usa la acción secundaria para mejorar y reparar con hierro forjado y con una herramienta de construcción.
 ironDoor1_v2,blocks,Block,KgNone,Iron Door1 v2,Porte en fer 1 v2,Eisentür 1 v2,,Puerta de hierro 1 v2
 ironDoor1_v3,blocks,Block,KgNone,Iron Door1 v3,Porte en fer 1 v3,Eisentür 1 v3,,Puerta de hierro 1 v3
-keystoneBlock,blocks,Block,KgNone,Canada Claim Block,Bloc de revendication de terrain,Gebietsschutzblock,,Bloque para reclamar territorio
+keystoneBlock,blocks,Block,KgNone,Land Claim Block,Bloc de revendication de terrain,Gebietsschutzblock,,Bloque para reclamar territorio
 ladderMetal,blocks,Block,EnChanged,Iron Ladder,Échelle en métal,Eisenleiter,,Escalera de metal
 ladderMetalDesc,blocks,Block,KgNone,A metal ladder piece. Face a wall and place the ladder by using the secondary action.,Un morceau d'échelle en métal. Faites face à un mur et placez l'échelle à l'aide de l'action secondaire.,Ein Stück einer Metallleiter. Gehe zu einer Mauer und platziere die Leiter mit der sekundären Aktion.,,Un trozo de una escalera de metal. Colócate frente a una pared y usa la acción secundaria para colocar la escalera.
 ladderWood,blocks,Block,KgNone,Wooden Ladder,Échelle en bois,Holzleiter,,Escalera de madera
@@ -451,10 +450,8 @@ officeChair01,blocks,Block,KgNone,Office Chair,Chaise de bureau,Bürostuhl,,Sill
 oilBarrel,blocks,Block,KgNone,Gas Barrel,Baril de pétrole,Benzinfass,,Barril de gas
 oilBarrelDesc,blocks,Block,KgNone,Gas barrels can be crafted into gas cans or shot and blown up for setting a trap. A barrel is worth 600 units of gas.,Les barils d'essence peuvent servir à fabriquer des bidons d'essence. Vous pouvez également tirer dessus pour les faire exploser dans le cadre d'un piège. Un baril vaut 600 unités d'essence.,"Benzinfässer können zu Benzinkanistern gefertigt werden. Sie können auch angeschossen und in die Luft gejagt werden, um eine Falle zu stellen. Ein Fass entspricht 600 Einheiten Benzin.",,Los barriles de gas se pueden convertir en bidones de gas. También se puede preparar una trampa al dispararles para que exploten. Un barril cuesta 600 unidades de gas.
 oldChair,blocks,Block,KgNone,Wooden Chair,Chaise en bois,Holzstuhl,,Silla de madera
-painting01,blocks,Block,KgNone,Wayne Gretzky Painting,,,,
-painting02,blocks,Block,KgNone,Ricky Painting,,,,
-flagCanadaWall,blocks,Block,KgNone,Canada Flag Wall Decoration,,,,
-flagCanadaWallDesc,blocks,Block,KgNone,A Canada Flag to hang anywhere you like!,,,,
+painting01,blocks,Block,KgNone,Painting Landscape,Tableau de paysage,Landschaftsgemälde,,Cuadro de paisaje
+painting02,blocks,Block,KgNone,Painting Lakehouse,Tableau de maison en bord de lac,Gemälde mit Haus am See,,Cuadro de casa del lago
 pew_segment01,blocks,Block,KgNone,Pew Segment 1,Section de banc d'église 1,Kirchenbankstück 1,,Fragmento de banco 1
 pew_segment02,blocks,Block,KgNone,Pew Segment 2,Section de banc d'église 2,Kirchenbankstück 2,,Fragmento de banco 2
 pew_segment03,blocks,Block,KgNone,Pew Segment 3,Section de banc d'église 3,Kirchenbankstück 3,,Fragmento de banco 3
@@ -575,21 +572,6 @@ sectionalPlaidCouchSofaArm,blocks,Block,KgNone,Old Couch Arm,Accoudoir de vieux 
 sectionalPlaidCouchSofaCorner,blocks,Block,KgNone,Old Couch Corner,Angle de vieux canapé,Alte Couch – Eckteil,,Esquina de sillón viejo
 sectionalPlaidCouchSofaMiddle,blocks,Block,KgNone,Old Couch Middle,Milieu de vieux canapé,Alte Couch – Mittelteil,,Parte central de sillón viejo
 secureDoorWooden,blocks,Block,KgNone,Secure Wood Door,Porte en bois sécurisée,Gesicherte Holztür,,Puerta de madera segura
-secureDoorWoodenRed,blocks,Block,KgNone,Red Secure Wood Door,,,,
-secureDoorWoodenBlue,blocks,Block,KgNone,Blue Secure Wood Door,,,,
-secureDoorWoodenGreen,blocks,Block,KgNone,Green Secure Wood Door,,,,
-secureDoorWoodenPink,blocks,Block,KgNone,Pink Secure Wood Door,,,,
-secureDoorWoodenYellow,blocks,Block,KgNone,Yellow Secure Wood Door,,,,
-secureReinforcedDoorWoodenRed,blocks,Block,KgNone,Red Secure Wood Door,,,,
-secureReinforcedDoorWoodenBlue,blocks,Block,KgNone,Blue Secure Wood Door,,,,
-secureReinforcedDoorWoodenGreen,blocks,Block,KgNone,Green Secure Wood Door,,,,
-secureReinforcedDoorWoodenPink,blocks,Block,KgNone,Pink Secure Wood Door,,,,
-secureReinforcedDoorWoodenYellow,blocks,Block,KgNone,Yellow Secure Wood Door,,,,
-metalReinforcedDoorWoodenRed,blocks,Block,KgNone,Red Secure Wood Door,,,,
-metalReinforcedDoorWoodenBlue,blocks,Block,KgNone,Blue Secure Wood Door,,,,
-metalReinforcedDoorWoodenGreen,blocks,Block,KgNone,Green Secure Wood Door,,,,
-metalReinforcedDoorWoodenPink,blocks,Block,KgNone,Pink Secure Wood Door,,,,
-metalReinforcedDoorWoodenYellow,blocks,Block,KgNone,Yellow Secure Wood Door,,,,
 secureDoorWoodenDesc,blocks,Block,KgNone,Press & hold [activate] to lock it or set a combination. Upgrade & repair with wood and a construction tool using the secondary action.,Maintenez [activate] pour la verrouiller ou définir un code. Elle peut être améliorée et réparée à l'aide de bois et d'un outil de construction grâce à l'action secondaire.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit Holz und Bauwerkzeugen unter Verwendung der sekundären Aktion aufgewertet und repariert werden.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación. Usa la acción secundaria para mejorar y reparar con madera y con una herramienta de construcción.
 secureReinforcedDoorWooden,blocks,Block,KgNone,Secure Reinforced Dooreinforced Wooden,Porte renforcée en bois renforcé,Verstärkte Holz-Sicherheitstür,,Puerta de madera reforzada segura
 shoppingBasketEmpty,blocks,Block,KgNone,Empty Shopping Basket,Panier à provisions vide,Leerer Einkaufskorb,,Cesto de compras vacío
@@ -688,11 +670,11 @@ treeWinterPine02,blocks,Block,KgNone,Tree Winter Pine02,Pin hivernal 02,"Baum, W
 treeWinterPine03,blocks,Block,KgNone,Tree Winter Pine03,Pin hivernal 03,"Baum, Winter – Kiefer 03",,Árbol: Pino de invierno 03
 tv,blocks,Block,KgNone,TV,Télévision,TV,,TV
 vaultDoor01,blocks,Block,KgNone,Vault Door,Porte de chambre forte,Tresortür,,Puerta del almacén
-vaultDoor01Desc,blocks,Block,KgNone,Press & hold [activate] to lock or set a combination. Upgrade & repair with forged steel. Requires Advanced Workbench.,Maintenez [activate] pour la verrouiller ou définir un code. Elle peut être améliorée et réparée à l'aide d'acier forgé.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit geschmiedetem Stahl aufgewertet und repariert werden.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación. Mejora y repara con acero forjado.
+vaultDoor01Desc,blocks,Block,KgNone,Press & hold [activate] to lock or set a combination. Upgrade & repair with forged steel.,Maintenez [activate] pour la verrouiller ou définir un code. Elle peut être améliorée et réparée à l'aide d'acier forgé.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit geschmiedetem Stahl aufgewertet und repariert werden.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación. Mejora y repara con acero forjado.
 vaultDoor02,blocks,Block,KgNone,Vault Door02,Porte de chambre forte 02,Tresortür 02,,Puerta02 del almacén
 vaultDoor03,blocks,Block,KgNone,Vault Door03,Porte de chambre forte 03,Tresortür 03,,Puerta03 del almacén
 vaultHatch_v1,blocks,Block,KgNone,Vault Hatch,Trappe de chambre forte,Tresorklappe,,Puerta del escotilla
-vaultHatch_v1Desc,blocks,Block,KgNone,Press & hold [activate] to lock or set a combination. Upgrade & repair with forged steel. Requires Advanced Workbench.,Maintenez [activate] pour la verrouiller ou définir un code. Elle peut être améliorée et réparée à l'aide d'acier forgé.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit geschmiedetem Stahl aufgewertet und repariert werden.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación. Mejora y repara con acero forjado.
+vaultHatch_v1Desc,blocks,Block,KgNone,Press & hold [activate] to lock or set a combination. Upgrade & repair with forged steel.,Maintenez [activate] pour la verrouiller ou définir un code. Elle peut être améliorée et réparée à l'aide d'acier forgé.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit geschmiedetem Stahl aufgewertet und repariert werden.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación. Mejora y repara con acero forjado.
 vaultHatch_v2,blocks,Block,KgNone,Vault Hatch v2,Trappe de chambre forte v2,Tresorklappe v2,,Puerta de escotilla v2
 vaultHatch_v3,blocks,Block,KgNone,Vault Hatch v3,Trappe de chambre forte v3,Tresorklappe v3,,Puerta de escotilla v3
 wallLight01,blocks,Block,EnChanged,Warehouse Outdoor Light (POI),Luminaire de mur 01,Wandlampe 01 (POI),,Lámpara de pared 01
@@ -763,7 +745,7 @@ wroughtIronFenceSheet,blocks,Block,KgNone,Wrought Iron Fence,Clôture en fer for
 cntApacheArtifactChest,blocks,Container,KgNone,Apache Artifact Chest,Coffre d'artefact apache,Apachen-Artefakttruhe,,Cofre con artefacto de los apaches
 cntBackpack01,blocks,Container,KgNone,Weathered Backpack,Sac à dos usé,Verwitterter Rucksack,,Mochila erosionada
 cntBackpack03,blocks,Container,KgNone,Moldy Backpack,Sac à dos moisi,Muffiger Rucksack,,Mochila mohosa
-cntBackpackDropped,blocks,Container,KgNone,Grave Marker,,,,
+cntBackpackDropped,blocks,Container,KgNone,Dropped Backpack,Sac à dos abandonné,Fallengelassener Rucksack,,Mochila perdida
 cntBeerCooler,blocks,Container,KgNone,Beverage Cooler,Armoire à boissons,Getränkekühlschrank,,Refrigerador para bebidas
 cntBin,blocks,Container,KgNone,Small Trash Bin,Petite corbeille,Kleiner Mülleimer,,Bote de basura
 cntBirdnest,blocks,Container,KgNone,Birdnest,Nid d'oiseau,Vogelnest,,Nido de aves
@@ -814,13 +796,13 @@ cntSecureStorageChest,blocks,Container,KgNone,Secure Storage Chest,Coffre de ran
 cntSecureStorageChestDesc,blocks,Container,KgNone,Press & hold [activate] to lock it or set a combination.,Maintenez [activate] pour le verrouiller ou définir un code.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación.
 cntShoppingBasket,blocks,Container,KgNone,Shopping Basket,Panier à provisions,Einkaufskorb,,Cesto de compras
 cntShoppingCart,blocks,Container,KgNone,Shopping Cart,Charriot de courses,Einkaufswagen,,Carrito de compras
-cntSportsBag01,blocks,Container,KgNone,Rotting Hockey Bag,Sac de sport en décomposition,Verrottende Sporttasche,,Bolsa deportiva podrida
-cntSportsBag02,blocks,Container,KgNone,Weathered Hockey Bag,Sac de sport usé,Verwitterte Sporttasche,,Bolsa deportiva erosionada
+cntSportsBag01,blocks,Container,KgNone,Rotting Sports Bag,Sac de sport en décomposition,Verrottende Sporttasche,,Bolsa deportiva podrida
+cntSportsBag02,blocks,Container,KgNone,Weathered Sports Bag,Sac de sport usé,Verwitterte Sporttasche,,Bolsa deportiva erosionada
 cntStorageChest,blocks,Container,KgNone,Storage Chest,Coffre de rangement,Aufbewahrungstruhe,,Cofre de almacenamiento
 cntSuitcase,blocks,Container,KgNone,Suitcase,Valise,Koffer,,Valija
-cntToilet01,blocks,Container,KgNone,Crapper,WC,Toilette,,Retrete
-cntToilet02,blocks,Container,KgNone,Fancy Crapper,WC de luxe,Moderne Toilette,,Retrete sofisticado
-cntToilet03,blocks,Container,KgNone,Commercial Crapper,WC de commerce,Industrietoilette,,Retrete comercial
+cntToilet01,blocks,Container,KgNone,Toilet,WC,Toilette,,Retrete
+cntToilet02,blocks,Container,KgNone,Fancy Toilet,WC de luxe,Moderne Toilette,,Retrete sofisticado
+cntToilet03,blocks,Container,KgNone,Commercial Toilet,WC de commerce,Industrietoilette,,Retrete comercial
 cntTrash_can01,blocks,Container,KgNone,Trash Can,Poubelle,Mülltonne,,Papelera
 cntTrashPile01,blocks,Container,KgNone,Trash Pile,Pile d'ordures,Müllhaufen,,Montón de basura
 cntTrashPile02,blocks,Container,KgNone,Pile of Garbage,Pile de déchets,Müllstapel,,Montón de porquería
@@ -953,14 +935,13 @@ cementMixer,blocks,Workstation,KgNone,Cement Mixer,Bétonnière,Zementmischer,,M
 cementMixerDesc,blocks,Workstation,KgNone,A cement mixer needs a solid foundation and will help you craft materials like concrete or asphalt.,Une bétonnière nécessite une base solide et vous aidera à fabriquer des matériaux comme le béton ou l'asphalte.,Ein Zementmischer benötigt ein stabiles Fundament und dient zur Fertigung von Beton oder Asphalt.,,Una mezcladora de cemento necesita una base sólida. Te ayudará a fabricar materiales como hormigón o asfalto.
 forge,blocks,Workstation,KgNone,Forge,Forge,Schmiede,,Fragua
 forgeDesc,blocks,Workstation,EnChanged,"Used to smelt metals into tools and weapons. Unlock more recipes by adding an anvil, crucible or tool and die set.","Sert à faire fondre des métaux pour en faire des outils ou des armes. Déverrouillez d'autres compositions en ajoutant une enclume, un pied à coulisse ou un lot de matrices et d'outils.","Dient zum Einschmelzen von Metallen für Werkzeuge und Waffen. Schalte mehr Rezepte frei, indem du einen Amboss, einen Messschieber oder eine Werkzeugkiste hinzufügst.",,"Se usa para fundir metales y convertirlos en herramientas y armas. Añade un yunque, calibradores o herramientas y un juego de ajuste para desbloquear más recetas."
-workbench,blocks,Workstation,KgNone,Simple Workbench,Établi,Werkbank,,Mesa de trabajo
-workbenchDesc,blocks,Workstation,EnChanged,"The Simple Workbench is an extremely important piece of equipment. You will use to craft almost everything until you upgrade to the advanced Workbench.",,,,
+workbench,blocks,Workstation,KgNone,Workbench,Établi,Werkbank,,Mesa de trabajo
+workbenchDesc,blocks,Workstation,EnChanged,A workbench lets you craft items just like you do in your backpack and improve items for up to 100 quality points above your crafting skill.,Un établi vous permet de fabriquer des objets comme vous le faites dans votre sac à dos.,Mit einer Werkbank kannst du genauso wie in deinem Rucksack Gegenstände fertigen.,,"Una mesa de trabajo te permite fabricar objetos, igual que en la mochila."
 alcoholPoisoning,buffs,Buff,KgNone,Inebriated,Ébriété,Berauscht,,Embriaguez
 alcoholPoisoningTooltip,buffs,Buff,KgNone,You have alcohol poisoning.,Vous êtes en état d'ébriété.,Du hast eine Alkoholvergiftung.,,Estás borracho.
 arrowCriticalBleedout,buffs,Buff,KgNone,Bleeding,Saignement,Bluten,,Sangrando
 arrowCriticalBleedoutDesc,buffs,Buff,KgNone,You are bleeding profusely. Use a bandage to stop the bleeding.,Vous saignez abondamment. Utilisez un bandage pour arrêter l'hémorragie.,"Du blutest stark. Benutze einen Verband, um die Blutung zu stoppen.",,Estás sangrando bastante. Usa un vendaje para detener la hemorragia.
 arrowCriticalBleedoutTooltip,buffs,Buff,KgNone,You are bleeding profusely. Use a bandage to stop the bleeding.,Vous saignez abondamment. Utilisez un bandage pour arrêter l'hémorragie.,"Du blutest stark. Benutze einen Verband, um die Blutung zu stoppen.",,Estás sangrando bastante. Usa un vendaje para detener la hemorragia.
-beerBuzz,buffs,Buff,EnChanged KgNone,Buzzed,Boost à la bière,Bierrausch,,Cerveza Buzz
 beerBuzzDesc,buffs,Buff,KgNone,A nice buzz. There may be a duration but you don't care.,"Une sensation agréable. Les effets ont une durée limitée, mais vous vous en moquez.","Ein kleiner Rausch. Dies hält vielleicht eine gewisse Zeit an, aber das ist dir egal.",,"Una deliciosa Buzz. Puede que solo sea durante un rato, pero te da igual."
 beerBuzzTooltip,buffs,Buff,KgNone,A nice buzz.,Une sensation agréable.,Ein kleiner Rausch.,,Una deliciosa Buzz.
 bleedingOut,buffs,Buff,KgNone,Bleeding Out,Hémorragie,Verbluten,,Hemorragia
@@ -1120,72 +1101,30 @@ yuccaJuiceCoolingDesc,buffs,Buff,KgNone,You feel cooler.,Vous avez moins chaud.,
 yuccaJuiceCoolingTooltip,buffs,Buff,KgNone,You feel cooler.,Vous avez moins chaud.,Du fühlst dich kühler.,,Te sientes más fresco.
 wellnessDecreased,buffs,Tooltip,KgNone,Wellness ({0}): Maximum health and stamina cap decreased to {1},Bien-être ({0}) : santé et endurance maximales réduites de {1},Wohlbefinden ({0}): Obergrenze für maximale Gesundheit und Ausdauer ist auf {1} gesunken,,Bienestar ({0}): La salud máxima y el límite de resistencia se han reducido a {1}.
 wellnessIncreased,buffs,Tooltip,KgNone,Wellness (+{0}): Maximum health and stamina cap increased to {1},Bien-être (+{0}) : santé et endurance maximales augmentées de {1},Wohlbefinden (+{0}): Obergrenze für maximale Gesundheit und Ausdauer ist auf {1} gestiegen,,Bienestar (+{0}): La salud máxima y el límite de resistencia han aumentado a {1}.
-animalBear,entityclasses,Entity,KgNone,Canadian Brown Bear,Ours,Bär,,Oso
+animalBear,entityclasses,Entity,KgNone,Bear,Ours,Bär,,Oso
 animalChicken,entityclasses,Entity,KgNone,Chicken,Poulet,Huhn,,Pollo
 animalPig,entityclasses,Entity,KgNone,Pig,Porc,Schwein,,Cerdo
-animalRabbit,entityclasses,Entity,KgNone,Jackrabbit,Lapin,Hase,,Conejo
-animalStag,entityclasses,Entity,KgNone,Elk,Cerf,Hirsch,,Ciervo
+animalRabbit,entityclasses,Entity,KgNone,Rabbit,Lapin,Hase,,Conejo
+animalStag,entityclasses,Entity,KgNone,Stag,Cerf,Hirsch,,Ciervo
 animalZombieDog,entityclasses,Entity,KgNone,Zombie Dog,Chien enragé,Zombie-Hund,,Perro zombi
 sc_General,entityclasses,Entity,KgNone,Supply Crate,Caisse de provisions,Vorratskiste,,Caja de suministros
-zombieArlene,entityclasses,Entity,KgNone,Zombie Trinity,,,,
-zombieBoe,entityclasses,Entity,KgNone,Zombie Joint Boy,,,,
-zombieBurnt,entityclasses,Entity,KgNone,Freezing Zombie,,,,
-zombieDarlene,entityclasses,Entity,KgNone,Psycho R0C_7,,,,
-zombieFatCop,entityclasses,Entity,KgNone,Infected RCMP Officer,,,,
-zombieJoe,entityclasses,Entity,KgNone,Hard Core Logo,,,,
-zombieMarlene,entityclasses,Entity,KgNone,Infected Kathy,,,,
-zombieMoe,entityclasses,Entity,KgNone,Randy Bobandy,,,,
-zombieNurse,entityclasses,Entity,KgNone,Nurse Katy,,,,
-zombieScreamer,entityclasses,Entity,KgNone,Angry Hockey Mom,,,,
-zombieAngryHockeyMomSpider,entityclasses,Entity,KgNone,Angry Hockey Mom,,,,
-zombieSnow,entityclasses,Entity,KgNone,LumberJax Teller,,,,
-zombieSpider,entityclasses,Entity,KgNone,Reanimated Ryan,,,,
-zombieSpiderRyanStanding,entityclasses,Entity,KgNone,Creepy Ryan,,,,
-zombieSteve,entityclasses,Entity,KgNone,Infected Jonesy,,,,
-zombieSteveCrawler,entityclasses,Entity,KgNone,Crawlin Jonesy,,,,
-zombieWightFeral,entityclasses,Entity,KgNone,Feral Daryl,,,,
-zombieWightFeralSpider,entityclasses,Entity,KgNone,Spidey Daryl,,,,
-zombieYo,entityclasses,Entity,KgNone,Rotting Dave,,,,
-zombieArleneFeral,entityclasses,Entity,New,Feral Trinity,,,,
-zombieBehemoth,entityclasses,Entity,New,Zombie Ultra Shugg,,,,
-zombieBiker,entityclasses,Entity,New,Zombie Julian,,Zombie Julian,,
-zombieBoeFeral,entityclasses,Entity,New,Feral Infected Survivor,,,,
-zombieCheerleader,entityclasses,Entity,New,Cheerleader Fetish Lucy,,,,
-zombieCheerleaderFeral,entityclasses,Entity,New,Feral Cheerleader Fetish Lucy,,,,
-zombieDarleneFeral,entityclasses,Entity,New,Feral R0C_7,,,,
-zombieFarmer,entityclasses,Entity,New,Zombie Wayne,,,,
-zombieFarmerFeral,entityclasses,Entity,New,Feral Zombie Wayne,,,,
-zombieFatCopFeral,entityclasses,Entity,New,Feral RCMP Officer,,,,
-zombieFatCopFeralRadiated,entityclasses,Entity,New,Feral Radiated RCMP Officer,,,,
-zombieFatHawaiian,entityclasses,Entity,New,Philadelphia Collins,,Gestörter Tourist,,
-zombieFatHawaiianFeral,entityclasses,Entity,New,Feral Philadelphia Collins,,,,
-zombieFemaleFat,entityclasses,Entity,New,Big Momma,,,,
-zombieFemaleFatFeral,entityclasses,Entity,New,Big Momma,,,,
-zombieFootballPlayer,entityclasses,Entity,New,Jaques Trap,,,,
-zombieJoeFeral,entityclasses,Entity,New,Feral Cadaver,,,,
-zombieMaleHazmat,entityclasses,Entity,New,Hazardous Worker,,,,
-zombieMarleneFeral,entityclasses,Entity,New,Feral Woman,,,,
-zombieMoeFeral,entityclasses,Entity,New,Feral Bloated Walker,,,,
-zombieNurseFeral,entityclasses,Entity,New,Feral Nurse,,,,
-zombieOldTimer,entityclasses,Entity,New,Zombie McMurray,,Zombie McMurray,,
-zombieOldTimerFeral,entityclasses,Entity,New,Feral Zombie McMurray,,,,
-zombieScreamerFeral,entityclasses,Entity,New,Feral Hockey Mom,,,,
-zombieSkateboarder,entityclasses,Entity,New,Infected J-Roc,,,,
-zombieSkateboarderFeral,entityclasses,Entity,New,Feral J-Roc,,,,
-zombieSnowFeral,entityclasses,Entity,New,Feral Handsome Lumberjack,,,,
-zombieSoldier,entityclasses,Entity,New,DamStr8 Soldier,,,,
-zombieSoldierFeral,entityclasses,Entity,New,Feral Soldier,,,,
-zombieSpiderFeral,entityclasses,Entity,New,Feral Ryan,,,,
-zombieSpiderFeralRadiated,entityclasses,Entity,New,Feral Radiated Ryan,,,,
-zombieSteveCrawlerFeral,entityclasses,Entity,New,Feral Jonesy,,,,
-zombieSteveFeral,entityclasses,Entity,New,Feral Corpse,,,,
-zombieStripper,entityclasses,Entity,New,Puck Bunny,,Untote Stripperin,,
-zombieStripperFeral,entityclasses,Entity,New,Feral Puck Bunny,,,,
-zombieUtilityWorker,entityclasses,Entity,New,Lost Village Person,,,,
-zombieUtilityWorkerFeral,entityclasses,Entity,New,Feral Village Person,,,,
-zombieWightFeralRadiated,entityclasses,Entity,New,Feral Radiated Daryl,,,,
-zombieYoFeral,entityclasses,Entity,New,Feral Dave,,,,
-animalZombieVulture,entityclasses,Entity,New,Zombie Canada Goose,,,,
+zombieArlene,entityclasses,Entity,KgNone,Putrid Girl,Fille putride,Verfaultes Mädchen,,Niña putrefacta
+zombieBoe,entityclasses,Entity,KgNone,Infected Survivor,Survivant infecté,Infizierter Überlebender,,Sobreviviente infectado
+zombieBurnt,entityclasses,Entity,KgNone,Burn Victim,Calciné,Brandopfer,,Víctima quemada
+zombieDarlene,entityclasses,Entity,KgNone,Decayed Mother,Mère décomposée,Verweste Mutter,,Madre podrida
+zombieFatCop,entityclasses,Entity,KgNone,Infected Policeman,Policier infecté,Infizierter Polizist,,Policía infectado
+zombieJoe,entityclasses,Entity,KgNone,Festering Cadaver,Cadavre purulent,Eitrige Leiche,,Cadáver descompuesto
+zombieMarlene,entityclasses,Entity,KgNone,Departed Woman,Défunte,Verstorbene Frau,,Mujer difunta
+zombieMoe,entityclasses,Entity,KgNone,Bloated Walker,Rôdeur obèse,Aufgedunsener Streuner,,Caminante hinchado
+zombieNurse,entityclasses,Entity,KgNone,Plagued Nurse,Infirmière pestiférée,Verseuchte Krankenschwester,,Enfermera infestada
+zombieScreamer,entityclasses,Entity,KgNone,Screamer Zombie,Zombie hurleur,Schreier-Zombie,,Zombi gritón
+zombieSnow,entityclasses,Entity,KgNone,Frozen Lumberjack,Bûcheron gelé,Erfrorener Holzfäller,,Leñador congelado
+zombieSpider,entityclasses,Entity,KgNone,Spider Zombie,Zombie araignée,Spinnen-Zombie,,Araña zombi
+zombieSteve,entityclasses,Entity,KgNone,Reanimated Corpse,Corps réanimé,Wiederbelebte Leiche,,Cadáver reanimado
+zombieSteveCrawler,entityclasses,Entity,KgNone,Crawler,Rampeur,Kriecher,,Oruga
+zombieWightFeral,entityclasses,Entity,KgNone,Feral Wight,Rôdeur féroce,Wilder Streuner,,Caminante salvaje
+zombieYo,entityclasses,Entity,KgNone,Rotting Carcass,Carcasse pourrie,Verrottender Kadaver,,Cuerpo podrido
+animalZombieVulture,entityclasses,Entity,New,Zombie Vulture,,,,
 playersBackpack,entityclasses,Entity Info,KgNone,{0}'s backpack,Sac à dos de {0},Rucksack von {0},,La mochila de {0}
 44MagBullet,items,Ammo,EnChanged,.44 Magnum Round (Ammo),Cartouches de .44 magnum,.44 Magnum Patrone (Mun),,Balas para Magnum 44
 44MagBulletDesc,items,Ammo,KgNone,A .44 Magnum round used as firearm ammunition. Can be crafted once you've purchased the perk.,Une cartouche de .44 magnum servant de munition pour arme à feu. Peut être fabriquée après l'achat de l'avantage correspondant.,"Eine .44 Magnum Patrone, die als Munition für Schusswaffen dient. Kann gefertigt werden, nachdem du die Fertigkeit erworben hast.",,Balas de Mágnum de 0.44 usadas como munición de arma de fuego. Puedes fabricarlas una vez que hayas comprado el beneficio.
@@ -1213,9 +1152,9 @@ shotgunShellDesc,items,Ammo,KgNone,A shotgun shell used for all shotguns. Can be
 shotgunSlug,items,Ammo,EnChanged,Shotgun Slug (Ammo),Balle pour fusil à pompe,Flintenlaufgeschosse (Mun),,Perdigón de escopeta
 shotgunSlugDesc,items,Ammo,KgNone,Can be used with long shotguns to do more damage. Can be crafted after reading the schematic. Hold reload to use alternate ammo.,À utiliser avec les fusils à pompe longs pour faire plus de dégâts. Lisez le schéma pour pouvoir en fabriquer. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Können mit Schrotflinten mit langem Lauf verwendet werden, um mehr Schaden zu verursachen. Können gefertigt werden, wenn der entsprechende Bauplan gelesen wurde. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Se puede usar con escopetas largas para hacer más daño. Se puede fabricar tras leer el esquema. Mantén presionado recargar para usar munición alternativa.
 steelArrow,items,Ammo,EnChanged,Steel Arrow (Ammo),Flèche en acier,Stahlpfeil (Mun),,Flecha de acero
-steelArrowDesc,items,Ammo,KgNone,A steel arrow does more damage than the basic or iron arrow. Hold reload to use alternate ammo. Requires Advanced Workbench.,Une flèche en acier fait plus de dégâts qu'une flèche de base ou en fer. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Ein Stahlpfeil verursacht mehr Schaden als gewöhnliche und Eisenpfeile. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Una flecha de acero hace más daño que la flecha básica o la de hierro. Mantén presionado recargar para usar munición alternativa.
+steelArrowDesc,items,Ammo,KgNone,A steel arrow does more damage than the basic or iron arrow. Hold reload to use alternate ammo.,Une flèche en acier fait plus de dégâts qu'une flèche de base ou en fer. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Ein Stahlpfeil verursacht mehr Schaden als gewöhnliche und Eisenpfeile. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Una flecha de acero hace más daño que la flecha básica o la de hierro. Mantén presionado recargar para usar munición alternativa.
 steelCrossbowBolt,items,Ammo,EnChanged,Steel Crossbow Bolt (Ammo),Carreau d'arbalète en acier,Armbrust-Stahlbolzen (Mun),,Saeta de acero para ballesta
-steelCrossbowBoltDesc,items,Ammo,KgNone,A steel crossbow bolt does more damage than the iron crossbow bolt. Hold reload to use alternate ammo. Requires Advanced Workbench.,Le carreau d'arbalète en acier inflige plus de dégâts que le carreau d'arbalète en fer. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Ein Stahlbolzen für Armbrüste verursacht mehr Schaden als Eisenbolzen. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Una saeta de acero de ballesta hace más daño que una saeta de hierro. Mantén presionado recargar para usar munición alternativa.
+steelCrossbowBoltDesc,items,Ammo,KgNone,A steel crossbow bolt does more damage than the iron crossbow bolt. Hold reload to use alternate ammo.,Le carreau d'arbalète en acier inflige plus de dégâts que le carreau d'arbalète en fer. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.,"Ein Stahlbolzen für Armbrüste verursacht mehr Schaden als Eisenbolzen. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Una saeta de acero de ballesta hace más daño que una saeta de hierro. Mantén presionado recargar para usar munición alternativa.
 qc_AnimalGroupDesc,items,Animal Challenge Note,KgNone,A strange note I discovered in my travels. It's from the Slick Willie Clan.,Un étrange message découvert lors de mes déplacements. Il vient du clan de Willie le rusé.,"Eine seltsame Notiz, die ich auf meinen Reisen gefunden habe. Sie ist vom Klan von Slick Willie.",,Descubrí una nota extraña en mis viajes. Es del Clan de Willie el Escurridizo.
 qc_buythefarm,items,Animal Challenge Note,KgNone,Buy the Farm Challenge,Défi « La ferme »,Herausforderung – Tierisch gut,,Desafío “La granja”
 qc_dontfeedthebears,items,Animal Challenge Note,KgNone,Don't Feed the Bears Challenge,Défi « Ours mal léché »,Herausforderung – Bärenhunger,,Desafío “No alimente a los osos”
@@ -1278,8 +1217,8 @@ leatherPantsSchematicDesc,items,Book,KgNone,Learn how to craft leather leg armor
 leatherTanning,items,Book,KgNone,Leather Tanning,Tanner le cuir,Leder gerben,,Curtido de cuero
 macDyverBook,items,Book,KgNone,MacDyvers Book,« Le livre de MacDyver »,Buch „MacDyver“,,El libro de MacDyver
 macDyverBookDesc,items,Book,KgNone,Learn MacDyver's secret to making scrap metal armor and more by reading this gem by the king of made-up stuff.,Apprenez les secrets de MacDyver sur la fabrication d'armures en métal recyclé et autres en lisant cette merveille écrite par le roi de la débrouille.,"Finde mit diesem einzigartigen Buch von MacDyver, dem Großmeister der Improvisation, heraus, wie, unter anderem, Rüstung aus Altmetall gefertigt wird.",,Lee esta joya y conoce los secretos de MacDyver para fabricar armaduras con chatarra de metal y mucho más de mano del rey de inventarse cosas.
-minibikesForDumbshits,items,Book,KgNone,Minibikes For Canadian Dumbshits,,,,
-minibikesForDumbshitsDesc,items,Book,KgNone,"Minibikes in Canada require warming up, hop on, turn on lights, hop off, wait 5 secs then go go go!",,,,
+minibikesForDumbshits,items,Book,KgNone,Minibikes For Dumbshits,« La mini-moto pour les demeurés »,Taschenmotorrad für Vollidioten,,Minimotos para estúpidos
+minibikesForDumbshitsDesc,items,Book,KgNone,Even total dumbshits can build a minibike if they follow the steps in this simple guide...Varoom...varoom!,Même les demeurés finis peuvent construire une mini-moto en suivant les étapes présentées dans ce guide... Vroum... Vroum !,"Selbst komplette Vollidioten können ein Taschenmotorrad bauen, wenn sie dieser einfachen Anleitung folgen … Brumm, brumm!",,"Hasta el más idiota puede construir una minimoto si sigue los pasos de esta sencilla guía. ¡Brum, brum!"
 pistolBook,items,Book,KgNone,Pistol Book,« Le livre des pistolets »,Buch „Pistolen“,,Libro de la pistola
 pistolBookDesc,items,Book,KgNone,"Read the pistol book to learn how to assemble, repair and augment 9mm pistols. ","Lisez « Le livre des pistolets » pour apprendre à assembler, réparer et perfectionner les pistolets de calibre 9 mm. ","In diesem Buch über Pistolen erfährst du, wie 9 mm Pistolen zusammengesetzt, repariert und verbessert werden. ",,"Lee el libro de la Pistola para aprender a armar, reparar y mejorar revólveres de 9 mm. "
 pumpShotgunSchematic,items,Book,KgNone,Shotgun Schematic,Schéma de fusil à pompe,Bauplan – Schrotflinte,,Esquema de escopeta
@@ -1397,12 +1336,12 @@ plantFiberHood,items,Clothes,KgNone,Plant Fiber Hood,Capuche en fibres végétal
 plantFiberPants,items,Clothes,KgNone,Plant Fiber Pants,Pantalon en fibres végétales,Pflanzenfaserhose,,Pantalones de fibra vegetal
 plantFiberShirt,items,Clothes,KgNone,Plant Fiber Shirt,Chemise en fibres végétales,Pflanzenfaserhemd,,Camisa de fibra vegetal
 plantFiberShoes,items,Clothes,KgNone,Plant Fiber Shoes,Chaussures en fibres végétales,Pflanzenfaserschuhe,,Zapatos de fibra vegetal
-pufferCoat,items,Clothes,KgNone,Winter Coat,Doudoune,Puffermantel,,Abrigo acolchado
-pufferCoatBlack,items,Clothes,KgNone,Black Winter Coat,Doudoune noire,Schwarzer Puffermantel,,Abrigo acolchado negro
-pufferCoatBrown,items,Clothes,KgNone,Brown Winter Coat,Doudoune marron,Brauner Puffermantel,,Abrigo acolchado marrón
-pufferCoatGreen,items,Clothes,KgNone,Green Winter Coat,Doudoune verte,Grüner Puffermantel,,Abrigo acolchado verde
-pufferCoatGroupDesc,items,Clothes,KgNone,"Keep toasty warm even in the coldest environments with this hand quilted Winter Coat.",Restez au chaud dans les environnements les plus froids grâce à cette doudoune tissée à la main.,Mit diesem per Hand wattierten Puffermantel bleibst du selbst in den kältesten Gegenden gemütlich warm.,,Mantente abrigado incluso en los entornos más gélidos con este abrigo acolchado hecho a mano.
-pufferCoatRed,items,Clothes,KgNone,Red Winter Coat,Doudoune rouge,Roter Puffermantel,,Abrigo acolchado rojo
+pufferCoat,items,Clothes,KgNone,Puffer Coat,Doudoune,Puffermantel,,Abrigo acolchado
+pufferCoatBlack,items,Clothes,KgNone,Black Puffer Coat,Doudoune noire,Schwarzer Puffermantel,,Abrigo acolchado negro
+pufferCoatBrown,items,Clothes,KgNone,Brown Puffer Coat,Doudoune marron,Brauner Puffermantel,,Abrigo acolchado marrón
+pufferCoatGreen,items,Clothes,KgNone,Green Puffer Coat,Doudoune verte,Grüner Puffermantel,,Abrigo acolchado verde
+pufferCoatGroupDesc,items,Clothes,KgNone,Keep toasty warm even in the coldest environments with this hand quilted Puffer Coat.,Restez au chaud dans les environnements les plus froids grâce à cette doudoune tissée à la main.,Mit diesem per Hand wattierten Puffermantel bleibst du selbst in den kältesten Gegenden gemütlich warm.,,Mantente abrigado incluso en los entornos más gélidos con este abrigo acolchado hecho a mano.
+pufferCoatRed,items,Clothes,KgNone,Red Puffer Coat,Doudoune rouge,Roter Puffermantel,,Abrigo acolchado rojo
 redDenimPants,items,Clothes,KgNone,Red Denim Pants,Jean rouge,Rote Denim-Hose,,Pantalones de mezclilla rojos
 scrapBoots,items,Clothes,KgNone,Scrap Boots,Bottes recyclées,Alteisenstiefel,,Botas hechas de chatarra
 scrapChestArmor,items,Clothes,KgNone,Scrap Chest Armor,Plastron recyclé,Alteisenbrustpanzer,,Coraza de chatarra
@@ -1418,13 +1357,13 @@ shirtBrown,items,Clothes,KgNone,Brown Shirt,Chemise marron,Braunes Hemd,,Camisa 
 shirtClothesGroupDesc,items,Clothes,KgNone,Get a little protection against the weather and other damage types with this fine cotton shirt.,Portez cette jolie chemise en coton pour vous protéger contre les intempéries et autres sortes de dégâts.,Erhalte mit diesem Baumwollhemd etwas Schutz gegen die Witterungen und andere Schadensarten.,,Obtén un poco de protección contra el clima y otros tipos de daño con esta camisa de algodón.
 shirtGreen,items,Clothes,KgNone,Green Shirt,Chemise verte,Grünes Hemd,,Camisa verde
 shirtRed,items,Clothes,KgNone,Red Shirt,Chemise rouge,Rotes Hemd,,Camisa roja
-skullCap,items,Clothes,KgNone,Toque,Bonnet,Mütze,,Casquete
-skullCapBlack,items,Clothes,KgNone,Black Toque,Bonnet noir,Schwarze Mütze,,Casquete negro
-skullCapBlue,items,Clothes,KgNone,Blue Toque,Bonnet bleu,Blaue Mütze,,Casquete azul
-skullCapBrown,items,Clothes,KgNone,Brown Toque,Bonnet marron,Braune Mütze,,Casquete marrón
-skullCapDesc,items,Clothes,KgNone,"This finely woven piece of headgear will make you wish every day was the first day of winter!",Ce couvre-chef ouvragé vous fera souhaiter que ce soit tous les jours le premier jour de l'hiver !,"Mit dieser feinmaschigen Kopfbedeckung wirst du dir wünschen, dass der Winter nie endet!",,¡Este magnífico gorro de lana hará que desees que todos los días sean el primer día del invierno!
-skullCapGreen,items,Clothes,KgNone,Green Toque,Bonnet vert,Grüne Mütze,,Casquete verde
-skullCapRed,items,Clothes,KgNone,Red Toque,Bonnet rouge,Rote Mütze,,Casquete rojo
+skullCap,items,Clothes,KgNone,Skull Cap,Bonnet,Mütze,,Casquete
+skullCapBlack,items,Clothes,KgNone,Black Skull Cap,Bonnet noir,Schwarze Mütze,,Casquete negro
+skullCapBlue,items,Clothes,KgNone,Blue Skull Cap,Bonnet bleu,Blaue Mütze,,Casquete azul
+skullCapBrown,items,Clothes,KgNone,Brown Skull Cap,Bonnet marron,Braune Mütze,,Casquete marrón
+skullCapDesc,items,Clothes,KgNone,This finely woven piece of headgear will make you wish every day was the first day of winter!,Ce couvre-chef ouvragé vous fera souhaiter que ce soit tous les jours le premier jour de l'hiver !,"Mit dieser feinmaschigen Kopfbedeckung wirst du dir wünschen, dass der Winter nie endet!",,¡Este magnífico gorro de lana hará que desees que todos los días sean el primer día del invierno!
+skullCapGreen,items,Clothes,KgNone,Green Skull Cap,Bonnet vert,Grüne Mütze,,Casquete verde
+skullCapRed,items,Clothes,KgNone,Red Skull Cap,Bonnet rouge,Rote Mütze,,Casquete rojo
 swatHelmet,items,Clothes,KgNone,SWAT Helmet,Casque du SWAT,SWAT-Helm,,Casco de SWAT
 swatHelmetDesc,items,Clothes,KgNone,The SWAT helmet is 2nd only to the military helmet in protection.,Le casque du SWAT est ce qui se fait de mieux en matière de protection après celui de qualité militaire.,Der SWAT-Helm schützt fast genauso gut wie der Militärhelm.,,El casco de SWAT solo es superado en protección por el militar.
 sweatshirt,items,Clothes,KgNone,White Sweatshirt,Sweat-shirt blanc,Weißes Sweatshirt,,Suéter blanco
@@ -1473,7 +1412,7 @@ potatoDesc,items,Farming,KgNone,"Potatoes can be eaten, crafted into seeds or us
 baconAndEggs,items,Food,KgNone,Bacon and Eggs,Bacon et œufs,Schinkenspeck mit Eiern,,Huevos con tocino
 bakedPotato,items,Food,KgNone,Baked Potato,Pomme de terre au four,Gebackene Kartoffel,,Papa asada
 bakedPotatoDesc,items,Food,KgNone,A nutritious baked potato full of carbohydrates. Great for couch potatoes too.,Une pomme de terre au four qui regorge de féculents. C'est l'idéal pour les flemmards.,Eine nahrhafte Kartoffel voller Kohlenhydrate. Ideal für Couchkartoffeln.,,Una nutritiva papa asada repleta de carbohidratos. Genial para personas sedentarias.
-beer,items,Food,KgNone,Molson Canadian,Bière,Bier,,Cerveza
+beer,items,Food,KgNone,Beer,Bière,Bier,,Cerveza
 blueberryPie,items,Food,KgNone,Blueberry Pie,Tarte aux myrtilles,Blaubeerkuchen,,Pastel de moras
 blueberryPieDesc,items,Food,KgNone,This homemade blueberry pie is nutritious and raises your wellness. Mmm...just like Grandma used to make.,Cette tarte aux myrtilles faite maison vous nourrit et améliore votre bien-être. Miam... Exactement comme celle que faisait mamie.,Dieser selbst gemachte Blaubeerkuchen ist nahrhaft und erhöht dein Wohlbefinden. Mmm … wie von der Oma.,,Este pastel de moras casero es nutritivo y mejora tu bienestar. Mmmm... Tal y como la abuela solía hacerlo.
 boiledMeat,items,Food,KgNone,Boiled Meat,Viande bouillie,Gekochtes Fleisch,,Carne cocida
@@ -1583,8 +1522,8 @@ airFilterDesc,items,Item,KgNone,An old car air filter. Scrap it or use it for a 
 animalFat,items,Item,KgNone,Animal Fat,Graisse animale,Tierfett,,Grasa animal
 animalFatDesc,items,Item,EnChanged,Animal fat can be cooked down to tallow at a campfire. This is used for making candles and flaming arrows.,La graisse animale peut être réduite en suif sur le feu de camp. Il sert à fabriquer des bougies et des flèches enflammées.,"Tierfett kann am Lagerfeuer zu Talg verarbeitet werden. Dieser kann verwendet werden, um Kerzen und Feuerpfeile herzustellen.",,La grasa animal se puede cocinar en una fogata para conseguir sebo. Este se puede usar para hacer velas y flechas incendiarias.
 animalHide,items,Item,KgNone,Animal Hide,Peau de bête,Tierhaut,,Piel de animal
-anvil,blocks,Block,KgNone,Anvil,Enclume,Amboss,,Yunque
-anvilDesc,blocks,Block,KgNone,A tool used in the forge to unlock recipes.,Un outil permettant de déverrouiller des compositions dans la forge.,"Ein Werkzeug, mit dem in der Schmiede Rezepte freigeschaltet werden.",,Una herramienta de la fragua para desbloquear recetas.
+anvil,items,Item,KgNone,Anvil,Enclume,Amboss,,Yunque
+anvilDesc,items,Item,KgNone,A tool used in the forge to unlock recipes.,Un outil permettant de déverrouiller des compositions dans la forge.,"Ein Werkzeug, mit dem in der Schmiede Rezepte freigeschaltet werden.",,Una herramienta de la fragua para desbloquear recetas.
 ballisticFiber,items,Item,KgNone,Ballistic Fiber,Fibres pare-balles,Ballistische Faser,,Fibra balística
 ballisticFiberDesc,items,Item,KgNone,Pre-apocalypse synthetic fibers like Kevlar or Nomex.,"Des fibres synthétiques datant d'avant l'apocalypse, semblables au Kevlar ou au Nomex.",Synthetische Fasern wie Kevlar oder Nomex aus der Zeit vor der Apokalypse.,,"Fibras sintéticas preapocalípticas, como Kevlar o Nomex."
 beaker,items,Item,KgNone,Beaker,Bécher,Messbecher,,Matraz
@@ -1599,11 +1538,9 @@ bowlDesc,items,Item,KgNone,Maybe it's useful for something.,Il sert peut-être �
 brokenGlass,items,Item,KgNone,Broken Glass,Débris de verre,Zerbrochenes Glas,,Cristal roto
 brokenGlassDesc,items,Item,KgNone,Broken glass can be smelted into glass at the forge or used to end it all if the apocalypse is just too much for you.,"Les débris de verre peuvent être fondus pour faire du verre à la forge, ou vous aider à en finir si l'apocalypse est trop dure à supporter.","Zerbrochenes Glas kann in der Schmiede zu Glas zerschmolzen werden. Es kann benutzt werden, um alles zu beenden, wenn die Apokalypse nicht mehr zu ertragen ist.",,El cristal roto se puede fundir para hacer cristal en la fragua. También se puede usar para terminar con tu vida si el apocalipsis es demasiado para ti...
 bucket,items,Item,KgNone,Bucket,Seau,Eimer,,Cubeta
-bucketDesc,items,Item,KgNone,An empty bucket can be used to pick up water or dig up snow to turn into water over the campfire. Water is used to make concrete.,,,,
+bucketDesc,items,Item,KgNone,An empty bucket can be used to fill up and transport water.,Un seau vide peut servir à transporter de l'eau une fois rempli.,"Ein leerer Eimer. Kann mit Wasser gefüllt werden, womit es transportiert werden kann.",,Se puede usar una cubeta vacía para llenarla de agua y transportarla.
 bucketWater,items,Item,KgNone,Bucket of Water,Seau d'eau,Wassereimer,,Cubeta de agua
-bucketWaterDesc,items,Item,KgNone,"Used in the Cement Mixer for the creation of Concrete Mix and other resources.",,,,
-bucketSnow,items,Item,KgNone,Full Bucket,Seau d'eau,Wassereimer,,Cubeta de agua
-bucketSnowDesc,items,Item,KgNone,"Heat up in the campfire to create a bucket of water.",,,,
+bucketWaterDesc,items,Item,KgNone,Water can be dumped into an enclosed structure or hole in the ground to store it.,L'eau peut être stockée en la versant dans un récipient ou un trou dans le sol.,"Wasser kann in ein geschlossenes Behältnis oder ein Loch im Boden geschüttet werden, um es aufzubewahren.",,Se puede verter el agua en una estructura cerrada o en un agujero en la tierra para almacenarla.
 bulletCasing,items,Item,KgNone,Bullet Casing,Douille de balle,Patronenhülse,,Cartucho de bala
 bulletCasingDesc,items,Item,KgNone,Bullet casings can be crafted at the forge after buying an ammo perk and are used to craft firearm ammunition.,Les douilles de balle peuvent être fabriquées à la forge après avoir acheté un avantage de munitions et servent à fabriquer des munitions pour arme à feu.,"Nachdem eine Munitions-Fertigkeit erworben wurde, können Patronenhülsen in der Schmiede gefertigt werden. Mit ihnen kann dann Munition für Schusswaffen gefertigt werden.",,Se pueden fabricar cartuchos de balas en la fragua tras comprar un beneficio de munición
 bulletTip,items,Item,KgNone,Bullet Tip,Pointe de balle,Geschossspitze,,Punta de bala
@@ -1620,8 +1557,8 @@ canEmpty,items,Item,KgNone,Empty Can,Conserve vide,Leere Dose,,Lata vacía
 canEmptyDesc,items,Item,KgNone,An empty can which you can scrap or fill with water.,Une conserve vide que vous pouvez recycler ou remplir d'eau.,"Eine leere Dose, die zerlegt oder mit Wasser gefüllt werden kann.",,Una lata vacía que puedes desechar o llenar de agua.
 carBattery,items,Item,KgNone,Lead Car Battery,Batterie de voiture en plomb,Bleibatterie für Autos,,Batería de coche de plomo
 carBatteryDesc,items,Item,KgNone,"Car batteries can be used in vehicles, scrapped for lead in your backpack or smelted at the forge for lead.","Les batteries de voiture peuvent être utilisées sur les véhicules, recyclées en plomb dans votre sac à dos ou fondues dans la forge pour obtenir du plomb.","Autobatterien können für Fahrzeuge benutzt, für Blei im Rucksack zerlegt oder in der Schmiede eingeschmolzen werden.",,"Las baterías de coche se pueden usar en vehículos, despedazar para tener plomo en tu mochila o fundir en la fragua para obtener plomo."
-casinoCoin,items,Item,KgNone,Canadian Loonie,,,,
-casinoCoinDesc,items,Item,KgNone,"It's one dollar and has a picture of a loon on it. It's the prefered currency of the zombie apocallypse in Canada. If you find other types of money you can exchange them at Stuff N' Things",,,,
+casinoCoin,items,Item,KgNone,Duke's Casino Token,Jeton du Duke's Casino,Jeton aus Dukes Kasino,,Ficha del casino de Duke
+casinoCoinDesc,items,Item,KgNone,A Duke's casino coin. After the epidemic and war it became the main currency for trading in Navezgane.,"Une pièce du Duke's Casino. Après l'épidémie et la guerre, ces pièces sont devenues la monnaie principale de Navezgane.",Ein Jeton aus Dukes Kasino. Nach der Seuche und dem Krieg wurden diese Jetons zur Hauptwährung in Navezgane.,,Una moneda del casino de Duke. Se convirtió en la moneda principal para comerciar en Navezgane tras la epidemia y la guerra.
 cement,items,Item,KgNone,Cement,Ciment,Zement,,Cemento
 clayLump,items,Item,KgNone,Lump of Clay,Morceau d'argile,Lehmklumpen,,Terrón de arcilla
 clayLumpDesc,items,Item,KgNone,"Clay a key resource for forging can be seen as brown spots on the map, found along bodies of water & dug from the earth. ",L'argile est une ressource essentielle pour forger. Elle est représentée par des taches brunes sur la carte et se trouve le long de points d'eau et sous terre.,Lehm ist ein wichtiger Rohstoff beim Schmieden und wird mit braunen Punkten auf der Karte gekennzeichnet. Er wird entlang von Wasser und in der Erde gefunden.,,"La arcilla es un recurso clave para forjar y se encuentra en forma de manchas marrones en el mapa, junto a cuerpos de agua y excavaciones en el suelo. "
@@ -1632,7 +1569,7 @@ coalDesc,items,Item,EnChanged,A great fuel source and a core ingredient for gunp
 cobblestones,items,Item,KgNone,Cobblestone Rocks,Pierres à pavés,Pflastersteine,,Adoquines
 cobblestonesDesc,items,Item,EnChanged,Cobblestone rocks can be used to build surprisingly sturdy flagstone and cobblestone structures.,Les pierres à pavés servent à construire des structures en pavés étonnamment robustes.,Mit Pflastersteinen können erstaunlich stabile Steinplatten- und Pflastersteinstrukturen gebaut werden.,,Los adoquines se pueden usar para construir estructuras de adoquines sorprendentemente robustas.
 concreteMix,items,Item,KgNone,Concrete Mix,Mélange à béton,Betonmischung,,Mezcla de hormigón
-concreteMixDesc,items,Item,KgNone,Used to build and upgrade concrete structures. 1 batch equals 50 Concrete Mix in the cement mixer.,"Après avoir acheté l'avantage du béton, peut servir de ressource pour transformer les structures en fer à béton en murs de béton solides.","Wenn du die Fertigkeit „Beton“ erworben hast, können damit aus Stahlgerüsten solide Betonwände gemacht werden.",,Se puede usar como un recurso para convertir las estructuras en paredes de hormigón una vez que hayas comprado el beneficio de hormigón.
+concreteMixDesc,items,Item,KgNone,Can be used as a resource to make rebar frames into solid concrete walls once you've bought the concrete perk.,"Après avoir acheté l'avantage du béton, peut servir de ressource pour transformer les structures en fer à béton en murs de béton solides.","Wenn du die Fertigkeit „Beton“ erworben hast, können damit aus Stahlgerüsten solide Betonwände gemacht werden.",,Se puede usar como un recurso para convertir las estructuras en paredes de hormigón una vez que hayas comprado el beneficio de hormigón.
 cookingGrill,items,Item,KgNone,Cooking Grill,Grill,Kochgrill,,Parrilla
 cookingGrillDesc,items,Item,KgNone,A cooking utensil used in the campfire to unlock recipes.,Un ustensile de cuisine à utiliser sur le feu de camp pour déverrouiller des compositions.,"Ein Kochgerät, mit dem am Lagerfeuer Rezepte freigeschaltet werden.",,Un instrumento de cocina que se usa en la fogata para desbloquear recetas.
 crushedSand,items,Item,KgNone,Crushed Sand,Sable de concassage,Bruchsand,,Arena fina
@@ -1766,7 +1703,7 @@ minibikePartsGroupDesc,items,Part,KgNone,A part of the minibike. Assemble with o
 minibikeSeat,items,Part,KgNone,Minibike Seat,Siège de mini-moto,Taschenmotorrad-Sitzbank,,Asiento de la minimoto
 minibikeWheels,items,Part,KgNone,Minibike Wheels,Roues de mini-moto,Taschenmotorrad-Räder,,Ruedas de la minimoto
 padlock,items,Part,KgNone,Padlock,Cadenas,Vorhängeschloss,,Candado
-padlockDesc,items,Part,KgNone,A padlock can be used to craft anything that requires a lock and also protect vehicles from theft.,Un cadenas peut servir à empêcher le vol de certains véhicules.,"Ein Vorhängeschloss, mit dem Fahrzeuge gegen Diebstahl geschützt werden können.",,El candado se puede utilizar para evitar que los vehículos sean robados.
+padlockDesc,items,Part,KgNone,A padlock can be used to protect vehicles from theft.,Un cadenas peut servir à empêcher le vol de certains véhicules.,"Ein Vorhängeschloss, mit dem Fahrzeuge gegen Diebstahl geschützt werden können.",,El candado se puede utilizar para evitar que los vehículos sean robados.
 parts44Magnum_cylinder,items,Part,KgNone,.44 Magnum Cylinder,Barillet de .44 magnum,.44 Magnum Trommel,,Cilindro de Magnum 44
 parts44Magnum_frame,items,Part,KgNone,.44 Magnum Frame,Carcasse de .44 magnum,.44 Magnum Rahmen,,Armazón de Magnum 44
 parts44Magnum_grip,items,Part,KgNone,.44 Magnum Grip,Crosse de .44 magnum,.44 Magnum Griff,,Empuñadura de Magnum 44
@@ -1833,21 +1770,21 @@ clawHammerDesc,items,Tool,KgNone,The claw hammer is great for repairing and upgr
 fireaxeIron,items,Tool,KgNone,Iron Fireaxe,Hache de pompier en fer,Eiserne Feueraxt,,Hacha de bombero de hierro
 fireaxeIronDesc,items,Tool,KgNone,The fireaxe is good for harvesting wood and has a better chance to dismember than most weapons.,"Pratique pour couper du bois, la hache de pompier est également l'arme qui a le plus de chance de démembrer un adversaire.","Die Feueraxt eignet sich gut dazu, Holz zu fällen. Sie hat zudem eine erhöhte Chance, Gegner zu zergliedern.",,El hacha de bombero es buena para recolectar madera y tiene más posibilidades de desmembrar que la mayoría de armas.
 fireaxeSteel,items,Tool,KgNone,Steel Fireaxe,Hache de pompier en acier,Stählerne Feueraxt,,Hacha de bombero de acero
-fireaxeSteelDesc,items,Tool,KgNone,The steel fireaxe has a durable blade and is great for harvesting wood. It has a better chance to dismember than most weapons. Requires Advanced Workbench.,La lame de la hache de pompier en acier est solide et idéale pour couper du bois. Elle est également l'arme qui a le plus de chance de démembrer un adversaire.,"Die stählerne Feueraxt verfügt über eine langlebige Schneide und eignet sich großartig dazu, Holz zu fällen. Sie hat zudem eine erhöhte Chance, Gegner zu zergliedern.",,El hacha de bombero de acero tiene una hoja duradera y es muy buena para recolectar madera. Tiene más posibilidades de desmembrar que la mayoría de armas.
+fireaxeSteelDesc,items,Tool,KgNone,The steel fireaxe has a durable blade and is great for harvesting wood. It has a better chance to dismember than most weapons.,La lame de la hache de pompier en acier est solide et idéale pour couper du bois. Elle est également l'arme qui a le plus de chance de démembrer un adversaire.,"Die stählerne Feueraxt verfügt über eine langlebige Schneide und eignet sich großartig dazu, Holz zu fällen. Sie hat zudem eine erhöhte Chance, Gegner zu zergliedern.",,El hacha de bombero de acero tiene una hoja duradera y es muy buena para recolectar madera. Tiene más posibilidades de desmembrar que la mayoría de armas.
 hoeIron,items,Tool,KgNone,Iron Garden Hoe,Binette en fer,Gartenhacke aus Eisen,,Azada de hierro de jardín
 hoeIronDesc,items,Tool,KgNone,The iron gardening hoe is great tool for turning poor soil into fertile soil for planting crops.,La binette en fer est géniale pour transformer un sol pauvre en sol fertile afin d'y planter des cultures.,"Die Gartenhacke aus Eisen ist ein großartiges Werkzeug, um karge Erde in furchtbare Erde zu verwandeln, in der du Feldfrüchte pflanzen kannst.",,La azada de hierro de jardinería es una herramienta estupenda para convertir terreno árido en fértil para plantar cosechas.
 hoeSteel,items,Tool,KgNone,Steel Garden Hoe,Binette en acier,Gartenhacke aus Stahl,,Azada de acero de jardín
-hoeSteelDesc,items,Tool,KgNone,The steel garden hoe is the best tool for turning poor soil into fertile soil for planting crops. Requires Advanced Workbench.,La binette en acier est l'outil idéal pour transformer un sol pauvre en sol fertile afin d'y planter des cultures.,"Die Gartenhacke aus Stahl ist das beste Werkzeug, um karge Erde in furchtbare Erde zu verwandeln, in der du Feldfrüchte pflanzen kannst.",,La azada de acero de jardín es una herramienta estupenda para convertir terreno árido en fértil para plantar cosechas.
+hoeSteelDesc,items,Tool,KgNone,The steel garden hoe is the best tool for turning poor soil into fertile soil for planting crops.,La binette en acier est l'outil idéal pour transformer un sol pauvre en sol fertile afin d'y planter des cultures.,"Die Gartenhacke aus Stahl ist das beste Werkzeug, um karge Erde in furchtbare Erde zu verwandeln, in der du Feldfrüchte pflanzen kannst.",,La azada de acero de jardín es una herramienta estupenda para convertir terreno árido en fértil para plantar cosechas.
 nailgun,items,Tool,KgNone,Nailgun,Pistolet à clous,Nagelpistole,,Pistola de clavos
 nailgunDesc,items,Tool,KgNone,The nail gun is the best tool for repairing and upgrading base walls and not a bad weapon to boot if you have nails.,"Outil idéal pour réparer et améliorer les murs de base, le pistolet à clous est également pas mal en tant qu'arme si vous possédez des clous.","Die Nagelpistole ist das beste Werkzeug, um die Mauern der Basis zu reparieren und aufzuwerten. Sie stellt auch eine ziemlich gute Waffe dar, wenn du Nägel hast.",,"La pistola de clavos es la mejor herramienta para reparar y mejorar las paredes de la base. Además, no está mal como arma si tienes clavos."
 pickaxeIron,items,Tool,KgNone,Iron Pickaxe,Pioche en fer,Eisenspitzhacke,,Pico de hierro
 pickaxeIronDesc,items,Tool,KgNone,The iron pickaxe is great for breaking stone and harvesting minerals.,La pioche en fer est géniale pour briser la pierre et récolter des minéraux.,"Die Eisenspitzhacke eignet sich besonders gut dazu, Stein zu brechen und Mineralien abzubauen.",,El pico de hierro es excelente para picar piedra o extraer minerales.
 pickaxeSteel,items,Tool,KgNone,Steel Pickaxe,Pioche en acier,Stahlspitzhacke,,Pico de acero
-pickaxeSteelDesc,items,Tool,KgNone,The steel pickaxe is best for breaking stone and harvesting minerals. Requires Advanced Workbench.,La pioche en acier est l'outil idéal pour briser la pierre et récolter des minéraux.,"Die Stahlspitzhacke ist das beste Werkzeug, um Stein zu brechen und Mineralien abzubauen.",,El pico de acero es el mejor para picar piedra o extraer minerales.
+pickaxeSteelDesc,items,Tool,KgNone,The steel pickaxe is best for breaking stone and harvesting minerals.,La pioche en acier est l'outil idéal pour briser la pierre et récolter des minéraux.,"Die Stahlspitzhacke ist das beste Werkzeug, um Stein zu brechen und Mineralien abzubauen.",,El pico de acero es el mejor para picar piedra o extraer minerales.
 shovelIron,items,Tool,KgNone,Iron Shovel,Pelle en fer,Eisenschaufel,,Pala de hierro
 shovelIronDesc,items,Tool,KgNone,"The iron shovel is great for digging through earth, sand or snow.","La pelle en fer est géniale pour creuser la terre, le sable ou la neige.","Die Eisenschaufel ist ein tolles Werkzeug, um sich durch Erde, Sand und Schnee zu graben.",,"La pala de hierro es excelente para cavar en la tierra, arena o nieve."
 shovelSteel,items,Tool,KgNone,Steel Shovel,Pelle en acier,Stahlschaufel,,Pala de acero
-shovelSteelDesc,items,Tool,KgNone,"The steel shovel is very durable and the ideal tool for digging through earth, sand or snow. Requires Advanced Workbench.","La pelle en acier est un outil durable et idéal pour creuser la terre, le sable ou la neige.","Die Stahlschaufel ist sehr robust und das ideale Werkzeug, um sich durch Erde, Sand und Schnee zu graben.",,"La pala de acero es muy duradera y es la herramienta ideal para cavar en la tierra, arena o nieve."
+shovelSteelDesc,items,Tool,KgNone,"The steel shovel is very durable and the ideal tool for digging through earth, sand or snow.","La pelle en acier est un outil durable et idéal pour creuser la terre, le sable ou la neige.","Die Stahlschaufel ist sehr robust und das ideale Werkzeug, um sich durch Erde, Sand und Schnee zu graben.",,"La pala de acero es muy duradera y es la herramienta ideal para cavar en la tierra, arena o nieve."
 stoneAxe,items,Tool,KgNone,Stone Axe,Hache de pierre,Steinaxt,,Hacha de piedra
 stoneAxeDesc,items,Tool,KgNone,"A primitive tool useful for cutting wood, mining stone, repairing & upgrading walls, doors & windows. Not the best weapon.","Un outil primitif pratique pour couper du bois, extraire de la pierre, ainsi que réparer et améliorer les murs, les portes et les fenêtres. Pas ce qui se fait de mieux en matière d'arme.","Ein primitives Werkzeug zum Holzfällen, Abbauen von Stein, Reparieren und Aufwerten von Mauern, Türen und Fenstern. Es gibt bessere Waffen.",,"Una herramienta primitiva para cortar madera, picar piedra y reparar o mejorar paredes, puertas o ventanas. No es la mejor arma."
 stoneShovel,items,Tool,KgNone,Stone Shovel,Pelle en pierre,Steinschaufel,,Pala de piedra
@@ -1931,7 +1868,7 @@ shotguns,progression,Skill,KgNone,Shotguns,Fusils à pompe,Schrotflinten,,Escope
 shotgunsDesc,progression,Skill,KgNone,Do more damage with spread weapons. Gain skill by using items from this group.,Infligez davantage de dégâts avec les armes dont les munitions se dispersent. Obtenez cette compétence en utilisant des objets de ce groupe.,"Verursache mehr Schaden mit Streuwaffen. Erhalte die Fertigkeit, indem du Waffen aus dieser Kategorie benutzt.",,Inflige más daño con armas expansivas. Mejora tu habilidad usando objetos de este grupo.
 shotgunShellCrafting,progression,Skill,KgNone,Shotgun Shell Crafting,Fabrication de cartouches de fusil à pompe,Handwerk – Flintenmunition,,Fabricación de cartuchos de escopeta.
 steelSmithing,progression,Skill,KgNone,Steel Smithing,Forgeron d'acier,Stahlschmieden,,Forja de acero
-steelSmithingDesc,progression,Skill,EnChanged,Unlocks Steel smithing. Upgrade the forge with a crucible to create steel ingots and bulletproof glass. Steel crafting must be done in the Advanced Workbench.,"Déverrouille la compétence de forgeron d'acier. Agrandit la forge pour créer des lingots d'acier, des outils en acier, des portes de chambre forte et plus encore.","Schaltet das Stahlschmieden frei. Erweitere die Schmiede, um Stahlbarren, Stahlwerkzeuge, Tresortüren und mehr zu schmieden.",,"Desbloquea la forja de acero. Expande la forja para crear lingotes de acero, herramientas de acero, puertas para bóvedas y más."
+steelSmithingDesc,progression,Skill,EnChanged,Unlocks Steel smithing. Upgrade the forge with a crucible to create steel ingots and bulletproof glass.,"Déverrouille la compétence de forgeron d'acier. Agrandit la forge pour créer des lingots d'acier, des outils en acier, des portes de chambre forte et plus encore.","Schaltet das Stahlschmieden frei. Erweitere die Schmiede, um Stahlbarren, Stahlwerkzeuge, Tresortüren und mehr zu schmieden.",,"Desbloquea la forja de acero. Expande la forja para crear lingotes de acero, herramientas de acero, puertas para bóvedas y más."
 tailoring,progression,Skill,KgNone,Tailoring,Confection,Schneiderei,,Sastrería
 tailoringDesc,progression,Skill,KgNone,Craft plant fiber or cloth clothing faster and at better quality. Decrease repair penalties and get more from repair kits. Gain skill by crafting and repairing items from this group.,Fabriquez des vêtements en fibres végétales ou en tissu plus rapidement et de meilleure qualité. Diminuez les pénalités de réparation et obtenez davantage de kits de réparation. Obtenez cette compétence en fabriquant et en réparant des objets de ce groupe.,"Fertige Pflanzenfaser- oder Stoffkleidung schneller und von besserer Qualität. Senke die Reparaturabzüge und hole mehr aus deinen Reparaturkits heraus. Erhalte die Fertigkeit, indem du Gegenstände aus dieser Kategorie fertigst und reparierst.",,Fabrica fibra vegetal o tejidos para ropa más rápido y con mejor calidad. Disminuye los castigos de reparación y otorga más kits de reparación. Mejora tu habilidad fabricando y reparando objetos de este grupo.
 theCamel,progression,Skill,KgNone,The Camel,Le chameau,Das Kamel,,El camello
@@ -3128,7 +3065,7 @@ mmLoadingTip10,,Loading Screen Tooltip 10,KgNone,Experiment with customizable se
 mmLoadingTip11,,Loading Screen Tooltip 11,KgNone,"To eat and drink, wield an item and use Secondary Action.","Pour manger et boire, maniez un objet et utilisez l'action secondaire.","Um zu essen oder zu trinken, halte einen Gegenstand und verwende die sekundäre Aktion.",,"Para comer y beber, empuña un objeto y usa la acción secundaria."
 mmLoadingTip11_button,,Loading Screen Tooltip 11,KgNone,"To eat and drink, wield an item and use Secondary Action {0}.","Pour manger et boire, maniez un objet et utilisez l'action secondaire {0}.","Um zu essen oder zu trinken, halte einen Gegenstand und verwende die sekundäre Aktion {0}.",,"Para comer y beber, empuña un objeto y usa la acción secundaria {0}."
 mmLoadingTip12,,Loading Screen Tooltip 12,KgNone,Enjoy split screen co-op by signing in a second player while in Single Player mode.,Profitez du mode coopération en écran partagé en connectant un deuxième joueur dans le mode un joueur.,"Wenn du im Einzelspieler-Modus einen zweiten Spieler anmeldest, erscheint ein geteilter Bildschirm für Koop.",,"Si un segundo jugador inicia sesión mientras estás en el modo de un jugador, puedes disfrutar de la pantalla dividida en modo cooperativo."
-mmLoadingTip13,,Loading Screen Tooltip 13,KgNone,"To assemble Guns or Motorized Tools, you must have all the parts in your inventory and have read the recipe. Build it by selecting the part in your inventory and using the \Assemble\"" action. These recipes will not appear in the Crafting menus.""","Pour assembler des armes ou des outils motorisés, vous devez posséder toutes les pièces nécessaires dans votre inventaire et avoir lu la composition. Fabriquez l'objet à l'aide des pièces se trouvant dans votre inventaire en utilisant l'action \Assemble\"". Ces compositions n'apparaîtront pas dans les menus de fabrication.""","Um Waffen oder motorisierte Werkzeuge zusammenzusetzen, musst in deinem Inventar über alle Teile verfügen und das Rezept gelesen haben. Baue, indem du das Teil in deinem Inventar auswählst und die Aktion \Zusammensetzen\"" auswählst. Diese Rezepte erscheinen nicht in den Fertigungs-Menüs.""",,"Para ensamblar pistolas o herramientas motorizadas, tienes que disponer de todas las partes en tu inventario y haber leído la receta. Constrúyela seleccionando la parte de tu inventario y usando la acción de \Ensamblar\"". Estas recetas no aparecen en los menús de Fabricación."""
+mmLoadingTip13,,Loading Screen Tooltip 13,KgNone,"To assemble Guns or Motorized Tools, you must have all the parts in your inventory and have read the recipe. Build it by selecting the part in your inventory and using the \Assemble\ action. These recipes will not appear in the Crafting menus.","Pour assembler des armes ou des outils motorisés, vous devez posséder toutes les pièces nécessaires dans votre inventaire et avoir lu la composition. Fabriquez l'objet à l'aide des pièces se trouvant dans votre inventaire en utilisant l'action \Assemble\. Ces compositions n'apparaîtront pas dans les menus de fabrication.","Um Waffen oder motorisierte Werkzeuge zusammenzusetzen, musst in deinem Inventar über alle Teile verfügen und das Rezept gelesen haben. Baue, indem du das Teil in deinem Inventar auswählst und die Aktion \Zusammensetzen\ auswählst. Diese Rezepte erscheinen nicht in den Fertigungs-Menüs.",,"Para ensamblar pistolas o herramientas motorizadas, tienes que disponer de todas las partes en tu inventario y haber leído la receta. Constrúyela seleccionando la parte de tu inventario y usando la acción de \Ensamblar\. Estas recetas no aparecen en los menús de Fabricación."
 mmLoadingTip14,,Loading Screen Tooltip 14,KgNone,Air Supply Drops can happen around mid-day. Listen for the airplane and follow the orange smoke to find the crate the plane drops. You can also find supply crates marked on your map if the mark air drops option is enabled.,Les parachutages ont généralement lieu aux alentours de midi. Soyez attentif passage de l'avion et suivez la fumée orange pour trouver la caisse parachutée. Vous pouvez également trouver des caisses de provisions sur votre carte si l'option d'affichage des parachutages est activée.,"Abwürfe von Vorräten können zur Mittagszeit vorkommen. Horche nach den Flugzeugen und folge dem orangefarbenen Rauch, um die Kisten zu finden, die die Flugzeuge fallen gelassen haben. Du kannst Vorratskisten auch auf deiner Karte finden, wenn die Funktion „Abwürfe aus der Luft markieren“ aktiviert ist.",,Los suministros aéreos se dejan caer alrededor del mediodía. Espera oír algún avión y sigue el humo naranja para encontrar la caja que ha soltado. También puedes encontrar cajas de suministros marcadas en tu mapa si la opción de marcar suministros aéreos está activada.
 mmLoadingTip15,,Loading Screen Tooltip 15,KgNone,Use a Bone Shiv or Bladed Weapon to skin an animal and receive bonus resources. This is also true when using a wrench to break down cars or mechanical items. Use the best tool for the job and get bigger rewards.,Utilisez un surin en os ou une arme à lame pour dépecer un animal et obtenir des ressources bonus. Le même système s'applique avec une clé à molette pour démonter des véhicules ou des objets mécaniques. Utilisez les meilleurs outils pour obtenir de meilleures récompenses.,"Verwende eine Knochenklinge oder eine Klingenwaffe, um ein Tier zu häuten und Bonusrohstoffe zu erhalten. Dies gilt auch für das Verwenden eines Schraubenschlüssels, um Autos oder mechanische Gegenstände auseinanderzubauen. Verwende das beste Werkzeug für die Tätigkeit und erhalte größere Belohnungen.",,Usa un pincho de hueso o una arma de hoja para desollar a un animal y recibirás recursos de bonificación. Lo mismo sucede si usas una llave inglesa para averiar coches u objetos mecánicos. Escoge la mejor herramienta para el trabajo y recibirás mejores recompensas.
 mmLoadingTip16,,Loading Screen Tooltip 16,EnChanged,"Forges are used to smelt metals and resources used to craft more recipes. Recipes can only be crafted at the forge using the smelted resources not items from your inventory. Unlock even more recipes in the forge by adding an anvil, crucible or tool and die set.","Les forges permettent de fondre les métaux et les ressources nécessaires à la fabrication de compositions. Les compositions peuvent uniquement être fabriquées à la forge en utilisant les ressources fondues, et non les objets de votre inventaire. Déverrouillez encore plus de compositions à la forge en ajoutant une enclume, un pied à coulisse ou un lot de matrices et d'outils.","Schmieden werden verwendet, um Metalle und Rohstoffe zu schmelzen, um mehr Rezepte zu fertigen. Rezepte können nur in der Schmiede mit den geschmolzenen Rohstoffen gefertigt werden, nicht mit Gegenständen aus deinem Inventar. Schalte in der Schmiede noch mehr Rezepte frei, indem du einen Amboss, einen Messschieber oder eine Werkzeugkiste hinzufügst.",,"Las fraguas sirven para fundir metales y recursos necesarios para crear más recetas. Los objetos de tu inventario no sirven para crear recetas en la fragua; tan solo sirven los recursos fundidos. Desbloquea todavía más recetas en la fragua añadiendo un yunque, calibradores o herramientas y un juego de ajuste."
@@ -3537,7 +3474,7 @@ corrugatedMetalWedgeTip,blocks,Block,New,corrugated Metal Wedge Tip,,,,
 decorationBlockGroupDesc,blocks,Block,New,A decorative block from the creative menu.,,,,
 drawBridgeGroupDesc,blocks,Block,New,It's old-fashioned but with everything that's happening you might just need a little old-fashioned. ,,Sieht mittelalterlich aus aber das hat im Mittellater schon recht gut funktioniert.,,
 fertilizedFarmland,blocks,Block,New,Fertilized Farmland,,,,
-flagPoleWhiteRiver,blocks,Block,New,Canada Flag,,,,
+flagPoleWhiteRiver,blocks,Block,New,White River Flagpole,,,,
 flagstoneArrowSlitHalf,blocks,Block,New,Flagstone Arrow Slit,,,,
 flagstoneCNRFull,blocks,Block,New,flagstone Corner Full,,Steinplatten – Komplette Ecke,,
 flagstoneCNRInside,blocks,Block,New,Flagstone Inside Corner,,Steinplatten – Innenecke,,
@@ -3685,7 +3622,7 @@ cntShippingCrateCarParts,blocks,Container,New,Car Parts Shipping Crate,,Autoteil
 cntShippingCrateCarPartsDesc,blocks,Container,New,CREATIVE: Minibike parts and parts likely shipped to a car garage.,,,,
 cntShippingCrateConstructionSupplies,blocks,Container,New,Random Construction Shipping Crate,,Baustellen-Frachtkiste,,
 cntShippingCrateGroupDesc,blocks,Container,New,CREATIVE: A shipping crate containing... something.,,,,
-cntStorageGeneric,blocks,Container,New,Large Storage Box,,Lagerkiste,,
+cntStorageGeneric,blocks,Container,New,Storage Box,,Lagerkiste,,
 cntStorageGenericInsecure,blocks,Container,New,Storage Box Insecure,,Lagerkiste ungesichert,,
 cntTrashCompactor,blocks,Container,New,Trash Compactor,,Müllpresse,,
 cntVendingMachine,blocks,Container,New,Player Vending Machine,,,,
@@ -3763,8 +3700,8 @@ playerSignWood1x1,blocks,Sign,New,Wooden Sign 1x1m,,,,
 playerSignWood1x3,blocks,Sign,New,Wooden Sign 3x1m,,,,
 playerSignWood2x5,blocks,Sign,New,Wooden Sign 5x2m,,,,
 signShopOpen,blocks,Sign,New,Shop Sign: Open,,Ladenschild: Geöffnet,,
-signShopTraderJoel1x3Wall,blocks,Sign,New,"Stuff N' Things Sign 3x1m",,,,
-signShopTraderJoel2x5Wall,blocks,Sign,New,"Stuff N' Things Sign 2x5m",,,,
+signShopTraderJoel1x3Wall,blocks,Sign,New,Trader Joel Sign 3x1m,,Händler Joel Schild 3x1m,,
+signShopTraderJoel2x5Wall,blocks,Sign,New,Trader Joel Sign 2x5m,,Händler Joel Schild 2x5m,,
 sleeperSit,blocks,SleeperSpawn,New,sleeper Sitting,,,,
 destroyedStoneDesc,blocks,Terrain,New,Destroyed stone can be crafted quickly to fill a hole but it is not very stable.,,,,
 diamondOre,blocks,Terrain,New,Diamond Deposit,,Diamantenvorkommen,,
@@ -3816,15 +3753,15 @@ entitycommand_unlock,entities,Radial,New,Unlock,,Aufschließen,,
 npcBanditMelee,entityclasses,Entity,New,Melee Bandit,,,,
 npcBanditRanged,entityclasses,Entity,New,Ranged Bandit,,,,
 npcSurvivorRanged,entityclasses,Entity,New,Survivor,,,,
-npcTraderBob,entityclasses,Entity,New,Mindcrimer,,,,
+npcTraderBob,entityclasses,Entity,New,Trader Bob,,,,
 npcTraderHugh,entityclasses,Entity,New,Trader Hugh,,,,
-npcTraderJimmy,entityclasses,Entity,New,HK Kill,,,,
-npcTraderJoel,entityclasses,Entity,New,Like A Boss,,,,
-npcTraderRekt,entityclasses,Entity,New,"P.B. Mack",,,,
+npcTraderJimmy,entityclasses,Entity,New,Trader Jimmy,,,,
+npcTraderJoel,entityclasses,Entity,New,Trader Joel,,,,
+npcTraderRekt,entityclasses,Entity,New,Trader Rekt,,,,
 npcTraderTest,entityclasses,Entity,New,Trader Test,,,,
-Trader,entityclasses,Entity,New,"Stuff N' Things",,,,
+Trader,entityclasses,Entity,New,Trader,,,,
 steelDart,items,Ammo,New,Iron Dart (Ammo),,Eisengeschoss (Mun),,
-steelDartDesc,items,Ammo,New,Used as ammunition for traps. Requires Advanced Workbench.,,,,
+steelDartDesc,items,Ammo,New,Used as ammunition for traps.,,,,
 beerBook,items,Book,New,Tasting And Brewing,,,,
 beerBookDesc,items,Book,New,Read this book to learn how to grow hops and brew beer.,,,,
 compoundBowSchematic,items,Book,New,Compound Bow Schematic,,Bauplan – Compoundbogen,,
@@ -3887,8 +3824,8 @@ jacketLetter,items,Clothes,New,College Jacket,,Collegejacke,,
 jacketWhite,items,Clothes,New,White Jacket,,,,
 leatherDusterBlack,items,Clothes,New,Black Leather Duster,,Swarzer Ledermantel,,
 leatherHoodBlack,items,Clothes,New,Black Leather Hood,,,,
-nerdGlasses,items,Clothes,New,Bubble's Glasses,,Starke Brille,,
-nerdGlassesDesc,items,Clothes,New,Jesus f-n christ boys where's my kitties!,,Ein Bücherwurm zu sein hatte schon mal mehr Vorteile als gut mit einer Keule umgehen zu können.,,
+nerdGlasses,items,Clothes,New,Nerdy Glasses,,Starke Brille,,
+nerdGlassesDesc,items,Clothes,New,These make you look smart but you know how looks can be deceiving.,,Ein Bücherwurm zu sein hatte schon mal mehr Vorteile als gut mit einer Keule umgehen zu können.,,
 overalls,items,Clothes,New,Overalls,,Overall,,
 pressboyCapBlack,items,Clothes,New,Black Press Boy Cap,,,,
 pressboyCapBlue,items,Clothes,New,Blue Press Boy Cap,,,,
@@ -3957,7 +3894,7 @@ scrapPlastics,items,Item,New,Scrap Plastics,,,,
 scrapPlasticsDesc,items,Item,New,Bits of plastics that you may carefully mold into new shapes.,,,,
 silverNugget,items,Item,New,Silver Nugget,,Silbernugget,,
 snowBall,items,Item,New,Snowball,,,,
-snowBallDesc,items,Item,New,"Snowballs can be heated up in a campfire for water. They can also be thrown and Zeds, friends and foes",,,,
+snowBallDesc,items,Item,New,"You know what to do! Turn it into first rate drinking water over a campfire, of course.",,,,
 snowberryExtract,items,Item,New,Snowberry Extract,,,,
 snowberryExtractDesc,items,Item,New,Even it's side effects have side effects. May be useful in smaller doses.,,,,
 steelPolish,items,Item,New,Reinforced Steel Upgrade,,,,
@@ -4090,8 +4027,8 @@ txName_Concrete_dark_red,painting,txGroupPainted,New,Concrete dark red,,,,
 txName_Concrete_green,painting,txGroupPainted,New,Concrete green,,,,
 txName_Concrete_grey,painting,txGroupPainted,New,Concrete grey,,,,
 txName_Concrete_orange,painting,txGroupPainted,New,Concrete orange,,,,
-txName_Concrete_pink,painting,txGroupPainted,New,Snow,,,,
-txName_Concrete_purple,painting,txGroupPainted,New,Ice,,,,
+txName_Concrete_pink,painting,txGroupPainted,New,Concrete pink,,,,
+txName_Concrete_purple,painting,txGroupPainted,New,Concrete purple,,,,
 txName_Concrete_red,painting,txGroupPainted,New,Concrete red,,,,
 txName_Concrete_yellow,painting,txGroupPainted,New,Concrete yellow,,,,
 txName_Drywall_blue,painting,txGroupPainted,New,Drywall blue,,,,
@@ -4171,7 +4108,7 @@ lockpicking,progression,Perk,New,Lock Picking,,,,
 lockpickingDesc,progression,Perk,New,Open locks without alerting deceased home-owners.,,,,
 paintGroupDesc,progression,Perk,New,This skill cannot be purchased with skill points. Find and read magazines to unlock additional painting options.,,,,
 secretStash,progression,Perk,New,Secret Stash,,,,
-secretStashDesc,progression,Perk,New,"By increasing this perk clerks at Stuff N' Things will show you more and better items from their Secret Stash.",,,,
+secretStashDesc,progression,Perk,New,By increasing this perk traders will show you more and better items from their Secret Stash.,,,,
 badMechanic,progression,Skill,New,Bad Mechanic,,Einseitiger Mechaniker,,
 badMechanicDesc,progression,Skill,New,Putting things back together has never been your strong point but you get more useful items when taking them apart. Receive more resources when harvesting with construction tools.,,Dinge zerlegen kannst du gut. Zusammenbauen... weniger. Sammle mehr mit Bauwerkzeugen.,,
 rentVendingMachine,service,Service,New,Rent Vending Machine,,,,
@@ -4327,13 +4264,13 @@ xuiSkillSecretStash,UI,XUI,New,Bonus Level,,,,
 xuiSkillSelectedLevel,UI,XUI,New,Selected Level:,,,,
 xuiSlots,UI,XUI,New,SLOTS,,,,
 xuiStartTime,UI,XUI,New,START TIME,,,,
-xuiTrader,UI,XUI,New,"Stuff N' Things Clerk",,,,
+xuiTrader,UI,XUI,New,TRADER,,,,
 xuiVending,UI,XUI,New,VENDING,,,,
 xuiWPjournal,UI,Quests Window Paging in Game,New,Journal,,,,
 devOnlyGroupDesc,blocks,Block,New,Only use for development and testing.,,,,
 sleeperGroupDesc,blocks,SleeperSpawn,New,"Regular: 20-7% empty, XS 1-2, S 2-4, M 3-7, L 4-9, XL 5-11.  LootRoom: 0% empty, XS 1-2, S 3-4, M 5-7, L 6-9, XL 8-11.  Abandoned: 1, high decoy %",,,,
 spawnTraderDesc,blocks,Block,New,"Navezgane Traders: 1394,1324 / -1052,951 / 318,107 / -771,-1305 / 1002,-1308",,,,
-rebarFrameGroupDesc,blocks,Block,New,Place and upgrade with concrete mix and a construction tool using the secondary action. Upgrade more when dry. Craftable only in the Advanced Workbench,"Sert à construire des bases. Se construit à l'aide de bois, de mélange à béton et d'un outil de construction, et ce grâce à l'action secondaire. Une fois sèche, elle s'améliore à l'aide d'acier forgé.",Kann mit Betonmischung und Bauwerkzeugen unter Verwendung der sekundären Aktion gebaut werden. Werte nach dem Trocknen mit geschmiedetem Stahl weiter auf.,,"Se usa como cimiento. Usa la acción secundaria para construir con madera, mezcla de hormigón y una herramienta de construcción. Mejóralo aún más con acero forjado una vez que esté seco."
+rebarFrameGroupDesc,blocks,Block,New,Place and upgrade with concrete mix and a construction tool using the secondary action. Upgrade more when dry.,"Sert à construire des bases. Se construit à l'aide de bois, de mélange à béton et d'un outil de construction, et ce grâce à l'action secondaire. Une fois sèche, elle s'améliore à l'aide d'acier forgé.",Kann mit Betonmischung und Bauwerkzeugen unter Verwendung der sekundären Aktion gebaut werden. Werte nach dem Trocknen mit geschmiedetem Stahl weiter auf.,,"Se usa como cimiento. Usa la acción secundaria para construir con madera, mezcla de hormigón y una herramienta de construcción. Mejóralo aún más con acero forjado una vez que esté seco."
 concreteGroupDesc,blocks,Block,New,A very flexible building material. Place and wait for the concrete to set. Can be upgraded to reinforced concrete.,"Offrant une bonne protection, le béton est un matériau de construction très souple qui vous permet de fabriquer de nombreuses formes. Peut être amélioré.",Ein sehr flexibles Baumaterial. Braucht Zeit zum Aushärten. Kann zu verstärktem Beton aufgewertet werden.,,"El hormigón ofrece una buena protección y es un material de construcción muy flexible, por lo que se puede moldear mientras se usa. Se puede mejorar."
 ttRepairBeforePickup,UI,Tooltip,New,You must repair this before picking it up.,,,,
 electricBasicsName,progression,Perk,New,Electricity Basics,,,,
@@ -4349,7 +4286,7 @@ electricGeneratorDesc,progression,Perk,New,This perk will unlock recipes for ele
 electricBatteryBankName,progression,Perk,New,Battery Bank,,,,
 electricBatteryBankDesc,progression,Perk,New,This perk will unlock recipes for electrical devices. This perk cannot be bought but a schematic can be found in the world.,,,,
 electricSolarBankName,progression,Perk,New,Solar Power,,,,
-electricSolarBankDesc,progression,Perk,New,Solar Power,,,,
+electricSolarBankDesc,progression,Perk,New,Trader Only,,,,
 doItYourselfName,progression,Perk,New,Do It Yourself,,,,
 doItYourselfDesc,progression,Perk,New,Why go out and risk your life scavenging when you can build your own parts?,,,,
 securityGateCTRPlate,blocks,Block,New,Security Gate Centered,,,,
@@ -4379,6 +4316,45 @@ pouredConcreteStairs25,blocks,Block,New,Wet Concrete Stairs,Escaliers en béton,
 pouredConcreteSupport,blocks,Block,New,Wet Concrete Support,Support en béton,Feuchter Beton - stütze,,Soporte de hormigón
 pouredConcreteWedge,blocks,Block,New,Wet Concrete Wedge,Pente en béton,Feuchter Beton - schräge,,Cuña de hormigón
 pouredConcreteWedgeTip,blocks,Block,New,Wet Concrete Wedge Tip,Sommet de pente en béton,Feuchter Beton - schrägenspitze,,Punta de cuña de hormigón
+zombieArleneFeral,entityclasses,Entity,New,Feral Putrid Girl,,,,
+zombieBehemoth,entityclasses,Entity,New,Zombie Behemoth,,,,
+zombieBiker,entityclasses,Entity,New,Zombie Biker,,Zombie Biker,,
+zombieBoeFeral,entityclasses,Entity,New,Feral Infected Survivor,,,,
+zombieCheerleader,entityclasses,Entity,New,Cheerleader Zombie,,,,
+zombieCheerleaderFeral,entityclasses,Entity,New,Feral Cheerleader Zombie,,,,
+zombieDarleneFeral,entityclasses,Entity,New,Feral Mother,,,,
+zombieFarmer,entityclasses,Entity,New,Zombie Farmer,,,,
+zombieFarmerFeral,entityclasses,Entity,New,Feral Zombie Farmer,,,,
+zombieFatCopFeral,entityclasses,Entity,New,Feral Policeman,,,,
+zombieFatCopFeralRadiated,entityclasses,Entity,New,Feral Radiated Policeman,,,,
+zombieFatHawaiian,entityclasses,Entity,New,Disturbed Tourist,,Gestörter Tourist,,
+zombieFatHawaiianFeral,entityclasses,Entity,New,Feral Tourist,,,,
+zombieFemaleFat,entityclasses,Entity,New,Hungry Zombie,,,,
+zombieFemaleFatFeral,entityclasses,Entity,New,Feral Hungry Zombie,,,,
+zombieFootballPlayer,entityclasses,Entity,New,Team Z Player,,,,
+zombieJoeFeral,entityclasses,Entity,New,Feral Cadaver,,,,
+zombieMaleHazmat,entityclasses,Entity,New,Hazardous Worker,,,,
+zombieMarleneFeral,entityclasses,Entity,New,Feral Woman,,,,
+zombieMoeFeral,entityclasses,Entity,New,Feral Bloated Walker,,,,
+zombieNurseFeral,entityclasses,Entity,New,Feral Nurse,,,,
+zombieOldTimer,entityclasses,Entity,New,Zombie Cowboy,,Zombie Cowboy,,
+zombieOldTimerFeral,entityclasses,Entity,New,Feral Zombie Cowboy,,,,
+zombieScreamerFeral,entityclasses,Entity,New,Feral Screamer,,,,
+zombieSkateboarder,entityclasses,Entity,New,Skater Punk Zombie,,,,
+zombieSkateboarderFeral,entityclasses,Entity,New,Feral Skater Zombie,,,,
+zombieSnowFeral,entityclasses,Entity,New,Feral Frozen Lumberjack,,,,
+zombieSoldier,entityclasses,Entity,New,Fallen Soldier,,,,
+zombieSoldierFeral,entityclasses,Entity,New,Feral Soldier,,,,
+zombieSpiderFeral,entityclasses,Entity,New,Feral Spider Zombie,,,,
+zombieSpiderFeralRadiated,entityclasses,Entity,New,Feral Radiated Spider Zombie,,,,
+zombieSteveCrawlerFeral,entityclasses,Entity,New,FeralCrawler,,,,
+zombieSteveFeral,entityclasses,Entity,New,Feral Corpse,,,,
+zombieStripper,entityclasses,Entity,New,Zombie Stripper,,Untote Stripperin,,
+zombieStripperFeral,entityclasses,Entity,New,Feral Stripper,,,,
+zombieUtilityWorker,entityclasses,Entity,New,Utility Worker Zombie,,,,
+zombieUtilityWorkerFeral,entityclasses,Entity,New,Feral Utility Worker,,,,
+zombieWightFeralRadiated,entityclasses,Entity,New,Feral Radiated Wight,,"Wilder Streuner, verstrahlt",,
+zombieYoFeral,entityclasses,Entity,New,Feral Carcass,,,,
 blockcommand_options,blocks,Radial,New,Options,,Optionen,,
 flagstoneWedgeIncline,blocks,Block,New,Flagstone Wedge Incline,,Steinplatten Dachvorsprung,,
 brickWedgeTipCNRFullBottom,blocks,Block,New,Brick Wedge Full Corner Bottom,,Ziegel Schrägenspitze Komplette Ecke Unten,,
@@ -4504,8 +4480,8 @@ randomCarsHelperDesc,blocks,Block,New,"Will randomly spawn (mostly) undamaged, (
 txName_Fabric_Blinds,painting,txGroupWallCovering,New,Fabric Blinds,,,,
 suitJacketBlack,items,Clothes,New,Black Suit Jacket,,,,
 suitPantsBlack,items,Clothes,New,Black Suit Pants,,,,
-zombieBusinessMan,entityclasses,Entity,New,Zombie Politician,,,,
-zombieBusinessManFeral,entityclasses,Entity,New,Feral Zombie Politician,,,,
+zombieBusinessMan,entityclasses,Entity,New,Zombie Businessman,,,,
+zombieBusinessManFeral,entityclasses,Entity,New,Feral Zombie Businessman,,,,
 arrowHelper,blocks,Block,New,Arrow Helper,,,,
 crossHelper,blocks,Block,New,Cross Helper,,,,
 flameTrap,blocks,Block,New,Flame Trap,,,,
@@ -4531,8 +4507,7 @@ woodPillar50,blocks,Block,New,Wood Pillar 50,,,,
 concreteTerrain,blocks,Terrain,New,Concrete Terrain (POI),,,,
 terrainFiller,blocks,Terrain,New,Terrain Filler (POI),,,,
 dressShoesBlack,items,Clothes,New,Black Dress Shoes,,,,
-gunPistolSilenced,items,Gun,New,Shhhh Pistol,,,,
-gunPistolSilencedDesc,items,Gun,New,"A silenced pistol, this should help keep things quiet while using ultimate killing power. And Yes, that's the Fortnite pistol.",,,,
+gunPistolSilenced,items,Gun,New,Silenced Pistol,,,,
 gunJustDie,items,Tool,New,Admin: Just Die,,,,
 gunSuperDigger,items,Tool,New,Admin: Super Digger,,,,
 superWrench,items,Tool,New,Admin: Super Wrench,,,,
@@ -4878,12 +4853,6 @@ forgeCrucible,items,Item,New,Crucible,,,,
 forgeCrucibleDesc,items,Item,New,A crucible upgrade is required to craft steel bars and bulletproof glass in a forge. Learn the recipe by buying the Steel Smithing perk.,,,,
 macheteCraftingName,progression,Perk,New,Machete Crafting,,,,
 macheteCraftingDesc,progression,Perk,New,Learn to forge a machete blade which can then be used to craft a machete at a workbench.,,,,
-martialarts,progression,Perk,New,Martial Arts,,,,
-martialartsDesc,progression,Perk,New,"Learn martial art skills by fighting with your fists. ",,,,
-rjkungfuName,progression,Skill,KgNone,Tao of Jeet Kune Do,,,,
-rjkungfuDesc,progression,Skill,KgNone,"Tao of Jeet Kune Do, Bruce Lee's martial arts philosophy and viewpoints. Take this perk to beome the ultimate martial arts master.",,,,
-rjkungfuSchematic,items,Book,KgNone,Tao of Jeet Kune Do,,,,
-rjkungfuSchematicDesc,items,Book,KgNone,"Tao of Jeet Kune Do, Bruce Lee's martial arts philosophy and viewpoints. Read this book and learn to dominate while using only your fists.",,,,
 burningBarrelPlayer,blocks,Block,KgNone,Burning Barrel,Baril en feu,Brennendes Fass,,Barril en llamas
 ttCombineLimitExceeded,UI,Tooltip,New,Your crafting skill only allows you to improve this item to {0}.,,,,
 woodFrameWedgeStairs,blocks,Block,New,Wood Frame Wedge Stairs,,,,
@@ -4939,380 +4908,40 @@ ttBedrollGone,UI,Tooltip,New,Your bedroll is gone,,Dein Schlafsack ist verschwun
 extinguishFireBuffName,buffs,Buff,New,Extinguish Fire,,Lösche Feuer,,
 extinguishFireBuffDesc,buffs,Buff,New,If you happen to be on fire then this will put out the fire and prevent another while the buff remains active.,,Solltest Du in Flammen stehen dann löscht dies das Feuer und verhindert ein neues solange der Effekt aktiv ist.,,
 DroppedLootContainer,entityclasses,Entity Info,New,Dropped Loot,,,,
-rjstoneaxe,items,Tool,KgNone,Stone Wood Cutting Axe,,,,
-rjstoneaxeDesc,items,Tool,KgNone,"A great tool for chopping trees",,,,
-rjstonehammer,items,Tool,KgNone,Stone Hammer,,,,
-rjstonehammerDesc,items,Tool,KgNone,"Used for construction",,,,
-rjstonepickaxe,items,Tool,KgNone,Stone Pickaxe,,,,
-rjstonepickaxeDesc,items,Tool,KgNone,"A beginners Pickaxe, great for breaking down stone.",,,,
-rjstoneshovel,items,Tool,KgNone,Stone Shovel,,,,
-rjstoneshovelDesc,items,Tool,KgNone,"Used for digging.",,,,
-rjstartercrate,blocks,Container,KeyChanged EnChanged,"Survival Gear: Break this open",,,,
-rjstartercrateDesc,blocks,Container,EnChanged,"Important survival gear. This is your starting equipment. Break it open.",,,,
-rjstartercrateopen,blocks,Container,EnChanged,"Your Starting Equipment: Open This",,,,
-rjstartercrateopenDesc,blocks,Container,KeyChanged EnChanged,"This is your starting equipment. Remember to take all the gear out as soon as you open it as it will be destroyed when it's closed.",,,,
-rjwinterboots,items,Clothes,KgNone,"Insulated Winter Boots",,,,
-rjwinterbootsDesc,items,Clothes,KgNone,"Can't go trompin through the snow without Winter Boots.",,,,
-rjwintergloves,items,Clothes,KgNone,"Insulated Gloves",,,,
-rjwinterglovesDesc,items,Clothes,KgNone,"Frost bite? Not with these suckers on.",,,,
-rjskipants,items,Clothes,KgNone,"Ski Pants",,,,
-rjskipants,items,Clothes,KgNone,"We all have a pair or we'd lose our legs.",,,,
-rjscarf,items,Clothes,KgNone,"Knitted Scarf",,,,
-rjscarfDesc,items,Clothes,KgNone,"A nice knitted scarf.",,,,
-rjsweater,items,Clothes,KgNone,"Knitted Sweater",,,,
-rjsweaterDesc,items,Clothes,KgNone,"A nice knitted sweater.",,,,
-rjbolts,items,Item,KgNone,Nuts and Bolts,,,,
-rjboltsDesc,items,Item,KgNone,"Nuts and Bolts are used to attach metal to other pieces of metal",,,,
-rjfriedeggs,items,Food,KgNone,Fried Eggs,,,,
-rjfriedeggsDesc,items,Food,KgNone,3 fried eggs a great way to start the morning.,,,,
-rjpoutine,items,Food,KgNone,Poutine,,,,
-rjpoutineDesc,items,Food,KgNone,The famous Canadian dish. Poutine!,,,,
-rjcanadianbacon,items,Food,KgNone,Canadian Bacon,,,,
-rjcanadianbaconDesc,items,Food,KgNone,It's not quite bacon and it's not quite ham but it's dam good eh!,,,,
-rjflapjacks,items,Food,KgNone,Pancakes with maple syrup,,,
-rjflapjacksDesc,items,Food,KgNone,A nice stack of pancakes smothered in maple syrup. Is there anything finer? ,,,,
-rjmaplesyrup,items,Food,KgNone,Maple Syrup,,,,
-rjmaplesyrupDesc,items,Food,KgNone,Delicious Maple Syrup.,,,,
-rjcheese,items,Food,KgNone,Cheese,,,,
-rjcheeseDesc,items,Food,KgNone,A piece of cheese preserved in wax. Seems pretty good!,,,,
-rjcookingoil,items,Food,KgNone,Canola Oil,,,,
-rjcookingoilDesc,items,Food,KgNone,Canola Oil is used in several recipes at the campfire.,,,,
-rjhotchocolatemix,items,Food,KgNone,Hot Chocolate Mix,,,
-rjhotchocolatemixDesc,items,Food,KgNone,A packet of hot chocolate mix.,,,,
-rjflour,items,Food,KgNone,Flour,,,,
-rjflourDesc,items,Food,KgNone,Flour is used in several recipes at the campfire.,,,,
-rjhotchocolate,items,Food,KgNone,Hot Chocolate,,,,
-rjhotchocolateDesc,items,Food,KgNone,Perfect on a cold winters day.,,,,
-titanium,items,Item,KgNone,Forged Titanium,,,,
-titaniumDesc,items,Item,KgNone,A very strong building material,,,,
-titaniumArrowSlitHalf,blocks,Block,New,Titanium Arrow Slit,,,,
-titaniumBlock,blocks,Block,New,Titanium Block,,,,
-titaniumCNRFull,blocks,Block,New,Titanium Full Corner,,,,
-titaniumCNRInside,blocks,Block,New,Titanium Inside Corner,,,,
-titaniumCNRRamp,blocks,Block,New,Titanium Ramp Corner,,,,
-titaniumCNRRound,blocks,Block,New,Titanium Corner Round,,,,
-titaniumCNRRoundTop,blocks,Block,New,Titanium Corner Round Top,,,,
-titaniumCTREighth,blocks,Block,New,Titanium CTR Eighth,,,,
-titaniumCTRPlate,blocks,Block,New,Titanium Plate Centered,,,,
-titaniumCTRpole,blocks,Block,New,Titanium Pole Centered,,,,
-titaniumEighthBlock,blocks,Block,New,Titanium 1/8 Block,,,,
-titaniumHalfBlock,blocks,Block,New,Titanium 1/2 Block,,,,
-titaniumPillar100,blocks,Block,New,Titanium Pillar 100,,,,
-titaniumPillar50,blocks,Block,New,Titanium Pillar 50,,,,
-titaniumPlate,blocks,Block,New,Titanium Plate,,,,
-titaniumPole,blocks,Block,New,Titanium Pole,,,,
-titaniumPyramid,blocks,Block,New,Titanium Pyramid,,,,
-titaniumQuarterBlock,blocks,Block,New,Titanium 1/4 Block,,,,
-titaniumRamp,blocks,Block,New,Titanium Ramp,,,,
-titaniumStairs25,blocks,Block,New,Titanium Stairs,,,,
-titaniumSupport,blocks,Block,New,Titanium Support,,,,
-titaniumWedge,blocks,Block,New,Titanium Wedge,,,,
-titaniumWedgeTip,blocks,Block,New,Titanium Wedge Tip,,,,
-titaniumWedgeTipCNRFullBottom,blocks,Block,New,Titanium Wedge Full Corner Bottom,,,,
-titaniumStairs25CornerCNR,blocks,Block,New,Titanium Stairs Corner,,,,
-titaniumWedgeCNRInsideBottom,blocks,Block,New,Titanium Wedge Inside Corner Bottom,,,,
-titaniumWedgeCNRInsideTop,blocks,Block,New,Titanium Wedge Inside Corner Top,,,,
-titaniumWedgeIncline,blocks,Block,New,Titanium Wedge Incline,,,,
-titaniumWedgeTipCNRFullTop,blocks,Block,New,Titanium Wedge Full Corner Top,,,,
-titaniumCNRRampFiller,blocks,Block,New,Titanium Ramp Corner Filler,,,,
-titaniumArch,blocks,Block,New,Titanium Arch 2m,,,,
-titaniumWedgeStairs,blocks,Block,New,Titanium Wedge Stairs,,,,
-titaniumGroupDesc,blocks,Block,EnChanged,"Used for bases. Titanium is a very strong building material",,,,
-snowArrowSlitHalf,blocks,Block,New,Snow Arrow Slit,,,,
-snowBlock,blocks,Block,New,Snow Block,,,,
-snowCNRFull,blocks,Block,New,Snow Full Corner,,,,
-snowCNRInside,blocks,Block,New,Snow Inside Corner,,,,
-snowCNRRamp,blocks,Block,New,Snow Ramp Corner,,,,
-snowCNRRound,blocks,Block,New,Snow Corner Round,,,,
-snowCNRRoundTop,blocks,Block,New,Snow Corner Round Top,,,,
-snowCTREighth,blocks,Block,New,Snow CTR Eighth,,,,
-snowCTRPlate,blocks,Block,New,Snow Plate Centered,,,,
-snowCTRpole,blocks,Block,New,Snow Pole Centered,,,,
-snowEighthBlock,blocks,Block,New,Snow 1/8 Block,,,,
-snowHalfBlock,blocks,Block,New,Snow 1/2 Block,,,,
-snowPillar100,blocks,Block,New,Snow Pillar 100,,,,
-snowPillar50,blocks,Block,New,Snow Pillar 50,,,,
-snowPlate,blocks,Block,New,Snow Plate,,,,
-snowPole,blocks,Block,New,Snow Pole,,,,
-snowPyramid,blocks,Block,New,Snow Pyramid,,,,
-snowQuarterBlock,blocks,Block,New,Snow 1/4 Block,,,,
-snowRamp,blocks,Block,New,Snow Ramp,,,,
-snowStairs25,blocks,Block,New,Snow Stairs,,,,
-snowSupport,blocks,Block,New,Snow Support,,,,
-snowWedge,blocks,Block,New,Snow Wedge,,,,
-snowWedgeTip,blocks,Block,New,snow Wedge Tip,,,,
-snowWedgeTipCNRFullBottom,blocks,Block,New,Snow Wedge Full Corner Bottom,,,,
-snowStairs25CornerCNR,blocks,Block,New,Snow Stairs Corner,,,,
-snowWedgeCNRInsideBottom,blocks,Block,New,Snow Wedge Inside Corner Bottom,,,,
-snowWedgeCNRInsideTop,blocks,Block,New,Snow Wedge Inside Corner Top,,,,
-snowWedgeIncline,blocks,Block,New,Snow Wedge Incline,,,,
-snowWedgeTipCNRFullTop,blocks,Block,New,Snow Wedge Full Corner Top,,,,
-snowCNRRampFiller,blocks,Block,New,Snow Ramp Corner Filler,,,,
-snowArch,blocks,Block,New,Snow Arch 2m,,,,
-snowWedgeStairs,blocks,Block,New,Snow Wedge Stairs,,,,
-snowGroupDesc,blocks,Block,EnChanged,"Used for bases. Repair with snow ball & a construction tool. Upgrade to ice with bottled water",,,,
-snowBallstun,buffs,Buff,KgNone,"Snow Ball'd",,,,
-snowBallstunDesc,buffs,Buff,KgNone,You got hit by a snow ball. lol,,,,
-snowBallstunTooltip,buffs,Buff,KgNone,You got hit by a snow ball. lol,,,,
-rjcanadianbaconWarm,buffs,Buff,KgNone,"Bacon",,,,
-rjcanadianbaconWarmDesc,buffs,Buff,KgNone,Mmmmm Bacon,,,,
-rjcanadianbaconWarmTooltip,buffs,Buff,KgNone,Mmmmm Bacon,,,,
-rjpoutineWarm,buffs,Buff,KgNone,"Poutine Boost",,,,
-rjpoutineWarmDesc,buffs,Buff,KgNone,You are warm from the poutine,,,,
-rjpoutineWarmTooltip,buffs,Buff,KgNone,You are warm from the poutine,,,,
-rjflapjacksWarm,buffs,Buff,KgNone,"Pancakes Power",,,,
-rjflapjacksWarmDesc,buffs,Buff,KgNone,Pancakes fill you up and slow you down,,,,
-rjflapjacksWarmTooltip,buffs,Buff,KgNone,Pancakes fill you up and slow you down,,,,
-rjfriedeggsWarm,buffs,Buff,KgNone,"Fried Eggs",,,,
-rjfriedeggsWarmDesc,buffs,Buff,KgNone,You are warm from eating fried eggs,,,,
-rjfriedeggsWarmTooltip,buffs,Buff,KgNone,You are warm from eating fried eggs,,,,
-canBoiledWaterWarm,buffs,Buff,KgNone,"Hot Water",,,,
-canBoiledWaterWarmDesc,buffs,Buff,KgNone,Hot Water can keep you warm,,,,
-canBoiledWaterWarmTooltip,buffs,Buff,KgNone,Hot Water can keep you warm,,,,
-rjhotchocolateWarm,buffs,Buff,KgNone,"Hot Chocolate",,,,
-rjhotchocolateWarmDesc,buffs,Buff,KgNone,The best drink to stay warm in the cold.,,,,
-rjhotchocolateWarmTooltip,buffs,Buff,KgNone,The best drink to stay warm in the cold.,,,,
-rjwinterbootsofspeed,items,Clothes,KgNone,"Boots of Speed",,,,
-rjwinterbootsofspeedDesc,items,Clothes,KgNone,"Dev boots",,,,
-bootsofspeedBuff,buffs,Buff,KgNone,"Boots of Speed",,,,
-bootsofspeedBuffDesc,buffs,Buff,KgNone,You can run really fast.,,,,
-bootsofspeedBuffTooltip,buffs,Buff,KgNone,You can run really fast,,,,
-cntDeathMarker,blocks,Container,KgNone,Grave Marker,,,,
-cntDeathMarkerDesc,blocks,Container,KgNone,Grave Marker,,,,
-crossbowSnow,items,Gun,KgNone,Snow Ball Launcher,,,,
-crossbowSnowDesc,items,Gun,KgNone,The Snow Ball Launcher launches snow balls. Duh. They don't do much damage but it's fun.,,,,
-SmallStereo,blocks,Electricity,New,Home Stereo,,,,
-SmallStereoDesc,blocks,Electricity,New,"Lavender By Proxy - A song written by Ryan James. This will help drown out the sounds of all the zombies so you can get some rest or do some work.",,,,
-speakerSummoning,blocks,Electricity,New,"Stomin' Tom Speaker",,,,
-speakerSummoningDesc,blocks,Electricity,New,"A song that drives the Angry Hockey moms wild. Hockey Game by Stompin' Tom Connors.",,,,
-AdvancedWorkbench,blocks,Workstation,KgNone,Advanced Workbench,,,,
-AdvancedWorkbenchDesc,blocks,Workstation,EnChanged,"The Advanced workbench allows you to craft items the normal workbench can't. Using tools for welding, forging and more.",,,,
-workbenchBook,items,Book,KgNone,The Advanced Workbench and you,,,,
-workbenchBookDesc,items,Book,KgNone,"Read the advanced workbench textbook to learn how to craft an Advanced Workbench. ",,,,
-titaniumPanelsBook,items,Book,KgNone,"Titanium: Panels",,,,
-titaniumPanelsBookDesc,items,Book,KgNone,"Read this textbook to learn how to turn forged titanium into panels for usable building blocks.",,,,
-rebar,items,Item,KgNone,Rebar,,,,
-rebarDesc,items,Item,KgNone,"Can be crafted at the forge and be used to create rebar frames, Crafted in bundles of 12.",,,,
-rebarSmithing,progression,Skill,KgNone,Rebar Smithing,,,,
-rebarSmithingDesc,progression,Skill,EnChanged,"Unlocks Rebar smithing. Upgrade the forge with an anvil to create rebar which can be used to craft rebar frames.",,,,
-hockeyPuck,items,Item,KgNone,Hockey Puck,,,,
-hockeyPuckDesc,items,Item,KgNone,"A normal looking Hockey Puck.",,,,
-hockeyTape,items,Item,KgNone,Hockey Tape,,,,
-hockeyTapeDesc,items,Item,KgNone,"A small roll of Hockey Tape.",,,,
-weldingGear,items,Item,KgNone,Welding Equipment,,,,
-weldingGearDesc,items,Item,KgNone,Tools used in the Advanced Workbench for welding purposes.,,,,
-armorForm,items,Item,KgNone,Garment Makers Form,,,,
-armorFormDesc,items,Item,KgNone,"Used in the advanced workbench to craft clothing and armor.",,,,
-grinder,items,Item,KgNone,Industrial Grinder,,,,
-grinderDesc,items,Item,KgNone,"Used in the advanced workbench. This sucker will grind anything.",,,,
-electronicsToolKit,items,Item,KgNone,Electronics Tool Kit,,,,
-electronicsToolKitDesc,items,Item,KgNone,"Used in the advanced workbench. Everything you need to create electronic items.",,,,
-bulletPress,items,Item,KgNone,Bullet Press,,,,
-bulletPressDesc,items,Item,KgNone,"Used in the advanced workbench to assemble bullets and shells.",,,,
-powerHammer,items,Item,KgNone,Power Hammer,,,,
-powerHammerDesc,items,Item,KgNone,"A Power Hammer is a blacksmith tool that allows faster and tougher manipulations of metals. Add this to the Advanced workbench",,,,
-2dollars,items,Item,KgNone,Canadian Twoonie,,,,
-2dollarsDesc,items,Item,KgNone,"A two dollar coin, exchange this for two loonies at Stuff N' Things".,,,,
-5dollars,items,Item,KgNone,Five Dollar Spock Bill,,,,
-5dollarsDesc,items,Item,KgNone,"Five dollar bill where someone turned Wilfred Laurier into Spock with a pen. You can exchange this at Stuff N' Things for loonies.".,,,,
-10dollars,items,Item,KgNone,Ten Dollars,,,,
-10dollarsDesc,items,Item,KgNone,"Ten Dollars. You can exchange this at Stuff N' Things for loonies.".,,,,
-20dollars,items,Item,KgNone,Twenty Dollars,,,,
-20dollarsDesc,items,Item,KgNone,"Twenty Dollars. You can exchange this at Stuff N' Things for loonies.".,,,,
-50dollars,items,Item,KgNone,Fifty Dollars,,,,
-50dollarsDesc,items,Item,KgNone,"Fifty Dollars. You can exchange this at Stuff N' Things for loonies.".,,,,
-100dollars,items,Item,KgNone,One Hundred Dollars,,,,
-100dollarsDesc,items,Item,KgNone,"One Hundred Dollars. You can exchange this at Stuff N' Things for loonies.".,,,,
-steelPlates,items,Item,KgNone,Steel Plates,,,,
-steelPlatesDesc,items,Item,KgNone,"Steel Plates can be used to craft and upgrade steel blocks, Crafted in bundles of 6. Requires Advanced Workbench",,,,
-titaniumPlates,items,Item,KgNone,Titanium Plates,,,,
-titaniumPlatesDesc,items,Item,KgNone,"Titanium Plates can be used to craft and upgrade titanium blocks, Crafted in bundles of 6. Requires Advanced Workbench and titanium perk",,,,
-beerRocket,items,Ammo,EnChanged,Beer Rocket.,,,,
-beerRocketDesc,items,Ammo,EnChanged,A rocket full of beer, anyone hit by it gets drunk.,,,,
-iceShard,items,Item,KgNone,Shard of Ice,,,,
-iceShardDesc,items,Item,KgNone,"Ice shards can be melted to make water in the campfire.",,,,
-theHolyHandgrenadeOfAntioch,items,Gun,EnChanged,The Holy Handgrenade of Antioch,,,,
-theHolyHandgrenadeOfAntiochDesc,items,Gun,KgNone,"Bless this, O Lord, that with it thou mayst blow thine enemies to tiny bits, in thy mercy.",,,,
-qt_john,items,Treasure Map,KgNone,John Cleese's Treasure Map,,,,
-devKatana,items,Melee,KgNone,Katana of Pai Mei,,,,
-devKatanaDesc,items,Melee,KgNone,The ultimate bladed weapon.,,,,
-macheteSurvival,items,Melee,KgNone,Survival Machete,,,,
-macheteSurvivalDesc,items,Melee,KgNone,"A superior survival tool. Cut trees, kill zeds, harvest animal products.",,,,
-bat,items,Melee,KgNone,Baseball Bat,,,,
-batDesc,items,Melee,KgNone,"A standard baseball bat. Might be good for smashing some heads.",,,,
-bladeSmithingBook,items,Book,KgNone,"The Complete Bladesmith",,,,
-bladeSmithingBookDesc,items,Book,KgNone,"Read this textbook to learn how to create Damascus Steel. Damascus Steel is used to create advanced bladed weapons.",,,,
-katana,items,Melee,KgNone,Katana of the Scorpions Sting,,,,
-katanaDesc,items,Melee,KgNone,The ultimate bladed weapon.,,,,
-nightStick,items,Melee,KgNone,RCMP Night Stick,,,,
-nightStickDesc,items,Melee,KgNone,A police Night Stick also known as a tonfa.,,,,
-damascusSteel,items,Item,KgNone,Damascus Steel,,,,
-damascusSteelDesc,items,Item,KgNone,"Damascus Steel is a type of steel used in forging weopons. Use this to craft advanced bladed weapons in the Advanced workbench.",,,,
-scrapFoam,items,Item,KgNone,Foam Scraps,,,,
-scrapFoamDesc,items,Item,KgNone,"Some pieces of foam",,,,
-rubberMulch,items,Item,KgNone,Shredded Rubber,,,,
-rubberMulchDesc,items,Item,KgNone,"Shredded Rubber pieces.",,,,
-rebarCrossbowBolt,items,Ammo,EnChanged,Rebar Bolt (Ammo),,,,
-rebarCrossbowBoltDesc,items,Ammo,KgNone,"Rebar Bolts are powerful but heavy, great at close ranges.",,,,
-rebarCrossbowBoltHot,items,Ammo,EnChanged,Hot Rebar Bolt (Ammo),,,,
-rebarCrossbowBoltHotDesc,items,Ammo,KgNone,"Hot Rebar bolts are the same as normal rebar bolts but light enemies on fire. How they stay hot and how you carry them is a mystery",,,,
-craftSkillBladeSmith,progression,Skill,KeyChanged,Bladed Weapon Smithing,,,,
-craftSkillBladeSmithDesc,progression,Skill,KeyChanged EnChanged,"Craft bladed weapons using damascus steel faster and at better quality. Decrease repair penalties and get more from repair kits. Buy levels of this perk to increase your skill from Crude to Novice, Apprentice, Journeyman, Professional and Master level.",,,,
-evilBuff,buffs,Buff,EnChanged KgNone,A terrible darkness,,,,
-evilBuffDesc,buffs,Buff,KgNone,A terrible darkness comes over you.,,,,
-evilBuffTooltip,buffs,Buff,KgNone,Your soul is dark.,,,,
-swordShort,items,Melee,KgNone,Short Sword,,,,
-swordShortDesc,items,Melee,KgNone,A standard short sword made of damascus steel.,,,,
-spear,items,Melee,KgNone,Spear,,,,
-spearDesc,items,Melee,KgNone,A spear with a damascus steel tip.,,,,
-warHammerSteel,items,Melee,KgNone,Steel War Hammer,,,,
-warHammerSteelDesc,items,Melee,KgNone,By far the most powerful bludgeoning weapon in the game. A very scary damascus steel war hammer.,,,,
-warAxeSteel,items,Melee,KgNone,Hand Axe,,,,
-warAxeSteelDesc,items,Melee,KgNone,A hand axe made from damascus steel.,,,,
-warAxeDouble,items,Melee,KgNone,Double Sided Axe,,,,
-warAxeDoubleDesc,items,Melee,KgNone,A beast of a two handed war axe made from damascus steel.,,,,
-mace,items,Melee,KgNone,Mace,,,,
-maceDesc,items,Melee,KgNone,A mace made from damascus steel.,,,,
-halberd,items,Melee,KgNone,Halberd,,,,
-halberdDesc,items,Melee,KgNone,A polearm made from damascus steel.,,,,
-swordShortEvil,items,Melee,KgNone,Dark Short Sword,,,,
-swordShortEvilDesc,items,Melee,KgNone,A dark short sword with some extra bite.,,,,
-swordLongEvil,items,Melee,KgNone,Dark Long Sword,,,,
-swordLongEvilDesc,items,Melee,KgNone,A dark long sword with some extra bite.,,,,
-swordLong,items,Melee,KgNone,Long Sword,,,,
-swordLongDesc,items,Melee,KgNone,A long sword made from damascus steel.,,,,
-swordFlamberge,items,Melee,KgNone,Flamberge,,,,
-swordFlambergeDesc,items,Melee,KgNone,A flamberge long sword made of damascus steel.,,,,
-crowbar,items,Tool,KgNone,Crowbar,,,,
-crowbarDesc,items,Tool,KgNone,"Great for disassembling mechanical devices like cars, air conditioners and more. Can also be used to repair and upgrade walls.",,,,
-gemStone,items,Item,KgNone,Crystal Shard,,,,
-gemStoneDesc,items,Item,KgNone,"A mysterious glowing crystal shard. It seems to be vibrating and feels cold to the touch.",,,,
-weaponSmithingMaster,progression,Skill,KeyChanged,Damascus Smithing,,,,
-weaponSmithingMasterDesc,progression,Skill,KeyChanged EnChanged,"Learn the art of crafting fine weapons by purchasing this perk. From amature to master blacksmith, by the time you reach level 10 of this perk you will have the skills you need to create weapons so powerful that no foe can stand in your way.",,,,
-cntChest03,blocks,Container,KgNone,Dome Top Chest,,,,
-cntChest03Desc,blocks,Container,KgNone,"A very large chest to store your stuff n' things in.",,,,
-cntTankTiger,blocks,Container,KgNone,Old Tank,,,,
-cntTankSherman,blocks,Container,KgNone,Sherman Tank,,,,
-cntAPC,blocks,Container,KgNone,Armoured Personnel Carrier,,,,
-cntJeep,blocks,Container,KgNone,Military Jeep,,,,
-cntKubel,blocks,Container,KgNone,Military Wagon,,,,
-cntHalfTrack,blocks,Container,KgNone,Military Half Track,,,,
-cntTransport,blocks,Container,KgNone,Military Transport Truck,,,,
-cntRCMP,blocks,Container,KgNone,RCMP Car,,,,
-cntSedan01,blocks,Container,KgNone,Sedan,,,,
-cntSedan02,blocks,Container,KgNone,Sedan,,,,
-cntSedan03,blocks,Container,KgNone,Sedan,,,,
-cntSedanWrecked03,blocks,Container,KgNone,Wrecked Sedan,,,,
-cntHatchBack,blocks,Container,KgNone,Hatchback,,,,
-cntHatchBackWrecked01,blocks,Container,KgNone,Wrecked Hatchback,,,,
-cntHatchBackWrecked02,blocks,Container,KgNone,Wrecked Hatchback,,,,
-cntHatchBackWrecked03,blocks,Container,KgNone,Wrecked Hatchback,,,,
-cntTaxi,blocks,Container,KgNone,Taxi Cab,,,,
-cntTruckFuel,blocks,Container,KgNone,Fuel Truck,,,,
-cntSemiFlatWrecked,blocks,Container,KgNone,Wrecked Semi Truck,,,,
-cntWreckedTanker,blocks,Container,KgNone,Destroyed Tanker,,,,
-cntVan,blocks,Container,KgNone,Van,,,,
-cntUtilityTruck,blocks,Container,KgNone,Utility Truck,,,,
-cntBronco,blocks,Container,KgNone,Bronco,,,,
-cntTrailerWrecked,blocks,Container,KgNone,Wrecked Trailer,,,,
-cntTrailer,blocks,Container,KgNone,Trailer,,,,
-cntSemiLong,blocks,Container,KgNone,Long Nose Semi,,,,
-cntSemiShort,blocks,Container,KgNone,Snub Nose Semi,,,,
-cntExtendedCab,blocks,Container,KgNone,Extended Cab Truck,,,,
-cntPickUp,blocks,Container,KgNone,Truck,,,,
-cntTractor01,blocks,Container,KgNone,Tractor,,,,
-cntCombine,blocks,Container,KgNone,Combine Harvester,,,,
-cntBlackHawk,blocks,Container,KgNone,Black Attack Chopper,,,,
-cntWreckedChopper,blocks,Container,KgNone,Wrecked News Chopper,,,,
-cntRescueChopper,blocks,Container,KgNone,Rescue Chopper,,,,
-cntPlane,blocks,Container,KgNone,Plane,,,,
-cntSchoolBus,blocks,Container,KgNone,School Bus,,,,
-cntCityBus,blocks,Container,KgNone,City Bus,,,,
-cntWaterTank,blocks,Container,KgNone,Water Tank,,,,
-cntWell01,blocks,Container,KgNone,Well,,,,
-cntWell02,blocks,Container,KgNone,Well,,,,
-cnt222,blocks,Container,KgNone,Military Vehicle,,,,
-cntHummer,blocks,Container,KgNone,Hummer,,,,
-cntHatchbackExtra,blocks,Container,KgNone,Hatchback,,,,
-cntSedanExtra01,blocks,Container,KgNone,Sedan,,,,
-semiFullShort,blocks,Container,KgNone,Semi Truck,,,,
-semiFullLong,blocks,Container,KgNone,Semi Truck,,,,
-cntTrailerBoxJeans,blocks,Container,KeyChanged EnChanged,"Shipping Crate",,,,
-cntTrailerBoxJeansDesc,blocks,Container,EnChanged,"Unmarked Shipping Crate",,,,
-cntTrailerBoxJeansOpen,blocks,Container,EnChanged,"Shipping Box",,,,
-cntTrailerBoxJeansOpenDesc,blocks,Container,KeyChanged EnChanged,"Shipping Box",,,,
-cntTrailerBoxSpam,blocks,Container,KeyChanged EnChanged,"Shipping Crate",,,,
-cntTrailerBoxSpamDesc,blocks,Container,EnChanged,"Unmarked Shipping Crate",,,,
-cntTrailerBoxSpamOpen,blocks,Container,EnChanged,"Shipping Box",,,,
-cntTrailerBoxSpamOpenDesc,blocks,Container,KeyChanged EnChanged,"Shipping Box",,,,
-cntTrailerBox1337,blocks,Container,KeyChanged EnChanged,"Shipping Crate",,,,
-cntTrailerBox1337Desc,blocks,Container,EnChanged,"Unmarked Shipping Crate",,,,
-cntTrailerBox1337Open,blocks,Container,EnChanged,"Shipping Box",,,,
-cntTrailerBox1337OpenDesc,blocks,Container,KeyChanged EnChanged,"Shipping Box",,,,
-rjBed01,blocks,Block,KgNone,The Mamma Bear Bed,,,,
-rjBed02,blocks,Block,KgNone,Clean Single Bed,,,,
-rjBed03,blocks,Block,KgNone,The Pappa Bear Bed,,,,
-cntRations,blocks,Container,KgNone,Old Military Rations,,,,
-cntCardboardBox01,blocks,Container,KgNone,Cardboard Box,,,,
-cntCardboardBox02,blocks,Container,KgNone,Cardboard Box,,,,
-cntTrashTools,blocks,Container,KgNone,Tool Pile,,,,
-bedroll02,blocks,Block,KgNone,Green Sleeping Bag,,,,
-lawnGnome,blocks,Block,KgNone,Lawn Gnome,,,,
-lawnGnomeDesc,blocks,Block,KgNone,A cute lawn gnome to do with what you please,,,,
-militaryRationsBar,items,Item,KgNone,Military Rations,,,,
-militaryRationsBarDesc,items,Item,KgNone,"Ready-to-eat military rations.",,,,
-gunM4A1Silenced,items,Gun,KgNone,M4A1 Silenced Assault Rifle,,,,
-gunM4A1SilencedDesc,items,Gun,KgNone,This badass M4A1 Silenced Assault Rifle uses 7.62mm ammo.,,,,
-handWraps,items,Melee,KgNone,Hand Wraps,,,,
-handWrapsDesc,items,Melee,KgNone,Makeshift martial arts hand wraps, stop hurting your hands with these.,,,,
-crowbar,items,Tool,KgNone,Crow Bar,,,,
-crowbarDesc,items,Tool,KgNone,"Great for disassembling mechanical devices like cars, air conditioners and more. Open up crates and boarded doors and windows quicker with the crow bar. Uses Breaking and Entering perk for quicker times.",,,,
-boardedWindowsSheet_weak,blocks,Block,KgNone,Boards,,,,
-boardedWindowsSheet_weakDesc,blocks,Block,KgNone,Some boards you can use to board up windows or doors.,,,,
-monsterEnergyBuffDesc,buffs,Buff,New,Unleash the beast with Monster Energy.,,,,
-monsterEnergyBuffName,buffs,Buff,New,Monster Energy,,,,
-monsterEnergyBuffTooltip,buffs,Buff,New,Unleash the BEAST!,,,,
-monsterEnergy,items,Food,New,Monster Energy Drink,,,,
-monsterEnergyDesc,items,Food,New,Unleash the beast with Monster Energy.,,,,
-quickFeet,progression,Perk,GrChanged,Quick Feet,,,,
-quickFeetDesc,progression,Perk,KgNone,Take this perk to learn to move faster. All movement rates increased with each level of this perk.,,,,
-canCoke,items,Food,New,Coke,,,,
-canCokeDesc,items,Food,New,A can of Coke.,,,,
-canMtnDew,items,Food,New,Mountain Dew,,,,
-canMtnDewDesc,items,Food,New,A can of Mtn Dew.,,,,
-softDrinkBuffDesc,buffs,Buff,New,mmmm pop.,,,,
-softDrinkBuffName,buffs,Buff,New,Pop burst,,,,
-softDrinkBuffTooltip,buffs,Buff,New,Mmmmm pop!,,,,
-scrapAluminum,items,Item,KgNone,Aluminum Powder,,,,
-scrapAluminumDesc,items,Item,KgNone,Aluminum is used in the construction.,,,,
-animalPigRAD,entityclasses,Entity,KgNone,Radiated Crazed Pig,,,,
+
 bigEngine,items,Part,EnChanged,High-Powered Engine,,,,
 bigEngineDesc,items,Part,EnChanged,"A big, robust, and powerful engine for your bigger vehicles. It consumes a bit more gas but features a bigger gas tank. You can accellerate faster and reach very high speeds, but be careful, it also jumps way higher!",,,,
 robustBikeChassis,items,Part,EnChanged,Robust Bike Chassis (Power suspension),,,,
-robustBikeChassisDesc,items,Part,EnChanged,"A robust bike chassis equipped with power suspension. You almost don't get hurt when jumping too high.",,,,
+robustBikeChassisDesc,items,Part,EnChanged,A robust bike chassis equipped with power suspension. You almost don't get hurt when jumping too high.,,,,
 proBikeHandlebars,items,Part,EnChanged,Professional Bike Handlebars,,,,
-proBikeHandlebarsDesc,items,Part,EnChanged,"Have better control of your driving with these professional bike handlebars. They will also degrade slower than regular ones.",,,,
+proBikeHandlebarsDesc,items,Part,EnChanged,Have better control of your driving with these professional bike handlebars. They will also degrade slower than regular ones.,,,,
 proBikeWheels,items,Part,EnChanged,High Performance Bike Wheels,,,,
-proBikeWheelsDesc,items,Part,EnChanged,"Have better traction and reduced drag with these beautiful High Performance tires. They will also degrade slower than regular ones.",,,,
+proBikeWheelsDesc,items,Part,EnChanged,Have better traction and reduced drag with these beautiful High Performance tires. They will also degrade slower than regular ones.,,,,
 proBikeSeat,items,Part,EnChanged,Professional Bike Seat,,,,
-proBikeSeatDesc,items,Part,EnChanged,"A beautiful deluxe comfy seat that drains less stamina when the bike is damaged. The seat is also more robust and will degrade slower.",,,,
+proBikeSeatDesc,items,Part,EnChanged,A beautiful deluxe comfy seat that drains less stamina when the bike is damaged. The seat is also more robust and will degrade slower.,,,,
 hellGoatBike,items,Part,EnChanged,HellGoat Bike,,,,
 hellGoatBikeChassis,items,Part,EnChanged,HellGoat Bike Chassis,,,,
 roadhog,items,Part,EnChanged,Dust2Death's RoadHog,,,,
 roadHogChassis,items,Part,EnChanged,Dust2Death's RoadHog Chassis,,,,
 cicadaCar,items,Part,EnChanged,Cicada Car,,,,
 cicadaCarChassis,items,Part,EnChanged,Cicada Car Chassis,,,,
-quad,items,Part,EnChanged,The ST Assassin Quad,,,,
-quadDesc,items,Part,EnChanged,"The ST Assassin Quad. An Amazing machine to help you get around the map at the fastest of speeds.,,,,
-quadChassis,items,Part,EnChanged,ST Assassin Quad Chassis,,,,
+quad,items,Part,EnChanged,Quad,,,,
+quadChassis,items,Part,EnChanged,Quad Chassis,,,,
 loader,items,Part,EnChanged,The Beast,,,,
 loaderChassis,items,Part,EnChanged,The Beast Chassis,,,,
 loaderHandlebars,items,Part,EnChanged,The Beast Handlebars,,,,
 loaderEngine,items,Part,EnChanged,The Beast Engine,,,,
 helicopter,items,Part,EnChanged,Helicopter,,,,
 helicopterChassis,items,Part,EnChanged,Helicopter Chassis,,,,
+helicopterBullet,items,Ammo,EnChanged,Helicopter Missile,,,,
+helicopterMissile,items,Ammo,EnChanged,Helicopter Rocket,,,,
+helicopterEngine,items,Part,EnChanged,Helicopter Engine,,,,
+helicopterMissileLauncher,items,Part,EnChanged,Helicopter Missile Launcher,,,,
+helicopterMissileLauncherDesc,items,Part,EnChanged,Add this Missile Launcher to an Helicopter to be able to fire Missiles while flying.,,,,
+helicopterGun,items,Part,EnChanged,Helicopter Gun,,,,
+helicopterGunDesc,items,Part,EnChanged,Add this Gun to an Helicopter to be able to fire the gun while flying.,,,,
 minerGeneric,blocks,Block Building,EnChanged,MINER ROBOT (GENERIC DEVICE),,,,
-minerGenericDesc,blocks,Block Building,EnChanged,"Non-Active Generic Miner Robot. Convert to a specific ore group version of the device to activate it.",,,,
+minerGenericDesc,blocks,Block Building,EnChanged,Non-Active Generic Miner Robot. Convert to a specific ore group version of the device to activate it.,,,,
 minersDesc,blocks,Block Building,EnChanged,Upgrade the miner robots with gas using a clawhammer or wrench to have them mine ressources for you.,,,,
 minerRareOres,blocks,Block Building,EnChanged,MINER ROBOT (RARE ORES),,,,
 minerRareOresHarvest,blocks,Block Building,EnChanged,Rare Ores harvest,,,,
@@ -5360,17 +4989,5 @@ survivorBruteSledgeCorpse,blocks,Block,EnChanged,Survivor Brute SledgeHammer cor
 survivorBruteFireaxeCorpse,blocks,Block,EnChanged,Survivor Brute Fire Axe corpse,,,,
 survivorBruteSpikedClubCorpse,blocks,Block,EnChanged,Survivor Brute Spiked Club corpse,,,,
 survivorBruteChainsawCorpse,blocks,Block,EnChanged,Survivor Brute Chainsaw corpse,,,,
-chairLobby,blocks,Block,KgNone,Lobby Chair,,,,
-chairWoodNice,blocks,Block,KgNone,Nice Kitchen Chair,,,,
-chairComputer,blocks,Block,KgNone,Computer Chair,,,,
-chairWoodPlain,blocks,Block,KgNone,Plain Wood Chair,,,,
-chairPlastic,blocks,Block,KgNone,Plastic Chair,,,,
-deerHead,blocks,Block,KgNone,Deer Head,,,,
-deerHeadDesc,blocks,Block,KgNone,A taxedermy deer head for your wall.,,,,
-mirrorWall,blocks,Block,KgNone,Mirror,,,,
-mirrorWallDesc,blocks,Block,KgNone,A fancy mirror to hang on the wall,,,,
-teddyBear,blocks,Block,KgNone,Teddy Bear,,,,
-teddyBearDesc,blocks,Block,KgNone,"Awww... A little teddy bear, how sweet.",,,,
-theHerpDesc,buffs,Buff,New,You got the herp. There is no known cure. No one will want to sleep with you anymore. Sad sad sad.,,,,
-theHerp,buffs,Buff,New,The Herp,,,,
-theHerpTooltip,buffs,Buff,New,You got the herp. You are undatable.,,,,
+CrowBar,items,Tool,KgNone,Crow Bar,,,,
+CrowBarDesc,items,Tool,KgNone,Open up crates and boarded doors and windows quicker with the crow bar. Uses Breaking and Entering perk for quicker times.,,,,
