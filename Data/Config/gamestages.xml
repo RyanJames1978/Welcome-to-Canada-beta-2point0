@@ -3271,9 +3271,6 @@
 		</gamestage>
 	</spawner>
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX  end: auto generated feral horde gamestages  XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
-	<!-- ###############################################################################################################  -->
-	<!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->
-	<!-- ###############################################################################################################  -->
 	<!-- MANUX - Bad Company Zombies -->
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX Bad Company Sleeper Spawns XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 	<spawner name="SleeperGSList">
@@ -4002,4 +3999,10 @@
 		</gamestage>
 	</spawner>
 	<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX Bad COmpany Sleeper Spawns XXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+	
+<!-- ###############################################################################################################  -->
+<!-- ###############################################################################################################  -->
+<!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->
+<!-- ###############################################################################################################  -->
+<!-- ###############################################################################################################  -->
 </gamestages>

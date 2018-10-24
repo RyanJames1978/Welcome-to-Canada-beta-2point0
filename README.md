@@ -121,7 +121,7 @@ Do you have a question, problem or idea?: I love to help! Join my discord and i'
 Updates: I update Welcome to Canada quite often. It's very difficult for me to offer support for outdated version of the mod so Please try to stay up to date! The best way to do this is by checking the box titled "Refresh Mods Automatically" below the "play mod" button on the 7d2d Mod Launcher. 
 
 
-THANK YOU: This mod uses the simple ui by stedman420, thank you stedman420. Big thanks to Fun Pimps and the creators of ravenhearst, tazas grave, cb mod, and wotw for writing code that acted as great examples. Super big thank you to R0C_7, DamStr8gaming, Hk_Kill, Qb1junkie, like_a_boss2016, RizzoMF, MaxFox_Gaming, James_Woods, sunbunnie888, Reclining Gamer, holm-z, SentientOne, Lady_FireHeart, DoctorDirtyDave, Dr Nestle and Mindcrimer for all the help with testing and bug finding! Massive thank you to SphereII for creating such great tools for modding 7d2d. Thanks to HaidrGna, MANUX, Guppycur, DUST2DEATH, Khaine, Max Fox and More!
+THANK YOU: Big thanks to Fun Pimps and the creators of ravenhearst, tazas grave, cb mod, and wotw for writing code that acted as great examples. Super big thank you to R0C_7, DamStr8gaming, Hk_Kill, Qb1junkie, like_a_boss2016, RizzoMF, MaxFox_Gaming, James_Woods, sunbunnie888, Reclining Gamer, holm-z, SentientOne, Lady_FireHeart, DoctorDirtyDave, Dr Nestle and Mindcrimer for all the help with testing and bug finding! Massive thank you to SphereII for creating such great tools for modding 7d2d. Thanks to HaidrGna, MANUX, Guppycur, DUST2DEATH, Khaine, stedman420, StompyNZ, Max Fox and More!
 
 SDX MOD LIST:
 - Hundreds of weapons, items, decorations by Ryan James

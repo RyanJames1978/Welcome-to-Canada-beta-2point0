@@ -1125,14 +1125,6 @@
 		<item group="motorToolParts" count="1" prob="5" />
 		<item name="minibikeWheels" />
 		<item name="padlock" />
-		<!-- MANUX Custom Vehicles -->
-		<item name="proBikeWheels" prob="0.05" />
-		<item name="robustBikeChassis" prob="0.05" />
-		<item name="proBikeSeat" prob="0.075" />
-		<item name="proBikeHandlebars" prob="0.05" />
-		<item name="bigEngine" prob="0.05" />
-		<!-- MANUX's HellGoat Bike -->
-		<item name="hellGoatBikeChassis" prob="0.04" />
 	</lootgroup>
 	<lootgroup name="automotive">
 		<item name="gasCan" count="50,300" />
@@ -1470,14 +1462,6 @@
 		<item name="minibikeChassis" prob="0.4" />
 		<item name="minibikeSeat" prob="0.4" />
 		<item name="minibikeHandlebars" prob="0.4" />
-		<!-- MANUX Custom Vehicles -->
-		<item name="proBikeWheels" prob="0.05" />
-		<item name="robustBikeChassis" prob="0.05" />
-		<item name="proBikeSeat" prob="0.075" />
-		<item name="proBikeHandlebars" prob="0.05" />
-		<item name="bigEngine" prob="0.05" />
-		<!-- MANUX's HellGoat Bike -->
-		<item name="hellGoatBikeChassis" prob="0.04" />
 	</lootgroup>
 	<lootgroup name="ZombieFootballPlayer">
 		<item name="footballHelmetZU" prob="2.5" />
@@ -1509,14 +1493,6 @@
 		<item name="smallEngine" />
 		<item name="carBattery" />
 		<item name="padlock" />
-		<!-- MANUX Custom Vehicles -->
-		<item name="proBikeWheels" prob="0.05" />
-		<item name="robustBikeChassis" prob="0.05" />
-		<item name="proBikeSeat" prob="0.075" />
-		<item name="proBikeHandlebars" prob="0.05" />
-		<item name="bigEngine" prob="0.05" />
-		<!-- MANUX's HellGoat Bike -->
-		<item name="hellGoatBikeChassis" prob="0.04" />
 	</lootgroup>
 	<lootgroup name="labEquipment">
 		<item group="books" count="1" />
@@ -1605,7 +1581,7 @@
 		<item group="backpacks" />
 	</lootcontainer>
 	<!-- empty, storage containers the player crafts-->
-	<lootcontainer id="10" count="0" size="14,13" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
+	<lootcontainer id="10" count="0" size="5,5" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate">
 		<item name="cobweb" count="1,2" />
 	</lootcontainer>
 	<!-- safes, weapon caches rare good loot -->
@@ -1784,7 +1760,7 @@
 		<item name="44MagBullet" count="1,10" />
 	</lootcontainer>
 	<!-- player dropped backpacks, they only destroy on close when they are empty -->
-	<lootcontainer id="41" count="0" size="10,14" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+	<lootcontainer id="41" count="0" size="14,13" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
 		<item name="cobweb" count="1,2" prob="0.01" />
 	</lootcontainer>
 	<!-- gun safe -->
@@ -1839,7 +1815,7 @@
 		<item group="beverages" />
 	</lootcontainer>
 	<!-- "bag" container that gets dropped when another loot container is destroyed -->
-	<lootcontainer id="47" count="0" size="5,10" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+	<lootcontainer id="47" count="0" size="14,13" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
 		<item name="cobweb" count="1,2" prob="0.01" />
 	</lootcontainer>
 	<!-- purse -->
@@ -2030,16 +2006,6 @@
 		<!-- END MANUX Vehicles -->
 		<!-- MANUX Miner -->
 		<item name="minerGeneric" prob="0.25" />
-		<!-- MANUX Custom Vehicles -->
-		<item name="proBikeWheels" prob="0.1" />
-		<item name="robustBikeChassis" prob="0.1" />
-		<item name="proBikeSeat" prob="0.15" />
-		<item name="proBikeHandlebars" prob="0.1" />
-		<item name="bigEngine" prob="0.1" />
-		<!-- MANUX's HellGoat Bike -->
-		<item name="hellGoatBikeChassis" prob="0.09" />
-		<!-- MANUX Miner -->
-		<item name="minerGeneric" prob="0.25" />
 	</lootcontainer>
 	<!-- bandit melee -->
 	<lootcontainer id="71" count="0,3" size="7,4" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
@@ -2167,14 +2133,6 @@
 	<item name="hellGoatBikeChassis" prob="0.04"/> -->
 		<item name="quadChassis" />
 		<!-- END MANUX Vehicles -->
-		<!-- MANUX Custom Vehicles -->
-		<item name="proBikeWheels" prob="0.05" />
-		<item name="robustBikeChassis" prob="0.05" />
-		<item name="proBikeSeat" prob="0.075" />
-		<item name="proBikeHandlebars" prob="0.05" />
-		<item name="bigEngine" prob="0.05" />
-		<!-- MANUX's HellGoat Bike -->
-		<item name="hellGoatBikeChassis" prob="0.04" />
 	</lootcontainer>
 	<!-- ZombieStripper -->
 	<lootcontainer id="84" count="0,5" size="4,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
@@ -2579,9 +2537,6 @@
 	<lootcontainer id="174" count="1" size="3,4" destroy_on_close="true" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="150" loot_quality_template="treasureTemplate">
 		<item name="helicopterChassis" count="1" prob="1" />
 	</lootcontainer>
-	<!-- ###############################################################################################################  -->
-	<!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->
-	<!-- ###############################################################################################################  -->
 	<!-- MANUX Miner -->
 	<lootgroup name="minerRegularOres" count="2,4">
 		<item name="rockSmall" count="300,1200" prob="0.7" />
@@ -3092,4 +3047,9 @@
 	<lootcontainer id="144" count="1" size="5,5" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
 		<item group="survivorLeaderRocketLauncher" prob="1" />
 	</lootcontainer>
+<!-- ###############################################################################################################  -->
+<!-- ###############################################################################################################  -->
+<!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->
+<!-- ###############################################################################################################  -->
+<!-- ###############################################################################################################  -->
 </lootcontainers>

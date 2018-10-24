@@ -1,6 +1,9 @@
 <npc>
 	<npc_info id="traitorjoel" name="Traitor Joel" name_key="npc_traitorJoel" faction="whiteriver" greeting_type="nearby" trader_id="1" dialog_id="newbieGuy_1" />
 	<npc_info id="traderric" name="Traitor Joel" name_key="npc_traderRekt" faction="whiteriver" greeting_type="nearby" trader_id="1" dialog_id="medstudent1" />
+		<!-- MANUX Survivors And Bandits -->
+	<npc_info id="bandits" name="Traitor Joel" name_key="npc_traderRekt" faction="bandits" greeting_type="nearby" />
+	<npc_info id="survivor" name="Traitor Joel" name_key="npc_traderRekt" faction="survivor" greeting_type="nearby" />
 	<factions>
 		<faction name="none">
 			<relationship name="*" value="neutral" />
@@ -26,22 +29,6 @@
 			<relationship name="*" value="neutral" />
 		</faction>
 		<!-- MANUX Survivors And Bandits -->
-		<faction name="bandits">
-			<relationship name="bandits" value="neutral" />
-			<relationship name="*" value="hate" />
-		</faction>
-		<faction name="survivor">
-			<relationship name="undead" value="hate" />
-			<relationship name="bandits" value="hate" />
-			<relationship name="animals" value="dislike" />
-			<relationship name="survivor" value="neutral" />
-			<relationship name="*" value="neutral" />
-		</faction>
-	</factions>
-	<!-- MANUX Survivors And Bandits -->
-	<npc_info id="bandits" name="Traitor Joel" name_key="npc_traderRekt" faction="bandits" greeting_type="nearby" />
-	<npc_info id="survivor" name="Traitor Joel" name_key="npc_traderRekt" faction="survivor" greeting_type="nearby" />
-	<!-- MANUX Survivors And Bandits -->
 	<faction name="bandits">
 		<relationship name="bandits" value="neutral" />
 		<relationship name="*" value="hate" />
@@ -53,10 +40,10 @@
 		<relationship name="survivor" value="neutral" />
 		<relationship name="*" value="neutral" />
 	</faction>
-	<!-- ###############################################################################################################  -->
-	<!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->
-	<!-- ###############################################################################################################  -->
-	<!-- MANUX Survivors And Bandits -->
-	<npc_info id="bandits" name="Traitor Joel" name_key="npc_traderRekt" faction="bandits" greeting_type="nearby" />
-	<npc_info id="survivor" name="Traitor Joel" name_key="npc_traderRekt" faction="survivor" greeting_type="nearby" />
+<!-- ###############################################################################################################  -->
+<!-- ###############################################################################################################  -->
+<!-- ############## Do not edit or change anything passed this point you freaking dumbass ##########################  -->
+<!-- ###############################################################################################################  -->
+<!-- ###############################################################################################################  -->
+	</factions>
 </npc>
