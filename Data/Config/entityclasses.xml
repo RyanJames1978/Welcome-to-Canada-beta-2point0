@@ -48,8 +48,8 @@
 		<property name="SoftHands" value="false" />
 		<!-- take a stamina hit for jumping -->
 		<property name="JumpingDrain" value="true" />
-		<property name="MaxEncumbrance" value="10000" />
-		<property name="UseEncumbrance" value="false" />
+		<property name="MaxEncumbrance" value="100000" />
+		<property name="UseEncumbrance" value="true" />
 	</entity_class>
 	<!-- Player Female -->
 	<entity_class name="playerFemale" extends="playerMale">

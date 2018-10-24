@@ -15770,21 +15770,6 @@
 	<!-- MANUX - Bad Company Zombies -->
 	<!--BAD COMPANY-->
 	<entitygroup name="ZombiesBCTier01">
-		<!--Vanilla-->
-		<entity name="zombieBoe" />
-		<entity name="zombieJoe" />
-		<entity name="zombieArlene" />
-		<entity name="zombieDarlene" />
-		<entity name="zombieMarlene" />
-		<entity name="zombieYo" />
-		<entity name="zombieSteve" />
-		<entity name="zombieSteveCrawler" />
-		<entity name="zombieNurse" />
-		<entity name="zombieMaleHazmat" />
-		<entity name="zombieUtilityWorker" />
-		<entity name="zombieSkateboarder" />
-		<entity name="zombieCheerleader" />
-		<entity name="zombieOldTimer" />
 		<!--Bad Company-->
 		<entity name="badZombieAiden" />
 		<entity name="badZombieBob" />
@@ -15866,29 +15851,6 @@
 		<entity name="sanZombieFrozen" />
 	</entitygroup>
 	<entitygroup name="ZombiesBCTier02">
-		<!--Vanilla-->
-		<entity name="zombieFootballPlayer" />
-		<entity name="zombieFemaleFat" />
-		<entity name="zombieMoe" />
-		<entity name="zombieSteveCrawlerFeral" />
-		<entity name="zombieBusinessMan" />
-		<entity name="zombieSpider" />
-		<entity name="zombieBurnt" />
-		<entity name="zombieFarmer" />
-		<entity name="zombieStripper" />
-		<entity name="badZombieBoe_Rager" />
-		<entity name="badZombieJoe_Rager" />
-		<entity name="badZombieYo_Rager" />
-		<entity name="badZombieSteve_Rager" />
-		<entity name="badZombieArlene_Rager" />
-		<entity name="badZombieDarlene_Rager" />
-		<entity name="badZombieMarlene_Rager" />
-		<entity name="badZombieNurse_Rager" />
-		<entity name="badZombieMaleHazmat_Rager" />
-		<entity name="badZombieUtilityWorker_Rager" />
-		<entity name="badZombieSkateboarder_Rager" />
-		<entity name="badZombieCheerleader_Rager" />
-		<entity name="badZombieOldTimer_Rager" />
 		<!--Bad Company-->
 		<entity name="badZombieJethro" />
 		<entity name="badZombieSeryph" />
@@ -15906,23 +15868,6 @@
 		<entity name="sanZombieFreak" />
 	</entitygroup>
 	<entitygroup name="ZombiesBCTier03">
-		<!--Vanilla-->
-		<entity name="zombieBoeFeral" />
-		<entity name="zombieJoeFeral" />
-		<entity name="zombieArleneFeral" />
-		<entity name="zombieDarleneFeral" />
-		<entity name="zombieMarleneFeral" />
-		<entity name="zombieYoFeral" />
-		<entity name="zombieSteveFeral" />
-		<entity name="zombieBusinessManFeral" />
-		<entity name="zombieSnow" />
-		<entity name="zombieNurseFeral" />
-		<entity name="zombieUtilityWorkerFeral" />
-		<entity name="zombieSoldier" />
-		<entity name="zombieSkateboarderFeral" />
-		<entity name="zombieCheerleaderFeral" />
-		<entity name="zombieOldTimerFeral" />
-		<entity name="zombieBiker" />
 		<!--Bad Company-->
 		<entity name="badZombieBolivar" />
 		<entity name="badZombieCur" />
