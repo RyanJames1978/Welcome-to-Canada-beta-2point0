@@ -3198,9 +3198,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<recipe name="sand" count="1" craft_area="cementMixer">
 		<ingredient name="crushedSand" count="12" />
 	</recipe>
-	<recipe name="sand" count="1" craft_area="cementMixer">
-		<ingredient name="crushedSand" count="12" />
-	</recipe>
 	<recipe name="spring" count="1" craft_area="AdvancedWorkbench">
 		<ingredient name="forgedSteel" count="4" />
 		<ingredient name="coal" count="4" />
